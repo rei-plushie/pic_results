@@ -1,0 +1,77 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 30870
+Gamma_23 range: -1.990 to 6.380
+
+-- Top 20 residues by Gamma_23 --
+  #  1 ASN458   (N) gamma23=   6.380  class=Polar_uncharged 
+  #  2 ASN500   (N) gamma23=   5.380  class=Polar_uncharged 
+  #  3 SER453   (S) gamma23=   5.300  class=Polar_uncharged 
+  #  4 GLN457   (Q) gamma23=   5.200  class=Polar_uncharged 
+  #  5 ASN451   (N) gamma23=   5.060  class=Polar_uncharged 
+  #  6 ALA456   (A) gamma23=   5.010  class=Aliphatic       
+  #  7 SER455   (S) gamma23=   4.980  class=Polar_uncharged 
+  #  8 GLN457   (Q) gamma23=   4.970  class=Polar_uncharged 
+  #  9 GLY454   (G) gamma23=   4.950  class=Special         
+  # 10 GLN452   (Q) gamma23=   4.910  class=Polar_uncharged 
+  # 11 GLN450   (Q) gamma23=   4.680  class=Polar_uncharged 
+  # 12 ALA456   (A) gamma23=   4.400  class=Aliphatic       
+  # 13 ARG448   (R) gamma23=   4.370  class=Basic           
+  # 14 GLN457   (Q) gamma23=   4.350  class=Polar_uncharged 
+  # 15 ARG448   (R) gamma23=   4.350  class=Basic           
+  # 16 THR502   (T) gamma23=   4.280  class=Polar_uncharged 
+  # 17 ARG448   (R) gamma23=   4.210  class=Basic           
+  # 18 LYS459   (K) gamma23=   4.210  class=Basic           
+  # 19 GLY266   (G) gamma23=   4.140  class=Special         
+  # 20 PHE501   (F) gamma23=   4.130  class=Aromatic        
+
+Top-20 residue-type composition: GLN=5, ASN=3, ARG=3, SER=2, ALA=2, GLY=2, THR=1, LYS=1, PHE=1
+Top-20 class composition: Polar_uncharged=11, Basic=4, Aliphatic=2, Special=2, Aromatic=1
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    SER 2760   -0.083    0.011    0.601   -1.530    5.300
+    GLN 1500   -0.105    0.018    0.679   -1.790    5.200
+    ASN 2640   -0.106    0.013    0.673   -1.590    6.380
+    GLY 2220   -0.123    0.010    0.456   -1.450    4.950
+    TRP  720   -0.137    0.011    0.286   -1.280    3.510
+    ALA 1800   -0.151    0.014    0.603   -1.280    5.010
+    THR 2460   -0.161    0.010    0.517   -1.540    4.280
+    CYS  300   -0.163    0.007    0.120   -0.350    0.490
+    PRO 2160   -0.172    0.006    0.297   -1.190    2.250
+    LEU 1980   -0.192    0.008    0.339   -1.310    2.790
+    HIS  780   -0.209    0.014    0.394   -1.290    2.380
+    VAL 1620   -0.214    0.010    0.388   -1.580    2.490
+    PHE 1800   -0.220    0.010    0.437   -1.480    4.130
+    ILE 1140   -0.225    0.010    0.350   -1.050    1.780
+    TYR 1440   -0.262    0.011    0.436   -1.620    2.610
+    ASP 1500   -0.267    0.014    0.537   -1.690    3.480
+    GLU 1140   -0.267    0.013    0.428   -1.550    1.930
+    ARG 1260   -0.268    0.014    0.514   -1.720    4.370
+    LYS  990   -0.312    0.022    0.694   -1.990    4.210
+    MET  660   -0.316    0.013    0.335   -1.230    1.730
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class    n     mean      sem      std      min      max
+Polar_uncharged 9360   -0.114    0.006    0.616   -1.790    6.380
+        Special 4380   -0.147    0.006    0.387   -1.450    4.950
+      Aliphatic 6540   -0.192    0.005    0.441   -1.580    5.010
+       Aromatic 3960   -0.220    0.007    0.416   -1.620    4.130
+         Acidic 2640   -0.267    0.010    0.493   -1.690    3.480
+          Basic 3030   -0.267    0.010    0.555   -1.990    4.370
+         Sulfur  960   -0.268    0.010    0.294   -1.230    1.730
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 30870      0.0041   0.4760
+ volume_A3 30870     -0.0537   0.0000
+     mw_Da 30870     -0.0571   0.0000
+    charge 30870      0.0041   0.4760
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+                group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+             type:GLN         5     20       1495   30850       0.2500        0.0485           5.1589      6.5452   0.0023         True
+        flag:is_polar        15     20      15015   30850       0.7500        0.4867           1.5410      3.1638   0.0155         True
+class:Polar_uncharged        11     20       9349   30850       0.5500        0.3030           1.8149      2.8109   0.0186         True
+             type:ARG         3     20       1257   30850       0.1500        0.0407           3.6814      4.1546   0.0461         True
