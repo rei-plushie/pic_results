@@ -25,9 +25,17 @@ TWO THINGS TO KNOW BEFORE READING THE OUTPUT
    scale with bulk sucrose. Rows at 10-12% sucrose look "wider" than rows at
    1% largely for that reason alone. --normalize divides by each run's own
    bulk mole ratio (n3/n1, from the .pkl metadata) to put every condition on
-   a concentration-free scale. Note this does NOT change the significance of
-   any 3F-vs-5F gap: that is a within-condition comparison, so the same
-   factor divides out of both the gap and its error.
+   a concentration-free scale.
+
+   Both panels use that same single normalizer, so each keeps the quantity
+   it started with -- whole-capsid PIC on the left, per-residue PIC on the
+   right -- now expressed per unit of bulk sucrose rather than as a raw
+   count. --normalize therefore only rescales each row; it never changes
+   what a panel is measuring.
+
+   Note this does NOT change the significance of any 3F-vs-5F gap: that is a
+   within-condition comparison, so the same factor divides out of both the
+   gap and its error.
 
 2. The LEFT panel's error bars are SEMs the pipeline computed by treating
    all frames as independent. They aren't -- sucrose crosses a 15 A shell in
@@ -84,7 +92,6 @@ FORMULATIONS = {
 TEAL, PLUM, AMBER = "#1f6f5c", "#7a3b66", "#a15c00"
 INK, GRID = "#1b2624", "#d8dcda"
 
-RHO_W = 0.0334        # bulk water number density, molecules/A^3
 DEFAULT_CORR = 8.5    # sqrt(1001 frames / ~14 independent samples)
 
 
@@ -182,18 +189,16 @@ def main():
     xlabel_r = "per-residue PIC by region"
     xlabel_l = f"whole-capsid PIC"
     if args.normalize:
+        # Both panels get the SAME normalizer -- divide out the bulk mole
+        # ratio and nothing else. Each panel keeps the quantity it started
+        # with (whole-capsid PIC on the left, per-residue PIC on the right),
+        # just expressed per unit of bulk sucrose instead of as a raw count.
         for c in conds:
             add_normalizer(c)
-            # -> excess volume per residue (A^3); comparable across
-            #    concentrations. Not additive to the whole-capsid number:
-            #    per-residue local domains overlap heavily.
-            denom = c["mole_ratio"] * RHO_W
-            for k in ("reg3", "reg5"):
-                c[k] = c[k] / denom
-            c["gamma"] = c["gamma"] / c["mole_ratio"]
-            c["sem"] = c["sem"] / c["mole_ratio"]
-        xlabel_r = "normalized excess volume per residue (Å³)"
-        xlabel_l = "Γ₂₃ / (n₃/n₁)   concentration-normalized"
+            for k in ("reg3", "reg5", "gamma", "sem"):
+                c[k] = c[k] / c["mole_ratio"]
+        xlabel_r = "per-residue PIC by region  /  (n₃/n₁)"
+        xlabel_l = "whole-capsid PIC  /  (n₃/n₁)"
 
     # formulations first (in stability-rank order), then DOE corners sorted
     # by score, with a blank row between the two blocks
