@@ -1,0 +1,292 @@
+<title>AAV1 Sucrose PIC — 10 ns Re-Read</title>
+<style>
+  :root{
+    --bg:#eef1ef;
+    --surface:#ffffff;
+    --surface-2:#e6e9e6;
+    --ink:#1b2624;
+    --ink-muted:#54615c;
+    --ink-faint:#8a948e;
+    --rule:#d5dad6;
+    --teal:#1f6f5c;
+    --teal-soft:#e3efe9;
+    --plum:#7a3b66;
+    --plum-soft:#f1e6ee;
+    --amber:#8a5a12;
+    --amber-soft:#f7ecd9;
+    --shadow: 0 1px 2px rgba(27,38,36,0.06), 0 8px 24px rgba(27,38,36,0.05);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121715;
+      --surface:#1a211e;
+      --surface-2:#212925;
+      --ink:#e9ece9;
+      --ink-muted:#a9b3ac;
+      --ink-faint:#71796f;
+      --rule:#2c3530;
+      --teal:#6fbfa4;
+      --teal-soft:#1c2f29;
+      --plum:#cf8fb9;
+      --plum-soft:#2c1f28;
+      --amber:#e0b45c;
+      --amber-soft:#2e2717;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#121715; --surface:#1a211e; --surface-2:#212925; --ink:#e9ece9;
+    --ink-muted:#a9b3ac; --ink-faint:#71796f; --rule:#2c3530;
+    --teal:#6fbfa4; --teal-soft:#1c2f29; --plum:#cf8fb9; --plum-soft:#2c1f28;
+    --amber:#e0b45c; --amber-soft:#2e2717;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
+  }
+  :root[data-theme="light"]{
+    --bg:#eef1ef; --surface:#ffffff; --surface-2:#e6e9e6; --ink:#1b2624;
+    --ink-muted:#54615c; --ink-faint:#8a948e; --rule:#d5dad6;
+    --teal:#1f6f5c; --teal-soft:#e3efe9; --plum:#7a3b66; --plum-soft:#f1e6ee;
+    --amber:#8a5a12; --amber-soft:#f7ecd9;
+    --shadow: 0 1px 2px rgba(27,38,36,0.06), 0 8px 24px rgba(27,38,36,0.05);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{max-width:840px; margin:0 auto; padding:56px 24px 96px;}
+
+  .kicker{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:11.5px; letter-spacing:0.11em; text-transform:uppercase;
+    color:var(--teal); font-weight:600; margin:0 0 10px;
+  }
+  h1{
+    font-size:33px; line-height:1.18; margin:0 0 8px; font-weight:700;
+    text-wrap:balance; letter-spacing:-0.01em;
+  }
+  .dek{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color:var(--ink-muted); font-size:15px; margin:0 0 6px; max-width:60ch;
+  }
+  .meta{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:12.5px; color:var(--ink-faint); margin-top:18px;
+    display:flex; gap:18px; flex-wrap:wrap; border-top:1px solid var(--rule);
+    padding-top:14px;
+  }
+  .meta strong{color:var(--ink-muted); font-weight:600;}
+
+  section{margin-top:52px;}
+  h2{
+    font-size:21px; margin:0 0 6px; font-weight:700; letter-spacing:-0.005em;
+  }
+  .section-sub{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color:var(--ink-muted); font-size:14px; margin:0 0 22px; max-width:64ch;
+  }
+  p{max-width:68ch; margin:0 0 14px;}
+  p.body-max{max-width:68ch;}
+
+  .callout{
+    background:var(--teal-soft); border:1px solid var(--rule);
+    border-left:3px solid var(--teal); border-radius:6px;
+    padding:18px 22px; margin:0 0 8px;
+  }
+  .callout.warn{background:var(--amber-soft); border-left-color:var(--amber);}
+  .callout.plum{background:var(--plum-soft); border-left-color:var(--plum);}
+  .callout .label{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:11px; letter-spacing:0.09em; text-transform:uppercase; font-weight:700;
+    color:var(--teal); margin-bottom:8px; display:block;
+  }
+  .callout.warn .label{color:var(--amber);}
+  .callout.plum .label{color:var(--plum);}
+  .callout p{margin:0; max-width:none;}
+  .callout p + p{margin-top:10px;}
+
+  figure{margin:24px 0 8px;}
+  .plate{
+    background:#ffffff; border-radius:8px; padding:14px 14px 6px;
+    box-shadow:var(--shadow); border:1px solid var(--rule);
+  }
+  .plate img{display:block; width:100%; height:auto; border-radius:2px;}
+  figcaption{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:12.5px; color:var(--ink-faint); margin-top:10px; max-width:70ch;
+  }
+
+  table{
+    width:100%; border-collapse:collapse; font-size:14px; margin:18px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  .twrap{overflow-x:auto; border:1px solid var(--rule); border-radius:8px;}
+  th, td{
+    text-align:left; padding:10px 14px; border-bottom:1px solid var(--rule);
+    white-space:nowrap;
+  }
+  th{
+    font-size:11px; text-transform:uppercase; letter-spacing:0.06em;
+    color:var(--ink-faint); font-weight:600; background:var(--surface-2);
+  }
+  td.num, th.num{text-align:right; font-variant-numeric:tabular-nums;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  .rank-pill{
+    display:inline-block; font-size:11px; font-weight:700; padding:2px 8px;
+    border-radius:100px; font-variant-numeric:tabular-nums;
+  }
+  .rank-1{background:var(--teal-soft); color:var(--teal);}
+  .rank-2{background:var(--teal-soft); color:var(--teal);}
+  .rank-3{background:var(--plum-soft); color:var(--plum);}
+  .rank-4{background:var(--plum-soft); color:var(--plum);}
+
+  .stat-row{display:flex; gap:16px; flex-wrap:wrap; margin:20px 0;}
+  .stat{
+    flex:1 1 200px; background:var(--surface); border:1px solid var(--rule);
+    border-radius:8px; padding:16px 18px;
+  }
+  .stat .n{font-size:26px; font-weight:700; font-variant-numeric:tabular-nums;}
+  .stat .l{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:12px; color:var(--ink-muted); margin-top:2px;
+  }
+
+  ul.findings{margin:0 0 14px; padding-left:22px;}
+  ul.findings li{margin-bottom:9px; max-width:66ch;}
+
+  code, .mono{
+    font-family: ui-monospace, "Cascadia Mono", "SFMono-Regular", Consolas, monospace;
+    font-size:0.92em;
+  }
+
+  .badge{
+    display:inline-block; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:11px; font-weight:700; letter-spacing:0.04em; padding:3px 9px;
+    border-radius:100px; margin-left:8px; vertical-align:middle;
+  }
+  .badge.was{background:var(--surface-2); color:var(--ink-faint); text-decoration:line-through;}
+  .badge.now{background:var(--teal-soft); color:var(--teal);}
+
+  hr.rule{border:none; border-top:1px solid var(--rule); margin:52px 0 0;}
+  footer{
+    margin-top:36px; padding-top:18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:12.5px; color:var(--ink-faint);
+  }
+</style>
+
+<div class="page">
+
+  <div class="kicker">PIC batch review · AAV1 capsid / sucrose · rev. 2</div>
+  <h1>Preferential interaction coefficients, re-read at 10 ns</h1>
+  <p class="dek">Same 12 conditions, same two questions as the first pass — but the trajectories were re-run at 10&nbsp;ns instead of 1&nbsp;ns, and the numbers changed enough to redo the whole analysis. This revision replaces the earlier read; the 1&nbsp;ns figures are kept below only where they explain what moved.</p>
+  <div class="meta">
+    <span><strong>System</strong> AAV1 capsid exterior, component 3 = sucrose</span>
+    <span><strong>Metric</strong> Γ₂₃(r*), cumulative preferential interaction coefficient</span>
+    <span><strong>Batch</strong> pic_suc_7_9 / 10ns-simulations</span>
+  </div>
+
+  <section>
+    <h2>What changed</h2>
+    <p class="section-sub">The short answer: the 1&nbsp;ns runs weren't equilibrated, and it showed.</p>
+    <div class="callout">
+      <span class="label">1 ns → 10 ns</span>
+      <p>Same formulation (pH 6 / 30&nbsp;mM / 12% sucrose, condition <strong>D</strong>): at 1&nbsp;ns, Γ₂₃ climbed to &minus;347 by r*=30&nbsp;Å and never stopped climbing. At 10&nbsp;ns, the curve now does something physically sensible — a sharp excluded-volume dip right at the surface, a rise back through <em>zero</em> around r≈5&nbsp;Å, then a shallow, still-gently-declining tail out to &minus;44 by r*=15&nbsp;Å. Magnitudes across the board dropped 5&minus;10×, one condition (pH 6 / 30&nbsp;mM / 1% sucrose) flipped sign entirely (&minus;51 → +3.2), and per-condition SEMs went <em>up</em>, not down — consistent with the 1&nbsp;ns trajectories being kinetically stuck near their starting configuration rather than genuinely low-noise.</p>
+      <p>Practical upshot: treat everything from the first pass as superseded. The formulation-ranking correlation is now much cleaner, the DOE story is different (pH×sucrose interaction, not a sucrose-dominant main effect), and the 3-fold/5-fold symmetry finding from before does not hold up — see §3.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>1 · Formulation ranking vs. Γ₂₃</h2>
+    <p class="section-sub">Known stability ranking (best → worst): <strong>C</strong> &gt; <strong>F</strong> &gt; <strong>D</strong> &gt; <strong>E</strong>. All four now at a single, better-converged cutoff, r*=15&nbsp;Å.</p>
+
+    <div class="twrap">
+      <table>
+        <thead>
+          <tr><th>Rank</th><th>Label</th><th>Conditions</th><th class="num">Γ₂₃ (r*=15&nbsp;Å)</th><th class="num">SEM</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span class="rank-pill rank-1">1 · best</span></td><td><strong>C</strong></td><td>pH 6 / 110&nbsp;mM NaCl / 8% sucrose</td><td class="num">&minus;32.5</td><td class="num">2.8</td></tr>
+          <tr><td><span class="rank-pill rank-2">2</span></td><td><strong>F</strong></td><td>pH 7.3 / 170&nbsp;mM NaCl / 5% sucrose</td><td class="num">&minus;33.6</td><td class="num">2.0</td></tr>
+          <tr><td><span class="rank-pill rank-3">3</span></td><td><strong>D</strong></td><td>pH 6 / 30&nbsp;mM NaCl / 12% sucrose</td><td class="num">&minus;43.8</td><td class="num">5.0</td></tr>
+          <tr><td><span class="rank-pill rank-4">4 · worst</span></td><td><strong>E</strong></td><td>pH 7.3 / 30&nbsp;mM NaCl / 12% sucrose</td><td class="num">&minus;135.1</td><td class="num">3.0</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <figure>
+      <div class="plate"><img src="__IMG_FORMULATION__" alt="Gamma23 as a function of shell radius for the four ranked formulations at 10 nanoseconds, showing C and F overlapping near the top, D slightly below, and E far below the other three"></div>
+      <figcaption>Fig. 1 — Γ₂₃(r) for all four ranked formulations, 10&nbsp;ns, full curve to r*=15&nbsp;Å. Every curve now shows the same physically sensible shape (excluded-volume dip, recovery through zero, shallow decline) — the vertical separation between them is the real signal.</figcaption>
+    </figure>
+
+    <div class="stat-row">
+      <div class="stat"><div class="n">C ≈ F</div><div class="l">Best two are statistically indistinguishable (Δ=1.1, ~0.3× combined SEM)</div></div>
+      <div class="stat"><div class="n">15.6×</div><div class="l">SEM separation between D and E — the clearest gap in the whole ranking</div></div>
+      <div class="stat"><div class="n">4 / 4</div><div class="l">Formulations now fall in stability-rank order by Γ₂₃ magnitude</div></div>
+    </div>
+
+    <p>This is now about as clean a match as four points can give: Γ₂₃ orders the formulations exactly as C ≈ F &lt; D &lt;&lt; E, matching the known ranking rank-for-rank, with E standing out as a large, unambiguous outlier (15.6× its combined SEM away from D) rather than a marginal call. The weakest link is C vs. D — only ~1.9× combined SEM apart — so that specific pairwise separation is suggestive rather than fully resolved. But the overall pattern (more negative Γ₂₃ ↔ worse stability) is far more convincing here than it was in the 1&nbsp;ns data, and for the same reason the whole dataset improved: these curves look converged, not still climbing.</p>
+  </section>
+
+  <section>
+    <h2>2 · DOE sweep (pH 6–8, 30–200 mM NaCl, 1–10% sucrose)</h2>
+    <p class="section-sub">All 8 corners, r*=15&nbsp;Å.</p>
+
+    <figure>
+      <div class="plate"><img src="__IMG_DOE__" alt="Bar chart of Gamma23 at 15 angstroms for all eight DOE corner conditions at 10 nanoseconds, showing small bars for pH6 regardless of sucrose and for pH8 at 1 percent sucrose, but a dramatic swing for pH8 at 10 percent sucrose"></div>
+      <figcaption>Fig. 2 — Γ₂₃ at r*=15&nbsp;Å across all 8 DOE corners, 10&nbsp;ns. pH 6 stays small across both sucrose levels; pH 8 stays small at 1% sucrose but swings sharply negative at 10%.</figcaption>
+    </figure>
+
+    <ul class="findings">
+      <li><strong>The dominant story is now a pH×sucrose interaction, not a sucrose main effect.</strong> A plain main-effects fit (pH + salt + sucrose, no interaction) only reaches R²≈0.78 with residuals up to ±24 — clearly missing something. Adding a single pH×sucrose term brings it to R²≈0.99. Concretely: going from 1%→10% sucrose costs about &minus;15 to &minus;21 at pH&nbsp;6, but &minus;80 to &minus;96 at pH&nbsp;8 — roughly a 5× larger sucrose penalty at the higher pH. pH on its own, independent of sucrose level, has almost no effect (main-effect coefficient collapses to ≈&minus;1.5/unit once the interaction is in the model).</li>
+      <li><strong>Salt is still negligible</strong> — coefficient ≈+0.02/mM either way, and its sign isn't consistent across pH/sucrose combinations (e.g. at pH&nbsp;8/10% sucrose, 30→200&nbsp;mM NaCl actually pulls Γ₂₃ <em>less</em> negative, &minus;107→&minus;92). Not a real driver at this radius.</li>
+      <li><strong>This reframes the formulation-ranking result</strong>: D and E share identical salt/sucrose (30&nbsp;mM, 12%) and differ only in pH (6 vs. 7.3) — exactly the pH×sucrose interaction regime where this DOE fit predicts the biggest pH sensitivity, since 12% sucrose is the highest level tested. That's consistent with D and E being the two formulations that pulled apart the most in §1.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3 · Three-fold vs. five-fold axis regions — reversed, not confirmed</h2>
+    <p class="section-sub">All 12 conditions now have <code class="mono">pic_symmetry_regions</code> output (the pH 7.3 chain-count bug from the last pass is fixed and no longer blocks this).</p>
+
+    <div class="callout plum">
+      <span class="label">Correction</span>
+      <p>The earlier pass (1&nbsp;ns, r*=5&nbsp;Å) found a consistent, sucrose-gated pattern: the 5-fold pore <em>more negative</em> than the 3-fold protrusions once sucrose exceeded ~8%. At 10&nbsp;ns that pattern <strong>does not reproduce</strong> — in most conditions the direction has flipped (5-fold now <em>less</em> negative than 3-fold), and the handful of cases that still favor a 5-fold-more-negative reading are the smallest, least significant ones. This was exactly the kind of structural finding that under-sampling can manufacture: with the underlying Γ₂₃ landscape still evolving at 1&nbsp;ns, a small, consistent-looking regional bias doesn't mean much.</p>
+    </div>
+
+    <figure>
+      <div class="plate"><img src="__IMG_SYM__" alt="Dumbbell plot comparing mean per-residue Gamma23 between three-fold and five-fold regions at r-star 15 angstroms across twelve conditions at 10 nanoseconds, sorted by sucrose percent, showing the 5-fold point mostly to the right of (less negative than) the 3-fold point"></div>
+      <figcaption>Fig. 3 — Mean per-residue Γ₂₃ by region class at r*=15&nbsp;Å, 10&nbsp;ns, sorted low→high sucrose. Compare to the 1&nbsp;ns version of this chart: the gap direction has flipped for most conditions.</figcaption>
+    </figure>
+
+    <ul class="findings">
+      <li><strong>Direction now mostly reads the other way</strong> — 5-fold less negative than 3-fold in 10 of 12 conditions (only pH 8/200&nbsp;mM/1% sucrose still shows 5-fold more negative, and it's a small gap). The strongest, clearest gaps are formulation C (+0.263, ~19× combined SEM) and the two pH 6/10%-sucrose DOE corners (~7–9× SEM) — those are real, just opposite in sign from what the 1&nbsp;ns data suggested.</li>
+      <li><strong>Several points are within noise</strong> — D (+0.013, &lt;1× SEM), pH 8/200mM/10% (+0.005, &lt;1× SEM), and a couple of the 1%-sucrose points sit at or below their combined SEM. This isn't a clean monotonic-with-sucrose story the way the 1&nbsp;ns data appeared to be.</li>
+      <li><strong>Net read:</strong> there may be a real 3-fold/5-fold structural difference here, but the direction and the "gated by sucrose%" story from the first pass shouldn't be trusted, and the current picture is noisy enough that I wouldn't lean on it either way without another independent run (a true replicate, not just longer sampling of the same trajectory) to see which direction is reproducible.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4 · Convergence, revisited</h2>
+    <div class="callout warn">
+      <span class="label">Better, not solved</span>
+      <p>10&nbsp;ns fixed the worst of it — curves now show a physically sensible shape instead of monotonically ballooning — but r*=15&nbsp;Å still isn't a clean plateau for every condition. E in particular (Fig. 1, bottom curve) is still declining at a visible slope right at r*=15&nbsp;Å, meaning its true asymptotic value may be even more negative than &minus;135. <code class="mono">pic.sh</code>'s own comments note 15&minus;20&nbsp;Å is the typical target and to "always check the saved plot to confirm the plateau was reached" — worth extending E (and probably D) out to 20&nbsp;Å to check before leaning too hard on the exact magnitude of the C/F/D/E gaps, even though the <em>ranking</em> itself already looks robust at 15&nbsp;Å.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Loose ends</h2>
+    <ul class="findings">
+      <li>E's curve (and to a lesser extent D's) hadn't clearly flattened by r*=15&nbsp;Å — worth a longer radius if the exact magnitude (not just the ranking) matters downstream.</li>
+      <li>The 3-fold/5-fold split is now an open question rather than a finding in either direction — needs an independent replicate before it's worth acting on.</li>
+      <li>4-point ranking correlation is still only 4 points. The pattern is much stronger than before, but C vs. D is still a soft call (~1.9× SEM) worth keeping an eye on as more formulations get ranked.</li>
+      <li>Given how much the 1&nbsp;ns → 10&nbsp;ns jump changed the picture, it's worth asking whether 10&nbsp;ns itself is long enough, given §4 — a spot-check at 20&nbsp;ns on just the outlier conditions (E, D) would be the cheapest way to find out.</li>
+    </ul>
+  </section>
+
+  <hr class="rule">
+  <footer>Second pass over <code class="mono">pic_results/pic_suc_7_9/10ns-simulations</code> (supersedes the 1&nbsp;ns-based first pass) — parsed from <code class="mono">pic_SUC_exterior_vs_r.csv</code> and <code class="mono">pic_symmetry_regions/overall.csv</code> per condition. Not a final analysis.</footer>
+
+</div>
