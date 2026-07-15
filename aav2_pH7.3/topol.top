@@ -1,0 +1,163 @@
+;
+;	File 'aav2_pH7.3/topol.top' was generated
+;	By user: shrim (-1)
+;	On host: MSI
+;	At date: Wed Jul 15 12:00:59 2026
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2026.2 (-:
+;	
+;	Executable:   C:\Program Files\gmx\bin\gmx.exe
+;	Data prefix:  C:\Program Files\gmx
+;	Working dir:  C:\Users\shrim\Downloads\propka
+;	Command line:
+;	  gmx pdb2gmx -f aav2_relabeled.pdb -o aav2_pH7.3/processed.gro -p aav2_pH7.3/topol.top -i aav2_pH7.3/posre.itp -ff charmm36-feb2026_cgenff-5.0 -water tip3p -lys -asp -glu -his -ter
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "charmm36-feb2026_cgenff-5.0.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_chain00.itp"
+#include "topol_chain01.itp"
+#include "topol_chain02.itp"
+#include "topol_chain03.itp"
+#include "topol_chain04.itp"
+#include "topol_chain05.itp"
+#include "topol_chain06.itp"
+#include "topol_chain07.itp"
+#include "topol_chain08.itp"
+#include "topol_chain09.itp"
+#include "topol_chain10.itp"
+#include "topol_chain11.itp"
+#include "topol_chain12.itp"
+#include "topol_chain13.itp"
+#include "topol_chain14.itp"
+#include "topol_chain15.itp"
+#include "topol_chain16.itp"
+#include "topol_chain17.itp"
+#include "topol_chain18.itp"
+#include "topol_chain19.itp"
+#include "topol_chain20.itp"
+#include "topol_chain21.itp"
+#include "topol_chain22.itp"
+#include "topol_chain23.itp"
+#include "topol_chain24.itp"
+#include "topol_chain25.itp"
+#include "topol_chain26.itp"
+#include "topol_chain27.itp"
+#include "topol_chain28.itp"
+#include "topol_chain29.itp"
+#include "topol_chain30.itp"
+#include "topol_chain31.itp"
+#include "topol_chain32.itp"
+#include "topol_chain33.itp"
+#include "topol_chain34.itp"
+#include "topol_chain35.itp"
+#include "topol_chain36.itp"
+#include "topol_chain37.itp"
+#include "topol_chain38.itp"
+#include "topol_chain39.itp"
+#include "topol_chain40.itp"
+#include "topol_chain41.itp"
+#include "topol_chain42.itp"
+#include "topol_chain43.itp"
+#include "topol_chain44.itp"
+#include "topol_chain45.itp"
+#include "topol_chain46.itp"
+#include "topol_chain47.itp"
+#include "topol_chain48.itp"
+#include "topol_chain49.itp"
+#include "topol_chain50.itp"
+#include "topol_chain51.itp"
+#include "topol_chain52.itp"
+#include "topol_chain53.itp"
+#include "topol_chain54.itp"
+#include "topol_chain55.itp"
+#include "topol_chain56.itp"
+#include "topol_chain57.itp"
+#include "topol_chain58.itp"
+#include "topol_chain59.itp"
+
+; Include water topology
+#include "charmm36-feb2026_cgenff-5.0.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "charmm36-feb2026_cgenff-5.0.ff/ions.itp"
+
+[ system ]
+; Name
+Protein
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_0     1
+Protein_chain_1     1
+Protein_chain_2     1
+Protein_chain_3     1
+Protein_chain_4     1
+Protein_chain_5     1
+Protein_chain_6     1
+Protein_chain_7     1
+Protein_chain_8     1
+Protein_chain_9     1
+Protein_chain_A     1
+Protein_chain_B     1
+Protein_chain_C     1
+Protein_chain_D     1
+Protein_chain_E     1
+Protein_chain_F     1
+Protein_chain_G     1
+Protein_chain_H     1
+Protein_chain_I     1
+Protein_chain_J     1
+Protein_chain_K     1
+Protein_chain_L     1
+Protein_chain_M     1
+Protein_chain_N     1
+Protein_chain_O     1
+Protein_chain_P     1
+Protein_chain_Q     1
+Protein_chain_R     1
+Protein_chain_S     1
+Protein_chain_T     1
+Protein_chain_U     1
+Protein_chain_V     1
+Protein_chain_W     1
+Protein_chain_X     1
+Protein_chain_Y     1
+Protein_chain_Z     1
+Protein_chain_a     1
+Protein_chain_b     1
+Protein_chain_c     1
+Protein_chain_d     1
+Protein_chain_e     1
+Protein_chain_f     1
+Protein_chain_g     1
+Protein_chain_h     1
+Protein_chain_i     1
+Protein_chain_j     1
+Protein_chain_k     1
+Protein_chain_l     1
+Protein_chain_m     1
+Protein_chain_n     1
+Protein_chain_o     1
+Protein_chain_p     1
+Protein_chain_q     1
+Protein_chain_r     1
+Protein_chain_s     1
+Protein_chain_t     1
+Protein_chain_u     1
+Protein_chain_v     1
+Protein_chain_w     1
+Protein_chain_x     1
