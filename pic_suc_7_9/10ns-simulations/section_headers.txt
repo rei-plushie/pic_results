@@ -1,0 +1,17 @@
+0: # AAV1 / sucrose PIC analysis
+1: ## 0 · Setup, data loading, shared helpers
+3: ### Where the data lives, and the frame-correlation correction
+5: ### Load every condition once
+7: ### Small shared helpers
+9: ## 1 · Formulation ranking, raw Γ₂₃
+11: ## 2 · Formulation ranking, forest plot with corrected error bars
+13: ## 3 · DOE factorial effects: raw Γ₂₃ vs. normalized δ
+15: ## 4 · Why normalizing isn't a free lunch: the raw/δ decomposition
+17: ## 5 · All 12 conditions, unified
+20: ## 6 · pH 6 vs. pH 8 at one condition
+22: ## 7 · pH 6 vs. pH 8 across the full DOE grid
+24: ## 8 · pH-gap forest plot at a chosen radius
+26: ## 9 · Comparing gap *sizes* across conditions
+28: ## 10 · Is the 3-fold/5-fold region spread real structure, or shot noise?
+30: ## 11 · Replicate check: pH 6 / 30 mM / 1% sucrose, old run vs. rerun
+33: ### Downstream effect: does this change the pH 6 vs. pH 8 gap at this corner?
