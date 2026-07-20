@@ -1,0 +1,73 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 31140
+Gamma_23 range: -0.310 to 1.430
+
+-- Top 20 residues by Gamma_23 --
+  #  1 LYS547   (K) gamma23=   1.430  class=Basic           
+  #  2 MET561   (M) gamma23=   1.400  class=Sulfur          
+  #  3 ARG552   (R) gamma23=   1.360  class=Basic           
+  #  4 PHE715   (F) gamma23=   1.340  class=Aromatic        
+  #  5 GLU725   (E) gamma23=   1.330  class=Acidic          
+  #  6 PHE545   (F) gamma23=   1.290  class=Aromatic        
+  #  7 GLN548   (Q) gamma23=   1.260  class=Polar_uncharged 
+  #  8 SER724   (S) gamma23=   1.230  class=Polar_uncharged 
+  #  9 GLN617   (Q) gamma23=   1.230  class=Polar_uncharged 
+  # 10 ASN665   (N) gamma23=   1.220  class=Polar_uncharged 
+  # 11 GLY546   (G) gamma23=   1.210  class=Special         
+  # 12 GLN548   (Q) gamma23=   1.200  class=Polar_uncharged 
+  # 13 GLY546   (G) gamma23=   1.200  class=Special         
+  # 14 GLU725   (E) gamma23=   1.200  class=Acidic          
+  # 15 ARG552   (R) gamma23=   1.200  class=Basic           
+  # 16 LYS668   (K) gamma23=   1.190  class=Basic           
+  # 17 TYR723   (Y) gamma23=   1.190  class=Aromatic        
+  # 18 PRO366   (P) gamma23=   1.180  class=Special         
+  # 19 ASP371   (D) gamma23=   1.180  class=Acidic          
+  # 20 PRO726   (P) gamma23=   1.180  class=Special         
+
+Top-20 residue-type composition: GLN=3, LYS=2, ARG=2, PHE=2, GLU=2, GLY=2, PRO=2, MET=1, SER=1, ASN=1, TYR=1, ASP=1
+Top-20 class composition: Polar_uncharged=5, Basic=4, Special=4, Aromatic=3, Acidic=3, Sulfur=1
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    CYS  300    0.130    0.018    0.304   -0.070    1.170
+    MET  480    0.116    0.013    0.277   -0.140    1.400
+    PHE 1620    0.113    0.006    0.253   -0.180    1.340
+    TYR 1620    0.096    0.006    0.245   -0.190    1.190
+    ARG 1260    0.095    0.007    0.245   -0.250    1.360
+    GLN 2040    0.090    0.005    0.244   -0.270    1.260
+    ASP 1260    0.085    0.006    0.225   -0.210    1.180
+    HIS  720    0.083    0.009    0.234   -0.140    1.160
+    LYS 1020    0.059    0.007    0.213   -0.310    1.430
+    PRO 2040    0.059    0.005    0.204   -0.140    1.180
+    ILE 1320    0.055    0.006    0.200   -0.200    1.040
+    LEU 2100    0.054    0.004    0.200   -0.170    1.160
+    ASN 2820    0.049    0.003    0.176   -0.270    1.220
+    GLU 1140    0.047    0.005    0.184   -0.290    1.330
+    GLY 2460    0.045    0.004    0.176   -0.250    1.210
+    ALA 1500    0.044    0.005    0.182   -0.190    1.060
+    SER 2400    0.040    0.003    0.155   -0.150    1.230
+    TRP  720    0.039    0.006    0.153   -0.170    0.970
+    VAL 1320    0.033    0.005    0.165   -0.160    1.120
+    THR 3000    0.022    0.002    0.119   -0.260    1.080
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class     n     mean      sem      std      min      max
+         Sulfur   780    0.122    0.010    0.288   -0.140    1.400
+       Aromatic  3960    0.093    0.004    0.236   -0.190    1.340
+          Basic  3000    0.080    0.004    0.233   -0.310    1.430
+         Acidic  2400    0.067    0.004    0.208   -0.290    1.330
+        Special  4500    0.052    0.003    0.189   -0.250    1.210
+      Aliphatic  6240    0.047    0.002    0.189   -0.200    1.160
+Polar_uncharged 10260    0.047    0.002    0.175   -0.270    1.260
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 31140     -0.0374   0.0000
+ volume_A3 31140      0.0139   0.0144
+     mw_Da 31140      0.0448   0.0000
+    charge 31140     -0.0374   0.0000
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+  No group reached significance at this alpha.

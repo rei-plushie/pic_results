@@ -1,0 +1,77 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 31140
+Gamma_23 range: -1.580 to 1.670
+
+-- Top 20 residues by Gamma_23 --
+  #  1 ARG350   (R) gamma23=   1.670  class=Basic           
+  #  2 LYS395   (K) gamma23=   1.660  class=Basic           
+  #  3 ARG448   (R) gamma23=   1.570  class=Basic           
+  #  4 PHE396   (F) gamma23=   1.560  class=Aromatic        
+  #  5 GLU393   (E) gamma23=   1.530  class=Acidic          
+  #  6 LYS395   (K) gamma23=   1.520  class=Basic           
+  #  7 LYS395   (K) gamma23=   1.520  class=Basic           
+  #  8 ARG451   (R) gamma23=   1.500  class=Basic           
+  #  9 ARG451   (R) gamma23=   1.470  class=Basic           
+  # 10 ARG451   (R) gamma23=   1.450  class=Basic           
+  # 11 ASN450   (N) gamma23=   1.420  class=Polar_uncharged 
+  # 12 ARG451   (R) gamma23=   1.410  class=Basic           
+  # 13 ARG448   (R) gamma23=   1.400  class=Basic           
+  # 14 ARG448   (R) gamma23=   1.400  class=Basic           
+  # 15 LYS353   (K) gamma23=   1.390  class=Basic           
+  # 16 ARG451   (R) gamma23=   1.370  class=Basic           
+  # 17 LYS390   (K) gamma23=   1.350  class=Basic           
+  # 18 ASN450   (N) gamma23=   1.350  class=Polar_uncharged 
+  # 19 ASN450   (N) gamma23=   1.320  class=Polar_uncharged 
+  # 20 LYS395   (K) gamma23=   1.320  class=Basic           
+
+Top-20 residue-type composition: ARG=9, LYS=6, ASN=3, PHE=1, GLU=1
+Top-20 class composition: Basic=15, Polar_uncharged=3, Aromatic=1, Acidic=1
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    GLU 1140   -0.125    0.011    0.359   -1.430    1.530
+    CYS  300   -0.169    0.007    0.117   -0.400    0.030
+    ARG 1500   -0.182    0.012    0.454   -1.250    1.670
+    TRP  720   -0.192    0.007    0.178   -1.040    0.500
+    GLY 2220   -0.199    0.006    0.266   -1.240    0.960
+    HIS  840   -0.203    0.008    0.241   -1.030    1.010
+    PHE 1620   -0.205    0.008    0.318   -1.080    1.560
+    PRO 1980   -0.206    0.004    0.171   -0.960    1.060
+    ASN 2460   -0.229    0.008    0.377   -1.470    1.420
+    LEU 1920   -0.229    0.006    0.251   -0.830    1.080
+    ASP 1560   -0.241    0.009    0.362   -1.400    1.160
+    LYS 1080   -0.243    0.014    0.453   -1.580    1.660
+    VAL 1740   -0.251    0.006    0.257   -1.020    1.150
+    SER 2880   -0.264    0.005    0.260   -1.070    1.100
+    THR 2700   -0.266    0.007    0.344   -1.390    1.220
+    ILE 1140   -0.276    0.009    0.303   -1.130    0.920
+    GLN 1920   -0.293    0.009    0.381   -1.310    1.040
+    ALA 1380   -0.294    0.008    0.289   -0.950    0.820
+    MET  480   -0.306    0.011    0.232   -0.840    0.750
+    TYR 1560   -0.370    0.007    0.283   -1.170    0.930
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class    n     mean      sem      std      min      max
+         Acidic 2700   -0.192    0.007    0.365   -1.430    1.530
+        Special 4200   -0.202    0.003    0.226   -1.240    1.060
+          Basic 3420   -0.207    0.007    0.412   -1.580    1.670
+         Sulfur  780   -0.253    0.007    0.207   -0.840    0.750
+      Aliphatic 6180   -0.258    0.003    0.273   -1.130    1.150
+Polar_uncharged 9960   -0.261    0.003    0.339   -1.470    1.420
+       Aromatic 3900   -0.269    0.005    0.295   -1.170    1.560
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 31140     -0.0163   0.0039
+ volume_A3 31140     -0.0251   0.0000
+     mw_Da 31140     -0.0063   0.2681
+    charge 31140     -0.0163   0.0039
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+        group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+  class:Basic        15     20       3405   31120       0.7500        0.1094           6.8546     24.4185   0.0000         True
+     type:ARG         9     20       1491   31120       0.4500        0.0479           9.3924     16.2588   0.0000         True
+flag:is_polar        19     20      16061   31120       0.9500        0.5161           1.8407     17.8146   0.0000         True
+     type:LYS         6     20       1074   31120       0.3000        0.0345           8.6927     11.9896   0.0000         True

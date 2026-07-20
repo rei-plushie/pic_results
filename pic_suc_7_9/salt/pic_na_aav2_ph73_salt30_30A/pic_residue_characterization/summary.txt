@@ -1,0 +1,75 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 31140
+Gamma_23 range: -0.280 to 0.630
+
+-- Top 20 residues by Gamma_23 --
+  #  1 GLY191   (G) gamma23=   0.630  class=Special         
+  #  2 THR192   (T) gamma23=   0.610  class=Polar_uncharged 
+  #  3 ASP190   (D) gamma23=   0.590  class=Acidic          
+  #  4 THR192   (T) gamma23=   0.590  class=Polar_uncharged 
+  #  5 SER309   (S) gamma23=   0.570  class=Polar_uncharged 
+  #  6 ASP190   (D) gamma23=   0.570  class=Acidic          
+  #  7 ASP190   (D) gamma23=   0.560  class=Acidic          
+  #  8 THR192   (T) gamma23=   0.550  class=Polar_uncharged 
+  #  9 ARG334   (R) gamma23=   0.540  class=Basic           
+  # 10 SER364   (S) gamma23=   0.540  class=Polar_uncharged 
+  # 11 GLY191   (G) gamma23=   0.540  class=Special         
+  # 12 ASN189   (N) gamma23=   0.540  class=Polar_uncharged 
+  # 13 ASP335   (D) gamma23=   0.530  class=Acidic          
+  # 14 ASN414   (N) gamma23=   0.530  class=Polar_uncharged 
+  # 15 ASN189   (N) gamma23=   0.530  class=Polar_uncharged 
+  # 16 ARG310   (R) gamma23=   0.530  class=Basic           
+  # 17 GLN324   (Q) gamma23=   0.530  class=Polar_uncharged 
+  # 18 TYR307   (Y) gamma23=   0.530  class=Aromatic        
+  # 19 TRP365   (W) gamma23=   0.520  class=Aromatic        
+  # 20 SER326   (S) gamma23=   0.520  class=Polar_uncharged 
+
+Top-20 residue-type composition: ASP=4, THR=3, SER=3, ASN=3, GLY=2, ARG=2, GLN=1, TYR=1, TRP=1
+Top-20 class composition: Polar_uncharged=10, Acidic=4, Special=2, Basic=2, Aromatic=2
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    TRP  720   -0.019    0.002    0.046   -0.160    0.520
+    CYS  300   -0.021    0.001    0.015   -0.050    0.000
+    GLY 2220   -0.022    0.001    0.059   -0.190    0.630
+    THR 2700   -0.026    0.001    0.076   -0.200    0.610
+    PRO 1980   -0.026    0.001    0.031   -0.180    0.320
+    LEU 1920   -0.028    0.001    0.046   -0.160    0.520
+    SER 2880   -0.030    0.001    0.066   -0.190    0.570
+    HIS  840   -0.032    0.002    0.045   -0.180    0.230
+    ASP 1560   -0.034    0.002    0.088   -0.180    0.590
+    PHE 1620   -0.034    0.001    0.051   -0.180    0.460
+    ILE 1140   -0.034    0.002    0.055   -0.140    0.420
+    VAL 1740   -0.036    0.001    0.047   -0.180    0.370
+    GLN 1920   -0.040    0.002    0.073   -0.220    0.530
+    MET  480   -0.040    0.002    0.039   -0.140    0.080
+    ASN 2460   -0.040    0.002    0.079   -0.220    0.540
+    ALA 1380   -0.042    0.002    0.062   -0.180    0.460
+    TYR 1560   -0.046    0.001    0.059   -0.190    0.530
+    GLU 1140   -0.047    0.002    0.069   -0.210    0.480
+    ARG 1500   -0.059    0.002    0.083   -0.280    0.540
+    LYS 1080   -0.061    0.003    0.088   -0.250    0.420
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class    n     mean      sem      std      min      max
+        Special 4200   -0.024    0.001    0.048   -0.190    0.630
+         Sulfur  780   -0.033    0.001    0.034   -0.140    0.080
+Polar_uncharged 9960   -0.033    0.001    0.073   -0.220    0.610
+      Aliphatic 6180   -0.035    0.001    0.052   -0.180    0.520
+       Aromatic 3900   -0.036    0.001    0.054   -0.190    0.530
+         Acidic 2700   -0.039    0.002    0.081   -0.210    0.590
+          Basic 3420   -0.053    0.001    0.078   -0.280    0.540
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 31140      0.0754   0.0000
+ volume_A3 31140     -0.0687   0.0000
+     mw_Da 31140     -0.0863   0.0000
+    charge 31140      0.0754   0.0000
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+        group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+flag:is_polar        16     20      16064   31120       0.8000        0.5162           1.5498      3.7490   0.0088         True
+     type:ASP         4     20       1556   31120       0.2000        0.0500           4.0000      4.7500   0.0160         True

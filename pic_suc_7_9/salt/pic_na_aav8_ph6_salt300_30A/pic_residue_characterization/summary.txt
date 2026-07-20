@@ -1,0 +1,76 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 31140
+Gamma_23 range: -1.810 to 1.660
+
+-- Top 20 residues by Gamma_23 --
+  #  1 GLU330   (E) gamma23=   1.660  class=Acidic          
+  #  2 GLU330   (E) gamma23=   1.480  class=Acidic          
+  #  3 GLU330   (E) gamma23=   1.260  class=Acidic          
+  #  4 GLU330   (E) gamma23=   1.200  class=Acidic          
+  #  5 GLU330   (E) gamma23=   1.190  class=Acidic          
+  #  6 GLY331   (G) gamma23=   1.170  class=Special         
+  #  7 GLU330   (E) gamma23=   1.140  class=Acidic          
+  #  8 THR332   (T) gamma23=   1.120  class=Polar_uncharged 
+  #  9 ASN329   (N) gamma23=   1.090  class=Polar_uncharged 
+  # 10 GLU330   (E) gamma23=   1.050  class=Acidic          
+  # 11 GLU330   (E) gamma23=   1.050  class=Acidic          
+  # 12 ASN329   (N) gamma23=   1.040  class=Polar_uncharged 
+  # 13 GLY331   (G) gamma23=   1.020  class=Special         
+  # 14 GLU330   (E) gamma23=   1.020  class=Acidic          
+  # 15 GLU330   (E) gamma23=   0.990  class=Acidic          
+  # 16 GLY331   (G) gamma23=   0.980  class=Special         
+  # 17 GLU330   (E) gamma23=   0.970  class=Acidic          
+  # 18 GLU330   (E) gamma23=   0.940  class=Acidic          
+  # 19 GLU330   (E) gamma23=   0.940  class=Acidic          
+  # 20 GLU330   (E) gamma23=   0.940  class=Acidic          
+
+Top-20 residue-type composition: GLU=14, GLY=3, ASN=2, THR=1
+Top-20 class composition: Acidic=14, Special=3, Polar_uncharged=3
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    CYS  300   -0.199    0.007    0.128   -0.460    0.000
+    TRP  720   -0.232    0.009    0.232   -1.230    0.190
+    GLY 2460   -0.249    0.005    0.261   -1.040    1.170
+    PRO 2040   -0.294    0.005    0.225   -1.130    0.230
+    SER 2400   -0.306    0.006    0.277   -1.150    0.380
+    HIS  720   -0.310    0.011    0.287   -1.090    0.000
+    LEU 2100   -0.315    0.005    0.250   -1.010    0.010
+    VAL 1320   -0.322    0.008    0.278   -1.010    0.340
+    ASP 1260   -0.330    0.009    0.333   -1.330    0.510
+    PHE 1620   -0.336    0.009    0.347   -1.420    0.160
+    ILE 1320   -0.339    0.008    0.275   -0.920    0.520
+    THR 3000   -0.352    0.005    0.300   -1.180    1.120
+    GLU 1140   -0.358    0.013    0.445   -1.390    1.660
+    ALA 1500   -0.365    0.005    0.203   -1.010    0.340
+    ASN 2820   -0.415    0.006    0.334   -1.290    1.090
+    GLN 2040   -0.426    0.007    0.296   -1.310    0.700
+    ARG 1260   -0.461    0.010    0.370   -1.740    0.170
+    LYS 1020   -0.467    0.013    0.414   -1.750    0.380
+    MET  480   -0.468    0.012    0.264   -1.070   -0.020
+    TYR 1620   -0.525    0.008    0.329   -1.810    0.190
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class     n     mean      sem      std      min      max
+        Special  4500   -0.269    0.004    0.246   -1.130    1.170
+      Aliphatic  6240   -0.333    0.003    0.252   -1.010    0.520
+         Acidic  2400   -0.343    0.008    0.391   -1.390    1.660
+         Sulfur   780   -0.364    0.009    0.258   -1.070    0.000
+Polar_uncharged 10260   -0.373    0.003    0.308   -1.310    1.120
+       Aromatic  3960   -0.394    0.005    0.342   -1.810    0.190
+          Basic  3000   -0.427    0.007    0.374   -1.750    0.380
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 31140      0.0919   0.0000
+ volume_A3 31140     -0.0918   0.0000
+     mw_Da 31140     -0.1136   0.0000
+    charge 31140      0.0919   0.0000
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+        group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+     type:GLU        14     20       1126   31120       0.7000        0.0362          19.3464     62.1545   0.0000         True
+ class:Acidic        14     20       2386   31120       0.7000        0.0767           9.1299     28.0997   0.0000         True
+flag:is_polar        17     20      15643   31120       0.8500        0.5027           1.6910      5.6065   0.0014         True

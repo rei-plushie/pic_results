@@ -1,0 +1,75 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 31140
+Gamma_23 range: -1.450 to 1.740
+
+-- Top 20 residues by Gamma_23 --
+  #  1 HIS361   (H) gamma23=   1.740  class=Basic           
+  #  2 TYR444   (Y) gamma23=   1.710  class=Aromatic        
+  #  3 LEU445   (L) gamma23=   1.710  class=Aliphatic       
+  #  4 GLN362   (Q) gamma23=   1.640  class=Polar_uncharged 
+  #  5 GLN443   (Q) gamma23=   1.590  class=Polar_uncharged 
+  #  6 ILE441   (I) gamma23=   1.580  class=Aliphatic       
+  #  7 GLY468   (G) gamma23=   1.560  class=Special         
+  #  8 ASP442   (D) gamma23=   1.520  class=Acidic          
+  #  9 PHE664   (F) gamma23=   1.510  class=Aromatic        
+  # 10 LEU616   (L) gamma23=   1.510  class=Aliphatic       
+  # 11 GLN467   (Q) gamma23=   1.500  class=Polar_uncharged 
+  # 12 HIS361   (H) gamma23=   1.500  class=Basic           
+  # 13 LEU445   (L) gamma23=   1.490  class=Aliphatic       
+  # 14 TYR444   (Y) gamma23=   1.460  class=Aromatic        
+  # 15 ILE441   (I) gamma23=   1.460  class=Aliphatic       
+  # 16 ALA360   (A) gamma23=   1.450  class=Aliphatic       
+  # 17 CYS292   (C) gamma23=   1.430  class=Sulfur          
+  # 18 PRO296   (P) gamma23=   1.410  class=Special         
+  # 19 CYS292   (C) gamma23=   1.400  class=Sulfur          
+  # 20 GLN362   (Q) gamma23=   1.400  class=Polar_uncharged 
+
+Top-20 residue-type composition: GLN=4, LEU=3, HIS=2, TYR=2, ILE=2, CYS=2, GLY=1, ASP=1, PHE=1, ALA=1, PRO=1
+Top-20 class composition: Aliphatic=6, Polar_uncharged=4, Aromatic=3, Basic=2, Special=2, Sulfur=2, Acidic=1
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    CYS  300    0.157    0.027    0.464   -0.470    1.430
+    PHE 1620    0.043    0.009    0.376   -0.890    1.510
+    HIS  720   -0.003    0.015    0.392   -0.780    1.740
+    TRP  720   -0.047    0.009    0.240   -0.760    1.370
+    PRO 2040   -0.059    0.007    0.328   -0.810    1.410
+    MET  480   -0.079    0.017    0.374   -0.900    1.110
+    ASP 1260   -0.088    0.010    0.372   -1.130    1.520
+    LEU 2100   -0.089    0.007    0.325   -0.820    1.710
+    GLY 2460   -0.094    0.006    0.305   -1.150    1.560
+    GLN 2040   -0.099    0.009    0.384   -1.230    1.640
+    ARG 1260   -0.114    0.011    0.393   -1.160    1.370
+    SER 2400   -0.121    0.005    0.245   -0.980    1.150
+    ILE 1320   -0.130    0.010    0.370   -1.070    1.580
+    TYR 1620   -0.151    0.009    0.375   -1.070    1.710
+    VAL 1320   -0.180    0.008    0.291   -0.880    0.880
+    ASN 2820   -0.188    0.006    0.314   -1.450    1.370
+    ALA 1500   -0.192    0.008    0.303   -0.810    1.450
+    GLU 1140   -0.201    0.011    0.366   -1.440    1.260
+    THR 3000   -0.215    0.005    0.283   -1.400    0.970
+    LYS 1020   -0.236    0.011    0.351   -1.450    0.880
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class     n     mean      sem      std      min      max
+         Sulfur   780    0.012    0.015    0.427   -0.900    1.430
+       Aromatic  3960   -0.053    0.006    0.365   -1.070    1.710
+        Special  4500   -0.078    0.005    0.316   -1.150    1.560
+          Basic  3000   -0.129    0.007    0.389   -1.450    1.740
+         Acidic  2400   -0.142    0.008    0.373   -1.440    1.520
+      Aliphatic  6240   -0.142    0.004    0.326   -1.070    1.710
+Polar_uncharged 10260   -0.163    0.003    0.310   -1.450    1.640
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 31140      0.0336   0.0000
+ volume_A3 31140      0.0238   0.0000
+     mw_Da 31140      0.0310   0.0000
+    charge 31140      0.0336   0.0000
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+   group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+type:CYS         2     20        298   31120       0.1000        0.0096          10.4430     11.4922   0.0157         True
+type:GLN         4     20       2036   31120       0.2000        0.0654           3.0570      3.5712   0.0383         True
