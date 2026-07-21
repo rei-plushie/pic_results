@@ -1,0 +1,4 @@
+region_type,na_per_frame,cl_per_frame,net_ion_charge_per_frame,n_region_residues,net_ion_charge_per_100res
+3F,13.6,179.2,-165.6,21024,-0.7876712328767124
+5F,7.2,32.2,-25.000000000000004,8218,-0.30421027013871993
+neither,0.8,10.6,-9.799999999999999,1778,-0.5511811023622046
