@@ -1,0 +1,74 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 31020
+Gamma_23 range: -0.200 to 1.280
+
+-- Top 20 residues by Gamma_23 --
+  #  1 LYS707   (K) gamma23=   1.280  class=Basic           
+  #  2 ASP495   (D) gamma23=   1.270  class=Acidic          
+  #  3 ASN704   (N) gamma23=   1.170  class=Polar_uncharged 
+  #  4 SER268   (S) gamma23=   1.160  class=Polar_uncharged 
+  #  5 THR702   (T) gamma23=   1.160  class=Polar_uncharged 
+  #  6 SER703   (S) gamma23=   1.150  class=Polar_uncharged 
+  #  7 ASN704   (N) gamma23=   1.150  class=Polar_uncharged 
+  #  8 THR494   (T) gamma23=   1.150  class=Polar_uncharged 
+  #  9 ARG488   (R) gamma23=   1.150  class=Basic           
+  # 10 THR702   (T) gamma23=   1.140  class=Polar_uncharged 
+  # 11 ARG390   (R) gamma23=   1.140  class=Basic           
+  # 12 PHE534   (F) gamma23=   1.130  class=Aromatic        
+  # 13 ALA706   (A) gamma23=   1.130  class=Aliphatic       
+  # 14 GLU531   (E) gamma23=   1.120  class=Acidic          
+  # 15 LYS533   (K) gamma23=   1.120  class=Basic           
+  # 16 VAL699   (V) gamma23=   1.110  class=Aliphatic       
+  # 17 SER703   (S) gamma23=   1.110  class=Polar_uncharged 
+  # 18 TYR701   (Y) gamma23=   1.100  class=Aromatic        
+  # 19 GLN700   (Q) gamma23=   1.100  class=Polar_uncharged 
+  # 20 TRP503   (W) gamma23=   1.090  class=Aromatic        
+
+Top-20 residue-type composition: SER=3, THR=3, LYS=2, ASN=2, ARG=2, ASP=1, PHE=1, ALA=1, GLU=1, VAL=1, TYR=1, GLN=1, TRP=1
+Top-20 class composition: Polar_uncharged=9, Basic=4, Aromatic=3, Acidic=2, Aliphatic=2
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    SER 2760   -0.001    0.002    0.117   -0.150    1.160
+    ALA 1800   -0.004    0.003    0.124   -0.140    1.130
+    GLN 1500   -0.006    0.003    0.114   -0.160    1.100
+    GLY 2220   -0.006    0.002    0.089   -0.140    1.070
+    ASN 2640   -0.006    0.002    0.124   -0.150    1.170
+    TRP  720   -0.008    0.003    0.073   -0.130    1.090
+    ARG 1260   -0.011    0.004    0.126   -0.150    1.150
+    LEU 1980   -0.011    0.002    0.072   -0.110    0.750
+    PRO 2160   -0.012    0.001    0.068   -0.100    0.710
+    THR 2460   -0.012    0.002    0.115   -0.150    1.160
+    PHE 1800   -0.013    0.002    0.092   -0.130    1.130
+    HIS  780   -0.013    0.003    0.092   -0.130    1.070
+    ASP 1500   -0.013    0.003    0.126   -0.160    1.270
+    CYS  300   -0.014    0.001    0.012   -0.030    0.120
+    TYR 1440   -0.014    0.003    0.112   -0.160    1.100
+    VAL 1620   -0.015    0.002    0.091   -0.140    1.110
+    GLU 1140   -0.015    0.003    0.102   -0.140    1.120
+    ILE 1140   -0.016    0.002    0.082   -0.090    0.730
+    MET  660   -0.017    0.003    0.081   -0.100    0.680
+    LYS 1140   -0.019    0.004    0.140   -0.200    1.280
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class    n     mean      sem      std      min      max
+Polar_uncharged 9360   -0.006    0.001    0.118   -0.160    1.170
+        Special 4380   -0.009    0.001    0.079   -0.140    1.070
+      Aliphatic 6540   -0.011    0.001    0.095   -0.140    1.130
+       Aromatic 3960   -0.012    0.002    0.097   -0.160    1.130
+         Acidic 2640   -0.014    0.002    0.116   -0.160    1.270
+          Basic 3180   -0.014    0.002    0.124   -0.200    1.280
+         Sulfur  960   -0.016    0.002    0.067   -0.100    0.680
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 31020      0.0224   0.0001
+ volume_A3 31020     -0.0405   0.0000
+     mw_Da 31020     -0.0495   0.0000
+    charge 31020      0.0224   0.0001
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+        group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+flag:is_polar        15     20      15165   31000       0.7500        0.4892           1.5331      3.1325   0.0164         True
