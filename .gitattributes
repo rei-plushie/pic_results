@@ -6,3 +6,4 @@
 md_aav1ph6salt30suc1.gro filter=lfs diff=lfs merge=lfs -text
 *.avi filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
