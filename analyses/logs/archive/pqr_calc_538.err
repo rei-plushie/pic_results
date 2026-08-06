@@ -1,0 +1,2 @@
+/var/spool/slurmd/job00538/slurm_script: line 90: warning: here-document at line 43 delimited by end-of-file (wanted `EOF')
+/var/spool/slurmd/job00538/slurm_script: line 91: syntax error: unexpected end of file

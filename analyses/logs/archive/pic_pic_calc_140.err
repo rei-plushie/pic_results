@@ -1,0 +1,12 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 26.5.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+/home/s.maximilian.wang2/.conda/envs/pic_env/etc/conda/activate.d/mpivars.activate.sh: line 16: SETVARS_CALL: unbound variable

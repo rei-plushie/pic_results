@@ -1,0 +1,132 @@
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 252, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 139, in main
+    reg = pd.read_csv(args.region_csv)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/common.py", line 930, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pic/aav2ph73salt30/pic_symmetry_regions/per_residue.csv'
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 252, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 139, in main
+    reg = pd.read_csv(args.region_csv)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/common.py", line 930, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pic/aav2ph73salt300/pic_symmetry_regions/per_residue.csv'
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 252, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 139, in main
+    reg = pd.read_csv(args.region_csv)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/common.py", line 930, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pic/aav8ph6salt30/pic_symmetry_regions/per_residue.csv'
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 252, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 139, in main
+    reg = pd.read_csv(args.region_csv)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/common.py", line 930, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pic/aav8ph6salt300/pic_symmetry_regions/per_residue.csv'
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 252, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 139, in main
+    reg = pd.read_csv(args.region_csv)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/common.py", line 930, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pic/aav8ph8salt30/pic_symmetry_regions/per_residue.csv'
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 252, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/ion_atmosphere.py", line 139, in main
+    reg = pd.read_csv(args.region_csv)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/pandas/io/common.py", line 930, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pic/aav8ph8salt300/pic_symmetry_regions/per_residue.csv'

@@ -1,0 +1,18 @@
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - mpi4py-4.1.1-py312hd140a38_100
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-forge
+  - defaults
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+

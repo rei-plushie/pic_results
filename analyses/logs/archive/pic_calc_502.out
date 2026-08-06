@@ -1,0 +1,28 @@
+==========================================================
+PIC calculation (per-residue): SUC
+Job: 502   Node: mem-queue-multi-az-dy-r8i-24xl-1   Started: Wed Jul 22 11:43:15 AM EDT 2026
+GRO: 
+XTC: 
+Radius: 10 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+11:43:20 INFO === SUC ===
+11:43:20 INFO [pic/10ns_aav1ph6salt30suc1/pic_SUC_exterior.pkl] 31020 residues, 60 chains, 15510 surface-exposed (facing_outer)
+11:43:20 INFO [SUC] radial bands (absolute, from shell_outer_radius=103.0 A): 5F=(107.5, 123.0)  3F=(123.0, 148.0)
+11:43:32 INFO [protein-residue] 478908 atoms grouped into 31020 residues/molecules
+11:43:32 INFO [5-fold] resolved 60 chains into 12 groups of 5 (OK)
+11:43:32 INFO [3-fold] resolved 60 chains into 20 groups of 3 (OK)
+11:43:32 INFO [SUC] surface-exposed residues assigned: 5F=990, 3F=4991 (of 15510 surface-exposed, max-axis-angle: 5F=12.0 deg, 3F=20.0 deg)
+11:43:33 INFO 478908 atoms exceeds the classic PDB 99999-atom limit -- writing hybrid-36 serial numbers (read natively by PyMOL/ChimeraX/Phenix; tools that only understand plain-decimal PDB will misparse rows beyond atom 99999, same as they would for any oversized PDB file).
+11:43:35 INFO wrote region-selection B-factor PDB (-1=5F, 0=neither, +1=3F) -> /home/s.maximilian.wang2/aav/pic/10ns_aav1ph6salt30suc1/pic_symmetry_regions/regions_bfactor.pdb
+11:43:35 INFO [SUC] wrote outputs to /home/s.maximilian.wang2/aav/pic/10ns_aav1ph6salt30suc1/pic_symmetry_regions
+11:43:35 INFO done.
+==========================================================
+Finished: Wed Jul 22 11:43:35 AM EDT 2026   Exit code: 0
+Results in: pic/10ns_aav1ph6salt30suc1/
+  pic_SUC.pkl                 -- full per-residue + whole-molecule arrays
+  pic_SUC_per_residue.csv     -- resid, resname, Gamma_23, SEM, r* per residue
+  pic_SUC_vs_r.csv            -- whole-molecule r-profile (validation)
+  pic_SUC_summary.png         -- whole-molecule r-profile + per-residue bar plot
+  pic_SUC_bfactor.pdb         -- structure with B-factor = per-residue Gamma_23
+==========================================================

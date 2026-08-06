@@ -1,0 +1,78 @@
+                       :-) GROMACS - gmx sasa, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi sasa -s aav1/10ns_aav1ph8salt30suc1/md.tpr -f aav1/10ns_aav1ph8salt30suc1/md_whole.xtc -surface 'group "Protein" or resname SUC' -output 'group "Protein"' -o sasa/10ns_aav1ph8salt30suc1/capsid_sasa.xvg -or sasa/10ns_aav1ph8salt30suc1/capsid_sasa_perres.xvg -probe 0.14 -ndots 24 -dt 100
+
+
+-------------------------------------------------------
+Program:     gmx sasa, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt30suc1/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                       :-) GROMACS - gmx sasa, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi sasa -s aav1/10ns_aav1ph8salt30suc10/md.tpr -f aav1/10ns_aav1ph8salt30suc10/md_whole.xtc -surface 'group "Protein" or resname SUC' -output 'group "Protein"' -o sasa/10ns_aav1ph8salt30suc10/capsid_sasa.xvg -or sasa/10ns_aav1ph8salt30suc10/capsid_sasa_perres.xvg -probe 0.14 -ndots 24 -dt 100
+
+
+-------------------------------------------------------
+Program:     gmx sasa, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt30suc10/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                       :-) GROMACS - gmx sasa, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi sasa -s aav1/10ns_aav1ph73salt30suc12/md.tpr -f aav1/10ns_aav1ph73salt30suc12/md_whole.xtc -surface 'group "Protein" or resname SUC' -output 'group "Protein"' -o sasa/10ns_aav1ph73salt30suc12/capsid_sasa.xvg -or sasa/10ns_aav1ph73salt30suc12/capsid_sasa_perres.xvg -probe 0.14 -ndots 24 -dt 100
+
+
+-------------------------------------------------------
+Program:     gmx sasa, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph73salt30suc12/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------

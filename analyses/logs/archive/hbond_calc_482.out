@@ -1,0 +1,65 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 482   Node: mem-queue-multi-az-dy-r8i-24xl-1   Started: Mon Jul 20 10:08:49 PM EDT 2026
+GRO: 
+XTC: 
+Radius:  A   Bin width:  A   Charge: 
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+22:08:56 INFO no bonds in topology (bare .gro) -- guessing bonds by distance ...
+22:13:55 INFO guessed 504652 bonds
+22:13:55 INFO protein 478908 atoms | SUC 16560 atoms | 1001 frames
+22:13:55 INFO resid-reset signal found 60 protein chains
+22:13:57 INFO donor-hydrogens: 58852 atoms | acceptors: 93568 atoms
+22:18:13 INFO region join: 0.00% unmatched
+22:18:13 INFO outer-only: 24530 H-bonds retained
+22:18:13 INFO done -> hbond/10ns_aav1ph6salt30suc1
+22:18:21 INFO no bonds in topology (bare .gro) -- guessing bonds by distance ...
+22:23:24 INFO guessed 503582 bonds
+22:23:24 INFO protein 471540 atoms | SUC 16560 atoms | 1001 frames
+22:23:24 INFO resid-reset signal found 60 protein chains
+22:23:26 INFO donor-hydrogens: 56884 atoms | acceptors: 92668 atoms
+22:27:33 INFO region join: 0.00% unmatched
+22:27:33 INFO outer-only: 19369 H-bonds retained
+22:27:33 INFO done -> hbond/10ns_aav1ph8salt30suc1
+22:27:41 INFO no bonds in topology (bare .gro) -- guessing bonds by distance ...
+22:34:05 INFO guessed 657186 bonds
+22:34:05 INFO protein 478908 atoms | SUC 165780 atoms | 1001 frames
+22:34:05 INFO resid-reset signal found 60 protein chains
+22:34:09 INFO donor-hydrogens: 85380 atoms | acceptors: 130044 atoms
+22:39:56 INFO region join: 0.00% unmatched
+22:39:56 INFO outer-only: 177097 H-bonds retained
+22:39:57 INFO done -> hbond/10ns_aav1ph6salt30suc10
+22:40:05 INFO no bonds in topology (bare .gro) -- guessing bonds by distance ...
+22:46:38 INFO guessed 656122 bonds
+22:46:38 INFO protein 471540 atoms | SUC 165780 atoms | 1001 frames
+22:46:38 INFO resid-reset signal found 60 protein chains
+22:46:41 INFO donor-hydrogens: 83412 atoms | acceptors: 129144 atoms
+22:52:20 INFO region join: 0.00% unmatched
+22:52:20 INFO outer-only: 155672 H-bonds retained
+22:52:20 INFO done -> hbond/10ns_aav1ph8salt30suc10
+22:52:29 INFO no bonds in topology (bare .gro) -- guessing bonds by distance ...
+22:57:25 INFO guessed 504650 bonds
+22:57:25 INFO protein 478908 atoms | SUC 16560 atoms | 1001 frames
+22:57:25 INFO resid-reset signal found 60 protein chains
+22:57:28 INFO donor-hydrogens: 58852 atoms | acceptors: 93568 atoms
+23:01:44 INFO region join: 0.00% unmatched
+23:01:44 INFO outer-only: 20620 H-bonds retained
+23:01:44 INFO done -> hbond/10ns_aav1ph6salt200suc1
+23:01:52 INFO no bonds in topology (bare .gro) -- guessing bonds by distance ...
+23:06:45 INFO guessed 503584 bonds
+23:06:45 INFO protein 471540 atoms | SUC 16560 atoms | 1001 frames
+23:06:45 INFO resid-reset signal found 60 protein chains
+23:06:48 INFO donor-hydrogens: 56884 atoms | acceptors: 92668 atoms
+==========================================================
+Finished: Mon Jul 20 11:07:26 PM EDT 2026   Exit code: 1
+Results in: /
+  pic_.pkl                 -- full per-residue + whole-molecule arrays
+  pic__per_residue.csv     -- resid, resname, Gamma_23, SEM, r* per residue
+  pic__vs_r.csv            -- whole-molecule r-profile (validation)
+  pic__summary.png         -- whole-molecule r-profile + per-residue bar plot
+  pic__bfactor.pdb         -- structure with B-factor = per-residue Gamma_23
+==========================================================
+REMINDER: auto-detected r* (whole-molecule and per-residue) is a
+starting estimate only -- confirm the plateau visually in the .png
+before trusting Gamma_23.

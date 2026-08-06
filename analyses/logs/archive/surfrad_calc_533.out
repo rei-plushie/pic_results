@@ -1,0 +1,46 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 533   Node: gen-queue-multi-az-dy-m8i-32xl-1   Started: Thu Jul 23 02:00:47 PM EDT 2026
+==========================================================
+processing: 10ns_aav1ph8salt30suc1, Thu Jul 23 02:00:47 PM EDT 2026
+protein heavy 243480 | water O 835811 | sucrose 368 molecules
+  frame 80 (5 processed)
+  frame 180 (10 processed)
+  frame 280 (15 processed)
+  frame 380 (20 processed)
+  frame 480 (25 processed)
+  frame 580 (30 processed)
+  frame 680 (35 processed)
+  frame 780 (40 processed)
+  frame 880 (45 processed)
+  frame 980 (50 processed)
+done (51 frames) -> surfrad/10ns_aav1ph8salt30suc1/surface_radial_density.csv
+done: Thu Jul 23 02:44:08 PM EDT 2026
+processing: 10ns_aav1ph8salt30suc10, Thu Jul 23 02:44:08 PM EDT 2026
+protein heavy 243480 | water O 783311 | sucrose 3684 molecules
+  frame 80 (5 processed)
+  frame 180 (10 processed)
+  frame 280 (15 processed)
+  frame 380 (20 processed)
+  frame 480 (25 processed)
+  frame 580 (30 processed)
+  frame 680 (35 processed)
+  frame 780 (40 processed)
+  frame 880 (45 processed)
+  frame 980 (50 processed)
+done (51 frames) -> surfrad/10ns_aav1ph8salt30suc10/surface_radial_density.csv
+done: Thu Jul 23 03:26:08 PM EDT 2026
+processing: 10ns_aav1ph73salt30suc12, Thu Jul 23 03:26:08 PM EDT 2026
+protein heavy 244830 | water O 772035 | sucrose 4421 molecules
+  frame 80 (5 processed)
+  frame 180 (10 processed)
+  frame 280 (15 processed)
+  frame 380 (20 processed)
+  frame 480 (25 processed)
+  frame 580 (30 processed)
+  frame 680 (35 processed)
+  frame 780 (40 processed)
+  frame 880 (45 processed)
+  frame 980 (50 processed)
+done (51 frames) -> surfrad/10ns_aav1ph73salt30suc12/surface_radial_density.csv
+done: Thu Jul 23 04:07:56 PM EDT 2026

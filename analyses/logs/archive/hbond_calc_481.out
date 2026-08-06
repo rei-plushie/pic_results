@@ -1,0 +1,27 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 481   Node: mem-queue-multi-az-dy-r8i-24xl-1   Started: Mon Jul 20 09:45:34 PM EDT 2026
+GRO: 
+XTC: 
+Radius:  A   Bin width:  A   Charge: 
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+21:45:40 INFO no bonds in topology (bare .gro) -- guessing bonds by distance ...
+21:51:49 INFO guessed 623288 bonds
+21:51:49 INFO protein 478908 atoms | SUC 132615 atoms | 1001 frames
+21:51:49 INFO resid-reset signal found 60 protein chains
+21:51:52 INFO donor-hydrogens: 79484 atoms | acceptors: 121937 atoms
+21:57:16 INFO region join: 0.00% unmatched
+21:57:17 INFO done -> hbond/10ns_aav1ph6salt110suc8
+==========================================================
+Finished: Mon Jul 20 09:57:19 PM EDT 2026   Exit code: 0
+Results in: /
+  pic_.pkl                 -- full per-residue + whole-molecule arrays
+  pic__per_residue.csv     -- resid, resname, Gamma_23, SEM, r* per residue
+  pic__vs_r.csv            -- whole-molecule r-profile (validation)
+  pic__summary.png         -- whole-molecule r-profile + per-residue bar plot
+  pic__bfactor.pdb         -- structure with B-factor = per-residue Gamma_23
+==========================================================
+REMINDER: auto-detected r* (whole-molecule and per-residue) is a
+starting estimate only -- confirm the plateau visually in the .png
+before trusting Gamma_23.

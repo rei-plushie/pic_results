@@ -1,0 +1,20 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 485   Node: mem-queue-multi-az-dy-r8i-24xl-1   Started: Mon Jul 20 11:22:01 PM EDT 2026
+GRO: 
+XTC: 
+Radius:  A   Bin width:  A   Charge: 
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+==========================================================
+Finished: Mon Jul 20 11:22:31 PM EDT 2026   Exit code: 1
+Results in: /
+  pic_.pkl                 -- full per-residue + whole-molecule arrays
+  pic__per_residue.csv     -- resid, resname, Gamma_23, SEM, r* per residue
+  pic__vs_r.csv            -- whole-molecule r-profile (validation)
+  pic__summary.png         -- whole-molecule r-profile + per-residue bar plot
+  pic__bfactor.pdb         -- structure with B-factor = per-residue Gamma_23
+==========================================================
+REMINDER: auto-detected r* (whole-molecule and per-residue) is a
+starting estimate only -- confirm the plateau visually in the .png
+before trusting Gamma_23.

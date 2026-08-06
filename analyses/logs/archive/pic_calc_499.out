@@ -1,0 +1,27 @@
+==========================================================
+PIC calculation (per-residue): SUC
+Job: 499   Node: mem-queue-multi-az-dy-r8i-24xl-1   Started: Wed Jul 22 11:15:09 AM EDT 2026
+GRO: 
+XTC: 
+Radius: 10 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+11:15:21 INFO === SUC ===
+11:15:22 INFO [pic/10ns_aav1ph6salt30suc1/pic_SUC_exterior.pkl] 31020 residues, 60 chains, 15510 surface-exposed (facing_outer)
+11:15:34 INFO [protein-residue] 478908 atoms grouped into 31020 residues/molecules
+11:15:35 INFO [5-fold] resolved 60 chains into 12 groups of 5 (OK)
+11:15:35 INFO [3-fold] resolved 60 chains into 20 groups of 3 (OK)
+11:15:35 INFO [SUC] surface-exposed residues assigned: 5F=2268, 3F=12523 (of 15510 surface-exposed, max-axis-angle=20.0 deg)
+11:15:36 INFO 478908 atoms exceeds the classic PDB 99999-atom limit -- writing hybrid-36 serial numbers (read natively by PyMOL/ChimeraX/Phenix; tools that only understand plain-decimal PDB will misparse rows beyond atom 99999, same as they would for any oversized PDB file).
+11:15:38 INFO wrote region-selection B-factor PDB (-1=5F, 0=neither, +1=3F) -> /home/s.maximilian.wang2/aav/pic/10ns_aav1ph6salt30suc1/pic_symmetry_regions/regions_bfactor.pdb
+11:15:38 INFO [SUC] wrote outputs to /home/s.maximilian.wang2/aav/pic/10ns_aav1ph6salt30suc1/pic_symmetry_regions
+11:15:38 INFO done.
+==========================================================
+Finished: Wed Jul 22 11:15:38 AM EDT 2026   Exit code: 0
+Results in: pic/10ns_aav1ph6salt30suc1/
+  pic_SUC.pkl                 -- full per-residue + whole-molecule arrays
+  pic_SUC_per_residue.csv     -- resid, resname, Gamma_23, SEM, r* per residue
+  pic_SUC_vs_r.csv            -- whole-molecule r-profile (validation)
+  pic_SUC_summary.png         -- whole-molecule r-profile + per-residue bar plot
+  pic_SUC_bfactor.pdb         -- structure with B-factor = per-residue Gamma_23
+==========================================================

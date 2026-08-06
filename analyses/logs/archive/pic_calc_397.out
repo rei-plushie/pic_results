@@ -1,0 +1,14 @@
+==========================================================
+PIC calculation (per-residue): SUC
+Job: 397   Node: gen-queue-spot-dy-m8i-24xl-1   Started: Mon Jul 13 10:04:36 AM EDT 2026
+GRO: aav1/10ns_aav1ph6salt30suc1/md.gro
+XTC: aav1/10ns_aav1ph6salt30suc1/md_whole.xtc
+Radius: 30 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+10:04:54 [rank   0] INFO ======================================================================
+10:04:54 [rank   0] INFO PIC (Gamma_23) calculation, per-residue, EXTERIOR SOLVENT ONLY
+10:04:54 [rank   0] INFO gro=aav1/10ns_aav1ph6salt30suc1/md.gro xtc=aav1/10ns_aav1ph6salt30suc1/md_whole.xtc excipient=SUC radius=30.00 A charge=0.000
+10:04:54 [rank   0] INFO shell-margin=2.0 A  density-bin-width=2.0 A  calib-frames=20
+10:04:54 [rank   0] INFO MPI ranks: 48
+10:04:54 [rank   0] ERROR Input file not found: aav1/10ns_aav1ph6salt30suc1/md.gro

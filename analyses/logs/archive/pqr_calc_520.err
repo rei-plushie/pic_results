@@ -1,0 +1,59 @@
+mkdir: cannot create directory ‘pqr/10ns_aav1ph6salt30suc1’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph6salt200suc1’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph6salt200suc10’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph6salt110suc8’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph6salt30suc12’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph8salt30suc1’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph8salt30suc10’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph8salt200suc1’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph8salt200suc10’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph73salt170suc5’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+mkdir: cannot create directory ‘pqr/10ns_aav1ph73salt30suc12’: File exists
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top

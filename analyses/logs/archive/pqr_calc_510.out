@@ -1,0 +1,19 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 510   Node: mem-queue-multi-az-dy-r8i-8xl-1   Started: Wed Jul 22 04:54:43 PM EDT 2026
+==========================================================
+processing: 10ns_aav1ph6salt30suc1
+processing: 10ns_aav1ph8salt30suc1
+processing: 10ns_aav1ph8salt30suc1
+processing: 10ns_aav1ph8salt30suc10
+processing: 10ns_aav1ph6salt200suc1
+processing: 10ns_aav1ph8salt200suc1
+processing: 10ns_aav1ph6salt200suc10
+processing: 10ns_aav1ph8salt200suc10
+processing: 10ns_aav1ph6salt110suc8
+processing: 10ns_aav1ph73salt170suc5
+processing: 10ns_aav1ph73salt30suc12
+processing: 10ns_aav1ph6salt30suc12
+==========================================================
+Finished: Wed Jul 22 04:54:48 PM EDT 2026   Exit code: 1
+==========================================================

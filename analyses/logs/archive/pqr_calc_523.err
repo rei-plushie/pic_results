@@ -1,0 +1,84 @@
+loading topology (this is the slow step)...
+loaded 3005425 atoms, 868759 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt30suc1/capsid_protein.pdb
+sucrose PQR: 16560 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt30suc1/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2997673 atoms, 819751 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt30suc10/capsid_protein.pdb
+sucrose PQR: 165780 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt30suc10/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2993235 atoms, 868813 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt200suc1/capsid_protein.pdb
+sucrose PQR: 16560 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt200suc1/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2985264 atoms, 819732 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt200suc10/capsid_protein.pdb
+sucrose PQR: 165780 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt200suc10/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2993514 atoms, 830620 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt110suc8/capsid_protein.pdb
+sucrose PQR: 132615 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt110suc8/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2996167 atoms, 808931 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt30suc12/capsid_protein.pdb
+sucrose PQR: 198945 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt30suc12/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 3004723 atoms, 868889 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29880 residues, 457320 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 457320 atoms, net charge -540.000 e -> pqr/10ns_aav1ph8salt30suc1/capsid_protein.pdb
+sucrose PQR: 16560 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph8salt30suc1/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2996443 atoms, 819705 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29880 residues, 457320 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 457320 atoms, net charge -540.000 e -> pqr/10ns_aav1ph8salt30suc10/capsid_protein.pdb
+sucrose PQR: 165780 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph8salt30suc10/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2992203 atoms, 868833 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29880 residues, 457320 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 457320 atoms, net charge -540.000 e -> pqr/10ns_aav1ph8salt200suc1/capsid_protein.pdb
+sucrose PQR: 16560 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph8salt200suc1/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2984739 atoms, 819921 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29880 residues, 457320 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 457320 atoms, net charge -540.000 e -> pqr/10ns_aav1ph8salt200suc10/capsid_protein.pdb
+sucrose PQR: 165780 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph8salt200suc10/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2991479 atoms, 846959 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29970 residues, 459720 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 459720 atoms, net charge -330.000 e -> pqr/10ns_aav1ph73salt170suc5/capsid_protein.pdb
+sucrose PQR: 82890 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph73salt170suc5/suc_parmed.pqr
+loading topology (this is the slow step)...
+loaded 2995780 atoms, 808896 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29970 residues, 459720 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 459720 atoms, net charge -330.000 e -> pqr/10ns_aav1ph73salt30suc12/capsid_protein.pdb
+sucrose PQR: 198945 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph73salt30suc12/suc_parmed.pqr

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/characterize_high_pic_residues.py", line 485, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/characterize_high_pic_residues.py", line 442, in main
+    raw = parse_bfactor_pdb(args.pdb)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/aav/characterize_high_pic_residues.py", line 152, in parse_bfactor_pdb
+    with open(path, "r") as fh:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pic/pic_results_NA_456/pic_SUC_exterior_bfactor.pdb'

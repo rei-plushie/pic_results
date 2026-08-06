@@ -1,0 +1,20 @@
+==========================================================
+PIC calculation: SUC
+Job: 144   Node: gen-queue-spot-dy-m8i-4xl-1   Started: Wed Jul  1 10:27:16 AM EDT 2026
+GRO: /aav1/md/md.gro
+XTC: /aav1/md/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 2   CPUs/task: 4
+==========================================================
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+10:27:21 [rank   0] INFO ======================================================================
+10:27:21 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+10:27:21 [rank   0] INFO ======================================================================
+10:27:21 [rank   0] INFO gro=/aav1/md/md.gro xtc=/aav1/md/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+10:27:21 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+10:27:21 [rank   0] INFO gro=/aav1/md/md.gro xtc=/aav1/md/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+10:27:21 [rank   0] INFO MPI ranks: 1
+10:27:21 [rank   0] ERROR Input file not found: /aav1/md/md.gro
+10:27:21 [rank   0] INFO MPI ranks: 1
+10:27:21 [rank   0] ERROR Input file not found: /aav1/md/md.gro

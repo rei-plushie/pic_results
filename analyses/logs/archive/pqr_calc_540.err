@@ -1,0 +1,84 @@
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph6salt30suc1/md.tpr -f aav1/10ns_aav1ph6salt30suc1/md.gro -o aav1/10ns_aav1ph6salt30suc1/md_whole.gro -pbc whole -center
+
+Will write gro: Coordinate file in Gromos-87 format
+Reading file aav1/10ns_aav1ph6salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+Reading file aav1/10ns_aav1ph6salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+Group     0 (         System) has 3005425 elements
+Group     1 (        Protein) has 480168 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153300 elements
+Group     8 (      SideChain) has 326868 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 480168 elements
+Group    11 (    non-Protein) has 2525257 elements
+Group    12 (          Other) has 16560 elements
+Group    13 (            SUC) has 16560 elements
+Group    14 (             NA) has   545 elements
+Group    15 (             CL) has  1073 elements
+Group    16 (          Water) has 2507079 elements
+Group    17 (            SOL) has 2507079 elements
+Group    18 (      non-Water) has 498346 elements
+Group    19 (            Ion) has  1618 elements
+Group    20 ( Water_and_ions) has 2508697 elements
+Select a group: 
+-------------------------------------------------------
+Program:     gmx trjconv, version 2025.3
+Source file: src/gromacs/topology/index.cpp (line 873)
+
+Fatal error:
+Cannot read from input
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+itp template: 45 atoms, net charge -0.0000 e
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_suc_pqr.py", line 149, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_suc_pqr.py", line 99, in main
+    u = mda.Universe(args.gro)   # MDAnalysis loads coords in Angstrom
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 118, in _topology_from_file_like
+    raise sys.exc_info()[1] from err
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/GROParser.py", line 84, in parse
+    with openany(self.filename) as inf:
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 318, in openany
+    stream = anyopen(datasource, mode=mode, reset=reset)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 397, in anyopen
+    stream = _get_stream(datasource, openfunc, mode=mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 439, in _get_stream
+    raise sys.exc_info()[1] from err
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 433, in _get_stream
+    stream = openfunction(filename, mode=mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/picklable_file_io.py", line 478, in bz2_pickle_open
+    binary_file = BZ2Picklable(name, bz_mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/picklable_file_io.py", line 266, in __init__
+    super().__init__(name, mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/bz2.py", line 85, in __init__
+    self._fp = _builtin_open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'aav1/10ns_aav1ph6salt30suc1/md_whole.gro'
+loading topology (this is the slow step)...
+slurmstepd: error: *** JOB 540 ON mem-queue-multi-az-dy-r8i-32xl-1 CANCELLED AT 2026-07-23T16:52:57 ***

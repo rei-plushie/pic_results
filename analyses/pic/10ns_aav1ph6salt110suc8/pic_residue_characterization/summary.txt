@@ -1,0 +1,74 @@
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 31020
+Gamma_23 range: -1.470 to 3.510
+
+-- Top 20 residues by Gamma_23 --
+  #  1 SER669   (S) gamma23=   3.510  class=Polar_uncharged 
+  #  2 GLN452   (Q) gamma23=   3.440  class=Polar_uncharged 
+  #  3 ASN583   (N) gamma23=   3.420  class=Polar_uncharged 
+  #  4 PHE667   (F) gamma23=   3.320  class=Aromatic        
+  #  5 ALA668   (A) gamma23=   3.150  class=Aliphatic       
+  #  6 PHE670   (F) gamma23=   2.890  class=Aromatic        
+  #  7 THR589   (T) gamma23=   2.860  class=Polar_uncharged 
+  #  8 ALA267   (A) gamma23=   2.800  class=Aliphatic       
+  #  9 ASN657   (N) gamma23=   2.790  class=Polar_uncharged 
+  # 10 HIS272   (H) gamma23=   2.780  class=Basic           
+  # 11 THR665   (T) gamma23=   2.770  class=Polar_uncharged 
+  # 12 GLY454   (G) gamma23=   2.770  class=Special         
+  # 13 PRO659   (P) gamma23=   2.760  class=Special         
+  # 14 ARG448   (R) gamma23=   2.750  class=Basic           
+  # 15 ALA263   (A) gamma23=   2.720  class=Aliphatic       
+  # 16 GLY266   (G) gamma23=   2.710  class=Special         
+  # 17 ALA267   (A) gamma23=   2.710  class=Aliphatic       
+  # 18 ASN451   (N) gamma23=   2.670  class=Polar_uncharged 
+  # 19 SER455   (S) gamma23=   2.660  class=Polar_uncharged 
+  # 20 PHE667   (F) gamma23=   2.610  class=Aromatic        
+
+Top-20 residue-type composition: ALA=4, ASN=3, PHE=3, SER=2, THR=2, GLY=2, GLN=1, HIS=1, PRO=1, ARG=1
+Top-20 class composition: Polar_uncharged=8, Aliphatic=4, Aromatic=3, Special=3, Basic=2
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    SER 2760    0.000    0.009    0.453   -0.940    3.510
+    ASN 2640   -0.012    0.009    0.477   -1.040    3.420
+    ALA 1800   -0.015    0.011    0.483   -0.990    3.150
+    THR 2460   -0.043    0.008    0.408   -0.970    2.860
+    GLN 1500   -0.047    0.011    0.432   -0.970    3.440
+    GLY 2220   -0.048    0.007    0.334   -1.040    2.770
+    PRO 2160   -0.083    0.006    0.285   -0.720    2.760
+    HIS  780   -0.084    0.012    0.339   -0.880    2.780
+    TRP  720   -0.084    0.007    0.193   -0.960    1.880
+    PHE 1800   -0.090    0.009    0.374   -0.970    3.320
+    VAL 1620   -0.095    0.008    0.314   -1.100    2.600
+    LEU 1980   -0.107    0.006    0.257   -0.830    2.010
+    CYS  300   -0.115    0.004    0.075   -0.250    0.000
+    ILE 1140   -0.122    0.009    0.301   -0.670    2.080
+    ASP 1500   -0.136    0.010    0.390   -1.100    2.260
+    ARG 1260   -0.139    0.011    0.376   -0.950    2.750
+    GLU 1140   -0.139    0.010    0.331   -0.970    2.160
+    TYR 1440   -0.142    0.009    0.331   -1.250    1.900
+    MET  660   -0.178    0.011    0.288   -0.750    1.660
+    LYS 1140   -0.180    0.013    0.439   -1.470    2.080
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class    n     mean      sem      std      min      max
+Polar_uncharged 9360   -0.022    0.005    0.446   -1.040    3.510
+        Special 4380   -0.065    0.005    0.311   -1.040    2.770
+      Aliphatic 6540   -0.081    0.004    0.355   -1.100    3.150
+       Aromatic 3960   -0.108    0.005    0.333   -1.250    3.320
+         Acidic 2640   -0.137    0.007    0.366   -1.100    2.260
+          Basic 3180   -0.140    0.007    0.393   -1.470    2.780
+         Sulfur  960   -0.159    0.008    0.244   -0.750    1.660
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 31020      0.0076   0.1820
+ volume_A3 31020     -0.0722   0.0000
+     mw_Da 31020     -0.0718   0.0000
+    charge 31020      0.0076   0.1820
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+   group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+type:ALA         4     20       1796   31000       0.2000        0.0579           3.4521      4.0651   0.0260         True

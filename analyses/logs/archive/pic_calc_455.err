@@ -1,0 +1,395 @@
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    main()
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1666, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 1153, in main
+    validate_masses(ag, label, logger)
+  File "/home/s.maximilian.wang2/aav/pic_calculation_exterior.py", line 274, in validate_masses
+    raise ValueError(f"[{label}] selection is empty -- check residue name / topology.")
+ValueError: [excipient] selection is empty -- check residue name / topology.
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[44740,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------

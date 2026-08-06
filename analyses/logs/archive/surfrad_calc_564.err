@@ -1,0 +1,94 @@
+mkdir: cannot create directory ‘surfrad/10ns_aav1ph6salt200suc1’: File exists
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 375, in __init__
+    self.load_new(coordinates, format=format, in_memory=in_memory,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 580, in load_new
+    self.trajectory = reader(filename, format=format, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 2543, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 149, in __init__
+    self._xdr = self._file(self.filename)
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 135, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.__cinit__
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 194, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.open
+OSError: File does not exist: b'aav1/10ns_aav1ph6salt200suc1/md_whole.xtc'
+Exception ignored in: <function ReaderBase.__del__ at 0x7f9fbab36ca0>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/base.py", line 1516, in __del__
+    self.close()
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 187, in close
+    self._xdr.close()
+AttributeError: 'XTCReader' object has no attribute '_xdr'
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 375, in __init__
+    self.load_new(coordinates, format=format, in_memory=in_memory,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 580, in load_new
+    self.trajectory = reader(filename, format=format, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 2543, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 149, in __init__
+    self._xdr = self._file(self.filename)
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 135, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.__cinit__
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 194, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.open
+OSError: File does not exist: b'aav1/10ns_aav1ph8salt200suc1/md_whole.xtc'
+Exception ignored in: <function ReaderBase.__del__ at 0x7f6a149c0ca0>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/base.py", line 1516, in __del__
+    self.close()
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 187, in close
+    self._xdr.close()
+AttributeError: 'XTCReader' object has no attribute '_xdr'
+mkdir: cannot create directory ‘surfrad/10ns_aav1ph6salt200suc10’: File exists
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 375, in __init__
+    self.load_new(coordinates, format=format, in_memory=in_memory,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 580, in load_new
+    self.trajectory = reader(filename, format=format, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 2543, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 149, in __init__
+    self._xdr = self._file(self.filename)
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 135, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.__cinit__
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 194, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.open
+OSError: File does not exist: b'aav1/10ns_aav1ph6salt200suc10/md_whole.xtc'
+Exception ignored in: <function ReaderBase.__del__ at 0x7fa3dde6aca0>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/base.py", line 1516, in __del__
+    self.close()
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 187, in close
+    self._xdr.close()
+AttributeError: 'XTCReader' object has no attribute '_xdr'
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 375, in __init__
+    self.load_new(coordinates, format=format, in_memory=in_memory,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 580, in load_new
+    self.trajectory = reader(filename, format=format, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 2543, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 149, in __init__
+    self._xdr = self._file(self.filename)
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 135, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.__cinit__
+  File "MDAnalysis/lib/formats/libmdaxdr.pyx", line 194, in MDAnalysis.lib.formats.libmdaxdr._XDRFile.open
+OSError: File does not exist: b'aav1/10ns_aav1ph8salt200suc10/md_whole.xtc'
+Exception ignored in: <function ReaderBase.__del__ at 0x7f53df99aca0>
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/base.py", line 1516, in __del__
+    self.close()
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py", line 187, in close
+    self._xdr.close()
+AttributeError: 'XTCReader' object has no attribute '_xdr'

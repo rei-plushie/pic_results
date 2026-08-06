@@ -1,0 +1,12 @@
+topology   : ion_input/10ns_aav1ph6salt30suc10/md_prot_suc_ions.gro
+trajectory : ion_input/10ns_aav1ph6salt30suc10/md_prot_suc_ions.xtc
+excipient  : SUC | outer_only=True
+frames analyzed (start=None stop=None stride=1): 1001
+cutoffs    : 3.5 A (D-A), 150.0 deg (D-H-A)
+
+[3F] 129.89 H-bonds/frame (1.034 per 100 residues), mean length 3.11 A
+        top residue types: ASN(31782), SER(28682), GLN(17540), ALA(10143), LYS(7749)
+[5F] 41.73 H-bonds/frame (1.853 per 100 residues), mean length 3.11 A
+        top residue types: ASN(17675), THR(8818), SER(3809), ALA(3100), GLY(1822)
+[neither] 5.30 H-bonds/frame (0.759 per 100 residues), mean length 3.11 A
+        top residue types: SER(1339), ASN(1067), ALA(860), GLUH(540), THR(512)

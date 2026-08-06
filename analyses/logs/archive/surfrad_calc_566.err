@@ -1,0 +1,5 @@
+mkdir: cannot create directory ‘surfrad/10ns_aav1ph6salt200suc1’: File exists
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/XDR.py:241: UserWarning: Reload offsets from trajectory
+ ctime or size or n_atoms did not match
+  warnings.warn("Reload offsets from trajectory\n "
+slurmstepd: error: *** JOB 566 ON gen-queue-multi-az-dy-m8i-32xl-1 CANCELLED AT 2026-07-24T12:38:11 ***

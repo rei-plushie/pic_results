@@ -1,0 +1,23 @@
+Matplotlib is building the font cache; this may take a moment.
+Matplotlib is building the font cache; this may take a moment.
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation.py", line 65, in <module>
+    from mpi4py import MPI  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^
+ImportError: /home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/mpi4py/MPI.cpython-312-x86_64-linux-gnu.so: undefined symbol: ompi_mpi_logical8
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_calculation.py", line 65, in <module>
+    from mpi4py import MPI  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^
+ImportError: /home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/mpi4py/MPI.cpython-312-x86_64-linux-gnu.so: undefined symbol: ompi_mpi_logical8
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[59849,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------

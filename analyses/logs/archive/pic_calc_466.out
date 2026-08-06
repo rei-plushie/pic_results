@@ -1,0 +1,14 @@
+==========================================================
+PIC calculation (per-residue): CL
+Job: 466   Node: mem-queue-multi-az-dy-r8i-24xl-2   Started: Fri Jul 17 02:29:22 PM EDT 2026
+GRO: aav8/aav2ph73salt30/md.gro
+XTC: aav8/aav2ph73salt30/md_whole.xtc
+Radius: 30 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+14:29:40 [rank   0] INFO ======================================================================
+14:29:40 [rank   0] INFO PIC (Gamma_23) calculation, per-residue, EXTERIOR SOLVENT ONLY
+14:29:40 [rank   0] INFO gro=aav8/aav2ph73salt30/md.gro xtc=aav8/aav2ph73salt30/md_whole.xtc excipient=CL radius=30.00 A charge=0.000
+14:29:40 [rank   0] INFO shell-margin=2.0 A  density-bin-width=2.0 A  calib-frames=20
+14:29:40 [rank   0] INFO MPI ranks: 48
+14:29:40 [rank   0] ERROR Input file not found: aav8/aav2ph73salt30/md.gro

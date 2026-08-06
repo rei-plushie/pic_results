@@ -1,0 +1,108 @@
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph6/topol_10ns_aav1ph6salt30suc1.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph6/topol_10ns_aav1ph6salt30suc10.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph6/topol_10ns_aav1ph6salt200suc1.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph6/topol_10ns_aav1ph6salt200suc10.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph6/topol_10ns_aav1ph6salt110suc8.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph6/topol_10ns_aav1ph6salt30suc12.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph8/topol_10ns_aav1ph8salt30suc1.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph8/topol_10ns_aav1ph8salt30suc10.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph8/topol_10ns_aav1ph8salt200suc1.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph8/topol_10ns_aav1ph8salt200suc10.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph73/topol_10ns_aav1ph73salt170suc5.top does not exist
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 119, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 78, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph73/topol_10ns_aav1ph73salt30suc12.top does not exist

@@ -1,0 +1,2 @@
+mkdir: cannot create directory ‘surfrad/10ns_aav1ph6salt30suc1’: File exists
+slurmstepd: error: *** JOB 527 ON gen-queue-multi-az-dy-m8i-32xl-2 CANCELLED AT 2026-07-23T11:46:12 ***

@@ -1,0 +1,445 @@
+==========================================================
+PIC calculation (per-residue): NA
+Job: 174   Node: mem-queue-multi-az-dy-r8i-32xl-2   Started: Wed Jul  1 06:09:21 PM EDT 2026
+GRO: aav1/benchmark/md.gro
+XTC: aav1/benchmark/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 64   CPUs/task: 1
+==========================================================
+18:09:51 [rank   0] INFO ======================================================================
+18:09:51 [rank   0] INFO PIC (Gamma_23) calculation, per-residue -- Shukla et al. 2009 method
+18:09:51 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=NA radius=20.00 A charge=0.000
+18:09:51 [rank   0] INFO MPI ranks: 64
+18:09:57 [rank  43] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:57 [rank  43] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:57 [rank  43] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:57 [rank   6] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:57 [rank  43] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:57 [rank   6] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:57 [rank   6] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:57 [rank  43] INFO assigned 31 frames (local index 1350:1381)
+18:09:57 [rank   6] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:57 [rank   6] INFO assigned 32 frames (local index 192:224)
+18:09:58 [rank   8] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank   8] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank   8] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  25] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank  25] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  25] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  38] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank  38] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  38] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  16] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank  16] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  16] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  57] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank  57] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  57] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  50] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank   8] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  50] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  50] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  47] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank   8] INFO assigned 32 frames (local index 256:288)
+18:09:58 [rank  47] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  47] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  25] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  11] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank  25] INFO assigned 31 frames (local index 792:823)
+18:09:58 [rank  11] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  11] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  39] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank  38] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  39] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  39] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank  38] INFO assigned 31 frames (local index 1195:1226)
+18:09:58 [rank  16] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  16] INFO assigned 32 frames (local index 512:544)
+18:09:58 [rank  57] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  57] INFO assigned 31 frames (local index 1784:1815)
+18:09:58 [rank  50] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  50] INFO assigned 31 frames (local index 1567:1598)
+18:09:58 [rank  47] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  47] INFO assigned 31 frames (local index 1474:1505)
+18:09:58 [rank  11] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  11] INFO assigned 32 frames (local index 352:384)
+18:09:58 [rank  39] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank  39] INFO assigned 31 frames (local index 1226:1257)
+18:09:58 [rank   5] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank   5] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank   5] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:58 [rank   5] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:58 [rank   5] INFO assigned 32 frames (local index 160:192)
+18:09:58 [rank  31] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:58 [rank  31] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:58 [rank  31] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  51] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  26] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  21] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  51] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  51] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  26] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  26] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  21] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  21] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   2] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank   2] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank   2] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  31] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  31] INFO assigned 31 frames (local index 978:1009)
+18:09:59 [rank  13] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  13] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  13] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  34] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  53] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  34] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  34] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  53] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  53] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  26] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  51] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  26] INFO assigned 31 frames (local index 823:854)
+18:09:59 [rank  21] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  24] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  51] INFO assigned 31 frames (local index 1598:1629)
+18:09:59 [rank  21] INFO assigned 31 frames (local index 668:699)
+18:09:59 [rank  24] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  24] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   2] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   2] INFO assigned 32 frames (local index 64:96)
+18:09:59 [rank  56] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  56] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  56] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  13] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  34] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  13] INFO assigned 32 frames (local index 416:448)
+18:09:59 [rank  53] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  34] INFO assigned 31 frames (local index 1071:1102)
+18:09:59 [rank   3] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  53] INFO assigned 31 frames (local index 1660:1691)
+18:09:59 [rank   3] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank   3] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  24] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  24] INFO assigned 31 frames (local index 761:792)
+18:09:59 [rank  41] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  41] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  41] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  56] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  56] INFO assigned 31 frames (local index 1753:1784)
+18:09:59 [rank   3] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   3] INFO assigned 32 frames (local index 96:128)
+18:09:59 [rank  32] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  32] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  32] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  48] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  59] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  46] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  41] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  48] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  60] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  48] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  59] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  59] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  46] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  46] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  41] INFO assigned 31 frames (local index 1288:1319)
+18:09:59 [rank  60] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  60] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  12] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  12] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  12] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  33] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  33] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  33] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  40] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  62] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  40] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  40] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  62] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  62] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  32] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  32] INFO assigned 31 frames (local index 1009:1040)
+18:09:59 [rank  59] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  14] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  48] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  54] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  59] INFO assigned 31 frames (local index 1846:1877)
+18:09:59 [rank  14] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  14] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  46] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  60] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  48] INFO assigned 31 frames (local index 1505:1536)
+18:09:59 [rank  54] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  54] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  60] INFO assigned 31 frames (local index 1877:1908)
+18:09:59 [rank  46] INFO assigned 31 frames (local index 1443:1474)
+18:09:59 [rank  63] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  63] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  63] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   7] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  12] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   7] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank   7] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  12] INFO assigned 32 frames (local index 384:416)
+18:09:59 [rank  17] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  28] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  36] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  17] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  17] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  36] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  28] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  36] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  28] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank   0] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  49] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  49] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  49] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  61] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  33] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  61] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  61] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  33] INFO assigned 31 frames (local index 1040:1071)
+18:09:59 [rank  40] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  62] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  40] INFO assigned 31 frames (local index 1257:1288)
+18:09:59 [rank  62] INFO assigned 31 frames (local index 1939:1970)
+18:09:59 [rank  19] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  15] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  20] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  19] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  19] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  15] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  15] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   9] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  14] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  20] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  20] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  42] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank   9] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank   9] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  54] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  14] INFO assigned 32 frames (local index 448:480)
+18:09:59 [rank  42] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  42] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  54] INFO assigned 31 frames (local index 1691:1722)
+18:09:59 [rank  35] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  35] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  35] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  63] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  63] INFO assigned 31 frames (local index 1970:2001)
+18:09:59 [rank   7] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   7] INFO assigned 32 frames (local index 224:256)
+18:09:59 [rank  17] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  28] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  29] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  36] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  17] INFO assigned 31 frames (local index 544:575)
+18:09:59 [rank  28] INFO assigned 31 frames (local index 885:916)
+18:09:59 [rank   0] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  29] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  29] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  36] INFO assigned 31 frames (local index 1133:1164)
+18:09:59 [rank   0] INFO protein atoms=479460 residues=31080  water molecules=478128  NA molecules=2703
+18:09:59 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+18:09:59 [rank   0] INFO assigned 32 frames (local index 0:32)
+18:09:59 [rank  49] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  49] INFO assigned 31 frames (local index 1536:1567)
+18:09:59 [rank  61] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   4] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  61] INFO assigned 31 frames (local index 1908:1939)
+18:09:59 [rank   4] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank   4] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  44] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  44] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  44] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  19] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  30] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  20] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  45] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  15] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  30] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  30] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  19] INFO assigned 31 frames (local index 606:637)
+18:09:59 [rank   9] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  37] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  45] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  45] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  20] INFO assigned 31 frames (local index 637:668)
+18:09:59 [rank  15] INFO assigned 32 frames (local index 480:512)
+18:09:59 [rank  42] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   9] INFO assigned 32 frames (local index 288:320)
+18:09:59 [rank  37] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  37] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  18] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  42] INFO assigned 31 frames (local index 1319:1350)
+18:09:59 [rank  18] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  18] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  35] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  35] INFO assigned 31 frames (local index 1102:1133)
+18:09:59 [rank  55] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  52] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  55] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  55] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  52] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  52] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  29] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  29] INFO assigned 31 frames (local index 916:947)
+18:09:59 [rank  23] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  58] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  23] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  23] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  58] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  58] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   4] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  44] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   4] INFO assigned 32 frames (local index 128:160)
+18:09:59 [rank  27] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  44] INFO assigned 31 frames (local index 1381:1412)
+18:09:59 [rank  27] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  27] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   1] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  30] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   1] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank   1] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  45] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  30] INFO assigned 31 frames (local index 947:978)
+18:09:59 [rank  37] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  45] INFO assigned 31 frames (local index 1412:1443)
+18:09:59 [rank  37] INFO assigned 31 frames (local index 1164:1195)
+18:09:59 [rank  18] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  18] INFO assigned 31 frames (local index 575:606)
+18:09:59 [rank  55] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  22] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  52] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  55] INFO assigned 31 frames (local index 1722:1753)
+18:09:59 [rank  22] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  22] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank  52] INFO assigned 31 frames (local index 1629:1660)
+18:09:59 [rank  58] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  23] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  58] INFO assigned 31 frames (local index 1815:1846)
+18:09:59 [rank  23] INFO assigned 31 frames (local index 730:761)
+18:09:59 [rank  27] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  27] INFO assigned 31 frames (local index 854:885)
+18:09:59 [rank  10] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+18:09:59 [rank  10] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+18:09:59 [rank  10] INFO [excipient] 2703 atoms, mass range 22.990-22.990 amu (OK)
+18:09:59 [rank   1] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank   1] INFO assigned 32 frames (local index 32:64)
+18:09:59 [rank  22] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  22] INFO assigned 31 frames (local index 699:730)
+18:09:59 [rank  10] INFO [protein] 479460 atoms grouped into 31080 residues
+18:09:59 [rank  10] INFO assigned 32 frames (local index 320:352)
+18:11:28 [rank   0] INFO [AGGREGATE] 128/2001 frames complete cluster-wide (6.4%) | aggregate rate=1.31 fr/s | global ETA=00:23:45 | elapsed=00:01:37
+18:12:22 [rank   0] INFO [AGGREGATE] 192/2001 frames complete cluster-wide (9.6%) | aggregate rate=1.27 fr/s | global ETA=00:23:47 | elapsed=00:02:31
+18:13:49 [rank   0] INFO [AGGREGATE] 320/2001 frames complete cluster-wide (16.0%) | aggregate rate=1.34 fr/s | global ETA=00:20:53 | elapsed=00:03:59
+18:14:21 [rank   0] INFO [AGGREGATE] 384/2001 frames complete cluster-wide (19.2%) | aggregate rate=1.42 fr/s | global ETA=00:18:55 | elapsed=00:04:30
+18:15:21 [rank   0] INFO [AGGREGATE] 512/2001 frames complete cluster-wide (25.6%) | aggregate rate=1.55 fr/s | global ETA=00:16:00 | elapsed=00:05:30
+18:16:23 [rank   0] INFO [AGGREGATE] 640/2001 frames complete cluster-wide (32.0%) | aggregate rate=1.63 fr/s | global ETA=00:13:54 | elapsed=00:06:32
+18:16:58 [rank   0] INFO [AGGREGATE] 704/2001 frames complete cluster-wide (35.2%) | aggregate rate=1.65 fr/s | global ETA=00:13:06 | elapsed=00:07:07
+18:18:00 [rank   0] INFO [AGGREGATE] 832/2001 frames complete cluster-wide (41.6%) | aggregate rate=1.70 fr/s | global ETA=00:11:27 | elapsed=00:08:09
+18:18:34 [rank   0] INFO [AGGREGATE] 896/2001 frames complete cluster-wide (44.8%) | aggregate rate=1.71 fr/s | global ETA=00:10:45 | elapsed=00:08:43
+18:19:33 [rank   0] INFO [AGGREGATE] 1024/2001 frames complete cluster-wide (51.2%) | aggregate rate=1.76 fr/s | global ETA=00:09:15 | elapsed=00:09:42
+18:20:34 [rank   0] INFO [AGGREGATE] 1152/2001 frames complete cluster-wide (57.6%) | aggregate rate=1.79 fr/s | global ETA=00:07:54 | elapsed=00:10:43
+18:21:10 [rank   0] INFO [AGGREGATE] 1216/2001 frames complete cluster-wide (60.8%) | aggregate rate=1.79 fr/s | global ETA=00:07:19 | elapsed=00:11:20
+18:22:11 [rank   0] INFO [AGGREGATE] 1344/2001 frames complete cluster-wide (67.2%) | aggregate rate=1.82 fr/s | global ETA=00:06:02 | elapsed=00:12:20
+18:22:44 [rank   0] INFO [AGGREGATE] 1408/2001 frames complete cluster-wide (70.4%) | aggregate rate=1.82 fr/s | global ETA=00:05:25 | elapsed=00:12:53
+18:23:42 [rank   0] INFO [AGGREGATE] 1536/2001 frames complete cluster-wide (76.8%) | aggregate rate=1.85 fr/s | global ETA=00:04:11 | elapsed=00:13:51
+18:24:41 [rank   0] INFO [AGGREGATE] 1664/2001 frames complete cluster-wide (83.2%) | aggregate rate=1.87 fr/s | global ETA=00:03:00 | elapsed=00:14:50
+18:25:13 [rank   0] INFO [AGGREGATE] 1728/2001 frames complete cluster-wide (86.4%) | aggregate rate=1.87 fr/s | global ETA=00:02:26 | elapsed=00:15:22
+18:26:12 [rank   0] INFO [AGGREGATE] 1856/2001 frames complete cluster-wide (92.8%) | aggregate rate=1.89 fr/s | global ETA=00:01:17 | elapsed=00:16:21
+18:26:45 [rank   0] INFO [AGGREGATE] 1920/2001 frames complete cluster-wide (96.0%) | aggregate rate=1.89 fr/s | global ETA=00:00:43 | elapsed=00:16:54
+18:27:13 [rank  28] INFO frame 31/31 (100.0%, global frame 915) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:13 [rank  61] INFO frame 31/31 (100.0%, global frame 1938) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:13 [rank  29] INFO frame 31/31 (100.0%, global frame 946) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:14 [rank  23] INFO frame 31/31 (100.0%, global frame 760) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:14 [rank  37] INFO frame 31/31 (100.0%, global frame 1194) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:14 [rank  62] INFO frame 31/31 (100.0%, global frame 1969) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:15 [rank  22] INFO frame 31/31 (100.0%, global frame 729) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:16 [rank  49] INFO frame 31/31 (100.0%, global frame 1566) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:16 [rank  24] INFO frame 31/31 (100.0%, global frame 791) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:16 [rank  51] INFO frame 31/31 (100.0%, global frame 1628) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:16 [rank  59] INFO frame 31/31 (100.0%, global frame 1876) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:16 [rank  26] INFO frame 31/31 (100.0%, global frame 853) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:16 [rank  20] INFO frame 31/31 (100.0%, global frame 667) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:16 [rank  30] INFO frame 31/31 (100.0%, global frame 977) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  54] INFO frame 31/31 (100.0%, global frame 1721) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  47] INFO frame 31/31 (100.0%, global frame 1504) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  42] INFO frame 31/31 (100.0%, global frame 1349) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  35] INFO frame 31/31 (100.0%, global frame 1132) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  43] INFO frame 31/31 (100.0%, global frame 1380) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  45] INFO frame 31/31 (100.0%, global frame 1442) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  41] INFO frame 31/31 (100.0%, global frame 1318) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  44] INFO frame 31/31 (100.0%, global frame 1411) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  32] INFO frame 31/31 (100.0%, global frame 1039) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  27] INFO frame 31/31 (100.0%, global frame 884) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  48] INFO frame 31/31 (100.0%, global frame 1535) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  38] INFO frame 31/31 (100.0%, global frame 1225) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  63] INFO frame 31/31 (100.0%, global frame 2000) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  36] INFO frame 31/31 (100.0%, global frame 1163) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  56] INFO frame 31/31 (100.0%, global frame 1783) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  18] INFO frame 31/31 (100.0%, global frame 605) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  19] INFO frame 31/31 (100.0%, global frame 636) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  33] INFO frame 31/31 (100.0%, global frame 1070) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  57] INFO frame 31/31 (100.0%, global frame 1814) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  60] INFO frame 31/31 (100.0%, global frame 1907) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  50] INFO frame 31/31 (100.0%, global frame 1597) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  40] INFO frame 31/31 (100.0%, global frame 1287) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  39] INFO frame 31/31 (100.0%, global frame 1256) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  52] INFO frame 31/31 (100.0%, global frame 1659) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  46] INFO frame 31/31 (100.0%, global frame 1473) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  25] INFO frame 31/31 (100.0%, global frame 822) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  58] INFO frame 31/31 (100.0%, global frame 1845) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  21] INFO frame 31/31 (100.0%, global frame 698) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  53] INFO frame 31/31 (100.0%, global frame 1690) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  17] INFO frame 31/31 (100.0%, global frame 574) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  55] INFO frame 31/31 (100.0%, global frame 1752) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  31] INFO frame 31/31 (100.0%, global frame 1008) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:17 [rank  34] INFO frame 31/31 (100.0%, global frame 1101) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:34 [rank   2] INFO frame 32/32 (100.0%, global frame 95) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:34 [rank   0] INFO frame 32/32 (100.0%, global frame 31) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:35 [rank  10] INFO frame 32/32 (100.0%, global frame 351) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:35 [rank   4] INFO frame 32/32 (100.0%, global frame 159) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:35 [rank   3] INFO frame 32/32 (100.0%, global frame 127) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:35 [rank   6] INFO frame 32/32 (100.0%, global frame 223) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:35 [rank   9] INFO frame 32/32 (100.0%, global frame 319) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:36 [rank   1] INFO frame 32/32 (100.0%, global frame 63) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:36 [rank   5] INFO frame 32/32 (100.0%, global frame 191) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:38 [rank   8] INFO frame 32/32 (100.0%, global frame 287) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:38 [rank   7] INFO frame 32/32 (100.0%, global frame 255) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:39 [rank  16] INFO frame 32/32 (100.0%, global frame 543) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:40 [rank  14] INFO frame 32/32 (100.0%, global frame 479) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:41 [rank  15] INFO frame 32/32 (100.0%, global frame 511) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:41 [rank  11] INFO frame 32/32 (100.0%, global frame 383) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:41 [rank  13] INFO frame 32/32 (100.0%, global frame 447) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:42 [rank  12] INFO frame 32/32 (100.0%, global frame 415) | rate=0.03 fr/s | local ETA=00:00:00
+18:27:42 [rank   0] INFO [AGGREGATE] 2001/2001 frames complete cluster-wide (100.0%) | aggregate rate=1.87 fr/s | global ETA=00:00:00 | elapsed=00:17:51
+18:27:44 [rank   0] INFO aggregated per-residue Gamma_23(r,t): shape (31080, 200) over 2001 rank-frames
+18:28:02 [rank   0] INFO AUTO-DETECTED whole-molecule r* = 14.90 A (CONFIRM VISUALLY against the saved plot)
+18:28:02 [rank   0] INFO Whole-molecule Gamma_23 (residue-sphere approximation) = -430.9774 +/- 0.4859
+18:28:02 [rank   0] INFO Per-residue Gamma_23: min=-6.9697 max=5.7349 mean=-1.8119 (n=31080 residues with data)
+18:28:03 [rank   0] INFO saved raw data -> pic_results_NA_174/pic_NA.pkl
+18:28:03 [rank   0] INFO saved per-residue table -> pic_results_NA_174/pic_NA_per_residue.csv
+18:28:03 [rank   0] INFO saved whole-molecule r-profile -> pic_results_NA_174/pic_NA_vs_r.csv
+18:28:14 [rank   0] INFO saved plot -> pic_results_NA_174/pic_NA_summary.png
+18:28:15 [rank   0] INFO 479460 atoms exceeds the classic PDB 99999-atom limit -- writing hybrid-36 serial numbers (read natively by PyMOL/ChimeraX/Phenix; tools that only understand plain-decimal PDB will misparse rows beyond atom 99999, same as they would for any oversized PDB file).
+18:28:16 [rank   0] INFO saved B-factor-colored structure (frame 0) -> pic_results_NA_174/pic_NA_bfactor.pdb
+18:28:16 [rank   0] INFO TOTAL RUNTIME: 1105.1 s (1.81 frames/s aggregate)
+18:28:16 [rank   0] INFO ======================================================================
+18:28:16 [rank   0] INFO RESULT: whole-molecule Gamma_23(NA) = -430.9774 +/- 0.4859 (r* = 14.90 A, auto-detected)
+18:28:16 [rank   0] INFO Per-residue breakdown: pic_results_NA_174/pic_NA_per_residue.csv
+18:28:16 [rank   0] INFO ======================================================================
+==========================================================
+Finished: Wed Jul  1 06:28:17 PM EDT 2026   Exit code: 0
+Results in: pic_results_NA_174/
+  pic_NA.pkl                 -- full per-residue + whole-molecule arrays
+  pic_NA_per_residue.csv     -- resid, resname, Gamma_23, SEM, r* per residue
+  pic_NA_vs_r.csv            -- whole-molecule r-profile (validation)
+  pic_NA_summary.png         -- whole-molecule r-profile + per-residue bar plot
+  pic_NA_bfactor.pdb         -- structure with B-factor = per-residue Gamma_23
+==========================================================
+REMINDER: auto-detected r* (whole-molecule and per-residue) is a
+starting estimate only -- confirm the plateau visually in the .png
+before trusting Gamma_23.

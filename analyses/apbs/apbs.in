@@ -1,0 +1,42 @@
+# APBS input -- whole AAV capsid (+ sucrose) from MD frame
+# Grid auto-centers on the molecule (cgcent/fgcent mol 1), so you only set
+# the box LENGTHS. Fill cglen/fglen from the extent printed by the awk helper:
+#   fglen = extent + ~20 A   (fine box, covers the whole capsid)
+#   cglen = 1.6 * fglen      (coarse box, sets the boundary condition)
+#
+# dime controls resolution AND memory (~200 MB per million grid points):
+#   161^3  ~= 2.0 A spacing  ~1 GB    <- START HERE (validate the pipeline)
+#   353^3  ~= 0.9 A          ~9 GB
+#   705^3  ~= 0.45 A         ~70 GB   <- production (needs a big-mem node)
+# dime values must be of the form 32*c+1 (65,97,129,161,193,257,353,449,705...)
+
+read
+    mol pqr /home/s.maximilian.wang2/aav/pqr/10ns_aav1ph6salt200suc1/capsid_suc.pqr
+end
+
+elec
+    mg-auto
+    dime   353 353 353          # <- coarse first pass; raise for production
+    cglen  509.2 526.3 516.7       # <- 1.6 * fglen
+    fglen  318.2 328.9 322.9       # <- extent + ~20 A
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe                        # linearized PB (robust); try npbe to refine
+    bcfl sdh                    # single Debye-Huckel BC (good for big charged mol)
+    pdie 2.0                    # protein interior dielectric (2-4 typical)
+    sdie 78.54                  # solvent dielectric (water)
+    srfm smol                   # smoothed molecular surface
+    chgm spl2                   # cubic B-spline charge mapping
+    sdens 10.0
+    srad 1.4                    # solvent probe radius (water)
+    swin 0.3
+    temp 298.15                 # set to your simulation temperature
+    ion charge  1 conc 0.200 radius 2.0   # <- bulk salt (M): 0.110 for salt110,
+    ion charge -1 conc 0.200 radius 2.0   #    0.030 for the salt30 frame
+    calcenergy total
+    calcforce no
+    write pot dx pot_6_200            # -> pot.dx (the map you visualize)
+end
+
+quit

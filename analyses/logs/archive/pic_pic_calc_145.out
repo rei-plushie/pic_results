@@ -1,0 +1,13 @@
+==========================================================
+PIC calculation: SUC
+Job: 145   Node: gen-queue-spot-dy-m8i-4xl-1   Started: Wed Jul  1 10:34:45 AM EDT 2026
+GRO: /aav1/md/md.gro
+XTC: /aav1/md/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 2   CPUs/task: 4
+==========================================================
+10:34:53 [rank   0] INFO ======================================================================
+10:34:53 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+10:34:53 [rank   0] INFO gro=/aav1/md/md.gro xtc=/aav1/md/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+10:34:53 [rank   0] INFO MPI ranks: 2
+10:34:53 [rank   0] ERROR Input file not found: /aav1/md/md.gro

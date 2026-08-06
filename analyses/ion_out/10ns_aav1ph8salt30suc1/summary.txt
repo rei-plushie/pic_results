@@ -1,0 +1,12 @@
+topology   : ion_input/10ns_aav1ph8salt30suc1/md_prot_suc_ions.gro
+trajectory : ion_input/10ns_aav1ph8salt30suc1/md_prot_suc_ions.xtc
+frames     : 501
+Na / Cl    : 1085 / 545  (box-average)
+mean box V : 2.932e+07 A^3
+c(Na) c(Cl): 61.4 / 30.9 mM ; ionic strength 46.2 mM
+Debye len  : 14.2 A  (bulk; compare to where Q(r) plateaus)
+Q at 15 A : +415.8 e  (cumulative counter-ion charge)
+capsid formal charge (protonation): -480 e -- full screening would drive Q toward +480 e
+[3F] near-surface Na 81.27/frame, Cl 16.40/frame -> net ion charge +64.88 e/frame
+[5F] near-surface Na 53.80/frame, Cl 0.70/frame -> net ion charge +53.10 e/frame
+[neither] near-surface Na 212.53/frame, Cl 11.25/frame -> net ion charge +201.28 e/frame

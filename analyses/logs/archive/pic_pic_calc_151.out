@@ -1,0 +1,8 @@
+==========================================================
+PIC calculation: SUC
+Job: 151   Node: gen-queue-spot-dy-m8i-96xl-1   Started: Wed Jul  1 11:11:48 AM EDT 2026
+GRO: aav1/benchmark/md.gro
+XTC: aav1/benchmark/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 96   CPUs/task: 4
+==========================================================

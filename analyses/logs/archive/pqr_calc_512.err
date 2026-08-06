@@ -1,0 +1,265 @@
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 478908 atoms, 31020 residues, 1 segments -> pqr/10ns_aav1ph6salt30suc1/capsid_protein.pdb
+sucrose: 16560 atoms, 368 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph6salt30suc1/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 471540 atoms, 30720 residues, 1 segments -> pqr/10ns_aav1ph8salt30suc1/capsid_protein.pdb
+sucrose: 16560 atoms, 368 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph8salt30suc1/sucrose.pqr
+mkdir: cannot create directory ‘pqr/10ns_aav1ph8salt30suc1’: File exists
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 471540 atoms, 30720 residues, 1 segments -> pqr/10ns_aav1ph8salt30suc1/capsid_protein.pdb
+sucrose: 16560 atoms, 368 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph8salt30suc1/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 471540 atoms, 30720 residues, 1 segments -> pqr/10ns_aav1ph8salt30suc10/capsid_protein.pdb
+sucrose: 165780 atoms, 3684 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph8salt30suc10/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 478908 atoms, 31020 residues, 1 segments -> pqr/10ns_aav1ph6salt200suc1/capsid_protein.pdb
+sucrose: 16560 atoms, 368 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph6salt200suc1/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 471540 atoms, 30720 residues, 1 segments -> pqr/10ns_aav1ph8salt200suc1/capsid_protein.pdb
+sucrose: 16560 atoms, 368 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph8salt200suc1/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 478908 atoms, 31020 residues, 1 segments -> pqr/10ns_aav1ph6salt200suc10/capsid_protein.pdb
+sucrose: 165780 atoms, 3684 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph6salt200suc10/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 471540 atoms, 30720 residues, 1 segments -> pqr/10ns_aav1ph8salt200suc10/capsid_protein.pdb
+sucrose: 165780 atoms, 3684 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph8salt200suc10/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 478908 atoms, 31020 residues, 1 segments -> pqr/10ns_aav1ph6salt110suc8/capsid_protein.pdb
+sucrose: 132615 atoms, 2947 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph6salt110suc8/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 474960 atoms, 30870 residues, 1 segments -> pqr/10ns_aav1ph73salt170suc5/capsid_protein.pdb
+sucrose: 82890 atoms, 1842 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph73salt170suc5/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 474960 atoms, 30870 residues, 1 segments -> pqr/10ns_aav1ph73salt30suc12/capsid_protein.pdb
+sucrose: 198945 atoms, 4421 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph73salt30suc12/sucrose.pqr
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 478908 atoms, 31020 residues, 1 segments -> pqr/10ns_aav1ph6salt30suc12/capsid_protein.pdb
+sucrose: 198945 atoms, 4421 molecules (selection: resname SUC)
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph6salt30suc12/sucrose.pqr

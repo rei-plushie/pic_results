@@ -1,0 +1,144 @@
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/TPRParser.py", line 207, in parse
+    th = tpr_utils.read_tpxheader(data)                    # tpxheader
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 232, in read_tpxheader
+    fileVersion_err(fileVersion)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 207, in fileVersion_err
+    raise NotImplementedError(
+NotImplementedError: Your tpx version is 137, which this parser does not support, yet 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 125, in _topology_from_file_like
+    raise ValueError(
+ValueError: Failed to construct topology from file aav1/10ns_aav1ph6salt30suc1/md.tpr with parser <class 'MDAnalysis.topology.TPRParser.TPRParser'>.
+Error: Your tpx version is 137, which this parser does not support, yet 
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/TPRParser.py", line 207, in parse
+    th = tpr_utils.read_tpxheader(data)                    # tpxheader
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 232, in read_tpxheader
+    fileVersion_err(fileVersion)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 207, in fileVersion_err
+    raise NotImplementedError(
+NotImplementedError: Your tpx version is 137, which this parser does not support, yet 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 125, in _topology_from_file_like
+    raise ValueError(
+ValueError: Failed to construct topology from file aav1/10ns_aav1ph6salt30suc10/md.tpr with parser <class 'MDAnalysis.topology.TPRParser.TPRParser'>.
+Error: Your tpx version is 137, which this parser does not support, yet 
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/TPRParser.py", line 207, in parse
+    th = tpr_utils.read_tpxheader(data)                    # tpxheader
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 232, in read_tpxheader
+    fileVersion_err(fileVersion)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 207, in fileVersion_err
+    raise NotImplementedError(
+NotImplementedError: Your tpx version is 137, which this parser does not support, yet 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 125, in _topology_from_file_like
+    raise ValueError(
+ValueError: Failed to construct topology from file aav1/10ns_aav1ph6salt200suc1/md.tpr with parser <class 'MDAnalysis.topology.TPRParser.TPRParser'>.
+Error: Your tpx version is 137, which this parser does not support, yet 
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/TPRParser.py", line 207, in parse
+    th = tpr_utils.read_tpxheader(data)                    # tpxheader
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 232, in read_tpxheader
+    fileVersion_err(fileVersion)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 207, in fileVersion_err
+    raise NotImplementedError(
+NotImplementedError: Your tpx version is 137, which this parser does not support, yet 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 125, in _topology_from_file_like
+    raise ValueError(
+ValueError: Failed to construct topology from file aav1/10ns_aav1ph6salt200suc10/md.tpr with parser <class 'MDAnalysis.topology.TPRParser.TPRParser'>.
+Error: Your tpx version is 137, which this parser does not support, yet 
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/TPRParser.py", line 207, in parse
+    th = tpr_utils.read_tpxheader(data)                    # tpxheader
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 232, in read_tpxheader
+    fileVersion_err(fileVersion)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 207, in fileVersion_err
+    raise NotImplementedError(
+NotImplementedError: Your tpx version is 137, which this parser does not support, yet 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 125, in _topology_from_file_like
+    raise ValueError(
+ValueError: Failed to construct topology from file aav1/10ns_aav1ph6salt110suc8/md.tpr with parser <class 'MDAnalysis.topology.TPRParser.TPRParser'>.
+Error: Your tpx version is 137, which this parser does not support, yet 
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/TPRParser.py", line 207, in parse
+    th = tpr_utils.read_tpxheader(data)                    # tpxheader
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 232, in read_tpxheader
+    fileVersion_err(fileVersion)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/tpr/utils.py", line 207, in fileVersion_err
+    raise NotImplementedError(
+NotImplementedError: Your tpx version is 137, which this parser does not support, yet 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 103, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/surface_radial_density.py", line 60, in main
+    u = mda.Universe(a.top, a.xtc)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 125, in _topology_from_file_like
+    raise ValueError(
+ValueError: Failed to construct topology from file aav1/10ns_aav1ph6salt30suc12/md.tpr with parser <class 'MDAnalysis.topology.TPRParser.TPRParser'>.
+Error: Your tpx version is 137, which this parser does not support, yet 

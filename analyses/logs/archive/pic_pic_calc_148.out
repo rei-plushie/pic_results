@@ -1,0 +1,22 @@
+==========================================================
+PIC calculation: SUC
+Job: 148   Node: gen-queue-spot-dy-m8i-4xl-1   Started: Wed Jul  1 10:43:19 AM EDT 2026
+GRO: aav1/md/md.gro
+XTC: aav1/md/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 2   CPUs/task: 4
+==========================================================
+10:43:23 [rank   0] INFO ======================================================================
+10:43:23 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+10:43:23 [rank   0] INFO gro=aav1/md/md.gro xtc=aav1/md/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+10:43:23 [rank   0] INFO MPI ranks: 2
+10:43:29 [rank   1] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+10:43:29 [rank   1] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+10:43:29 [rank   1] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+10:43:29 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+10:43:29 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+10:43:29 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+10:43:29 [rank   1] INFO assigned 10 frames (local index 11:21)
+10:43:29 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+10:43:29 [rank   0] INFO trajectory frames: 21 total, 21 selected (stride=1, max_frames=None)
+10:43:29 [rank   0] INFO assigned 11 frames (local index 0:11)

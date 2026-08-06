@@ -1,0 +1,14 @@
+==========================================================
+PIC calculation (per-residue): SUC
+Job: 336   Node: mem-queue-multi-az-dy-r8i-32xl-1   Started: Wed Jul  8 06:42:28 PM EDT 2026
+GRO: aav1/aav1ph8salt30suc12/md.gro
+XTC: aav1/aav1ph8salt30suc12/md_whole.xtc
+Radius: 30 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 64   CPUs/task: 1
+==========================================================
+18:43:02 [rank   0] INFO ======================================================================
+18:43:02 [rank   0] INFO PIC (Gamma_23) calculation, per-residue, EXTERIOR SOLVENT ONLY
+18:43:02 [rank   0] INFO gro=aav1/aav1ph8salt30suc12/md.gro xtc=aav1/aav1ph8salt30suc12/md_whole.xtc excipient=SUC radius=30.00 A charge=0.000
+18:43:02 [rank   0] INFO shell-margin=2.0 A  density-bin-width=2.0 A  calib-frames=20
+18:43:02 [rank   0] INFO MPI ranks: 64
+18:43:02 [rank   0] ERROR Input file not found: aav1/aav1ph8salt30suc12/md.gro

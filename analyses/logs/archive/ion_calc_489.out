@@ -1,0 +1,11 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 489   Node: mem-queue-multi-az-dy-r8i-24xl-2   Started: Mon Jul 20 11:47:49 PM EDT 2026
+GRO: 
+XTC: 
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+23:47:54 INFO protein heavy 246180 | Na 545 | Cl 1073 | 1001 frames
+23:48:44 INFO processed 101 frames
+23:48:44 INFO done -> ion_out/10ns_aav1ph6salt30suc1
+23:48:49 INFO protein heavy 243480 | Na 1085 | Cl 545 | 1001 frames

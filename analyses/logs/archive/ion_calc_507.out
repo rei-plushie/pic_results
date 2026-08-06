@@ -1,0 +1,52 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 507   Node: mem-queue-multi-az-dy-r8i-24xl-2   Started: Wed Jul 22 04:31:41 PM EDT 2026
+GRO: 
+XTC: 
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+16:31:56 INFO protein heavy 246180 | Na 545 | Cl 1073 | 1001 frames
+16:33:51 INFO processed 501 frames
+16:33:51 INFO done -> ion_out/10ns_aav1ph6salt30suc1
+16:33:59 INFO protein heavy 243480 | Na 1085 | Cl 545 | 1001 frames
+16:35:42 INFO processed 501 frames
+16:35:42 INFO done -> ion_out/10ns_aav1ph8salt30suc1
+16:35:49 INFO protein heavy 246180 | Na 545 | Cl 1073 | 1001 frames
+16:37:50 INFO processed 501 frames
+16:37:50 INFO done -> ion_out/10ns_aav1ph6salt30suc10
+16:37:58 INFO protein heavy 243480 | Na 1085 | Cl 545 | 1001 frames
+16:39:42 INFO processed 501 frames
+16:39:42 INFO done -> ion_out/10ns_aav1ph8salt30suc10
+16:39:50 INFO protein heavy 246180 | Na 3633 | Cl 4161 | 1001 frames
+16:44:14 INFO processed 501 frames
+16:44:14 INFO done -> ion_out/10ns_aav1ph6salt200suc1
+16:44:22 INFO protein heavy 243480 | Na 4173 | Cl 3633 | 1001 frames
+16:48:45 INFO processed 501 frames
+16:48:45 INFO done -> ion_out/10ns_aav1ph8salt200suc1
+16:48:53 INFO protein heavy 246180 | Na 3633 | Cl 4161 | 1001 frames
+16:53:21 INFO processed 501 frames
+16:53:21 INFO done -> ion_out/10ns_aav1ph6salt200suc10
+16:53:29 INFO protein heavy 243480 | Na 4173 | Cl 3633 | 1001 frames
+16:57:44 INFO processed 501 frames
+16:57:44 INFO done -> ion_out/10ns_aav1ph8salt200suc10
+16:57:52 INFO protein heavy 246180 | Na 1998 | Cl 2526 | 1001 frames
+17:01:00 INFO processed 501 frames
+17:01:00 INFO done -> ion_out/10ns_aav1ph6salt110suc8
+17:01:07 INFO protein heavy 244830 | Na 3358 | Cl 3088 | 1001 frames
+17:04:26 INFO processed 501 frames
+17:04:26 INFO done -> ion_out/10ns_aav1ph73salt170suc5
+17:04:34 INFO protein heavy 244830 | Na 815 | Cl 545 | 1001 frames
+17:05:53 INFO processed 501 frames
+17:05:53 INFO done -> ion_out/10ns_aav1ph73salt30suc12
+17:06:01 INFO protein heavy 246180 | Na 545 | Cl 1073 | 1001 frames
+17:07:57 INFO processed 501 frames
+17:07:57 INFO done -> ion_out/10ns_aav1ph6salt30suc12
+17:08:04 INFO protein heavy 249120 | Na 586 | Cl 766 | 1001 frames
+17:08:10 INFO protein heavy 249120 | Na 5861 | Cl 6041 | 1001 frames
+17:08:16 INFO protein heavy 248160 | Na 609 | Cl 849 | 1001 frames
+17:08:20 INFO protein heavy 248160 | Na 6088 | Cl 6328 | 1001 frames
+17:08:25 INFO protein heavy 247620 | Na 729 | Cl 609 | 1001 frames
+17:08:32 INFO protein heavy 247620 | Na 6208 | Cl 6088 | 1001 frames
+==========================================================
+Finished: Wed Jul 22 05:08:32 PM EDT 2026   Exit code: 1
+==========================================================

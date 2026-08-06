@@ -1,0 +1,50 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 536   Node: gen-queue-multi-az-dy-m8i-32xl-2   Started: Thu Jul 23 03:33:44 PM EDT 2026
+==========================================================
+processing: 10ns_aav1ph6salt30suc1, Thu Jul 23 03:33:44 PM EDT 2026
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+NOTE: From version 5.0 gmx sasa uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. (1964)
+DOI: 10.1021/j100785a001
+-------- -------- --- Thank You --- -------- --------
+
+done: Thu Jul 23 03:39:48 PM EDT 2026
+processing: 10ns_aav1ph6salt30suc10, Thu Jul 23 03:39:48 PM EDT 2026
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+NOTE: From version 5.0 gmx sasa uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. (1964)
+DOI: 10.1021/j100785a001
+-------- -------- --- Thank You --- -------- --------
+
+done: Thu Jul 23 03:46:40 PM EDT 2026

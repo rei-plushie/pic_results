@@ -1,0 +1,18 @@
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - matplotlib-base-3.10.7-py312he3d6523_0
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-forge
+  - defaults
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_symmetry_regions.py", line 675, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_symmetry_regions.py", line 662, in main
+    run_one(label, pkl_path, gro_path, selection, args.max_axis_angle_deg, out_dir, logger)
+  File "/home/s.maximilian.wang2/aav/pic_symmetry_regions.py", line 579, in run_one
+    raise ValueError(f"chains have unequal CA counts {sorted(ca_lengths)} -- expected all "
+ValueError: chains have unequal CA counts [514, 515] -- expected all 60 chains to share an identical sequence for pairwise alignment.

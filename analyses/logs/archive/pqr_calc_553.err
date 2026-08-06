@@ -1,0 +1,403 @@
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt30suc1/md.tpr -f aav1/10ns_aav1ph8salt30suc1/md.gro -o aav1/10ns_aav1ph8salt30suc1/step_cluster.gro -pbc cluster
+
+Will write gro: Coordinate file in Gromos-87 format
+Reading file aav1/10ns_aav1ph8salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+Reading file aav1/10ns_aav1ph8salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+Group     0 (         System) has 3004723 elements
+Group     1 (        Protein) has 479100 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153240 elements
+Group     8 (      SideChain) has 325860 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 479100 elements
+Group    11 (    non-Protein) has 2525623 elements
+Group    12 (          Other) has 16560 elements
+Group    13 (            SUC) has 16560 elements
+Group    14 (             NA) has  1085 elements
+Group    15 (             CL) has   545 elements
+Group    16 (          Water) has 2507433 elements
+Group    17 (            SOL) has 2507433 elements
+Group    18 (      non-Water) has 497290 elements
+Group    19 (            Ion) has  1630 elements
+Group    20 ( Water_and_ions) has 2509063 elements
+Select a group: Group     0 (         System) has 3004723 elements
+Group     1 (        Protein) has 479100 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153240 elements
+Group     8 (      SideChain) has 325860 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 479100 elements
+Group    11 (    non-Protein) has 2525623 elements
+Group    12 (          Other) has 16560 elements
+Group    13 (            SUC) has 16560 elements
+Group    14 (             NA) has  1085 elements
+Group    15 (             CL) has   545 elements
+Group    16 (          Water) has 2507433 elements
+Group    17 (            SOL) has 2507433 elements
+Group    18 (      non-Water) has 497290 elements
+Group    19 (            Ion) has  1630 elements
+Group    20 ( Water_and_ions) has 2509063 elements
+Select a group: Reading frames from gro file 'Protein in water', 3004723 atoms.
+Reading frame       0 time    0.000   
+Precision of aav1/10ns_aav1ph8salt30suc1/md.gro is 0.001 (nm)
+Last frame          0 time    0.000   
+ ->  frame      0 time    0.000      
+Last written: frame      0 time    0.000
+
+
+GROMACS reminds you: "Highly organized research is guaranteed to produce nothing new." (Frank Herbert)
+
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt30suc1/md.tpr -f aav1/10ns_aav1ph8salt30suc1/step_cluster.gro -o aav1/10ns_aav1ph8salt30suc1/md_whole.gro -pbc mol -center -ur compact
+
+Will write gro: Coordinate file in Gromos-87 format
+Reading file aav1/10ns_aav1ph8salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+Reading file aav1/10ns_aav1ph8salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+Group     0 (         System) has 3004723 elements
+Group     1 (        Protein) has 479100 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153240 elements
+Group     8 (      SideChain) has 325860 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 479100 elements
+Group    11 (    non-Protein) has 2525623 elements
+Group    12 (          Other) has 16560 elements
+Group    13 (            SUC) has 16560 elements
+Group    14 (             NA) has  1085 elements
+Group    15 (             CL) has   545 elements
+Group    16 (          Water) has 2507433 elements
+Group    17 (            SOL) has 2507433 elements
+Group    18 (      non-Water) has 497290 elements
+Group    19 (            Ion) has  1630 elements
+Group    20 ( Water_and_ions) has 2509063 elements
+Select a group: Group     0 (         System) has 3004723 elements
+Group     1 (        Protein) has 479100 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153240 elements
+Group     8 (      SideChain) has 325860 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 479100 elements
+Group    11 (    non-Protein) has 2525623 elements
+Group    12 (          Other) has 16560 elements
+Group    13 (            SUC) has 16560 elements
+Group    14 (             NA) has  1085 elements
+Group    15 (             CL) has   545 elements
+Group    16 (          Water) has 2507433 elements
+Group    17 (            SOL) has 2507433 elements
+Group    18 (      non-Water) has 497290 elements
+Group    19 (            Ion) has  1630 elements
+Group    20 ( Water_and_ions) has 2509063 elements
+Select a group: Reading frames from gro file 'Protein in water', 3004723 atoms.
+Reading frame       0 time    0.000   
+Precision of aav1/10ns_aav1ph8salt30suc1/step_cluster.gro is 0.001 (nm)
+Last frame          0 time    0.000   
+ ->  frame      0 time    0.000      
+Last written: frame      0 time    0.000
+
+
+GROMACS reminds you: "A protein is a chain of letters." (Julie Bernauer)
+
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 471540 atoms, 30720 residues, 1 segments -> /tmp/ignore.pdb
+sucrose: 5535 atoms, 123 molecules (selection: byres (resname SUC and around 15.0 protein))
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph8salt30suc1/sucrose.pqr
+loading topology (this is the slow step)...
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 136, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_pqr_parmed.py", line 90, in main
+    struct = pmd.load_file(args.top, xyz=args.gro)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/parmed/formats/registry.py", line 166, in load_file
+    raise FileNotFoundError('%s does not exist' % filename)
+FileNotFoundError: aav1/input/aav1_ph6/topol_aav1ph8salt30suc1.top does not exist
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc1
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt30suc10/md.tpr -f aav1/10ns_aav1ph8salt30suc10/md.gro -o aav1/10ns_aav1ph8salt30suc10/step_cluster.gro -pbc cluster
+
+
+-------------------------------------------------------
+Program:     gmx trjconv, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt30suc10/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -f
+    File 'aav1/10ns_aav1ph8salt30suc10/md.gro' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc1
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt30suc10/md.tpr -f aav1/10ns_aav1ph8salt30suc10/step_cluster.gro -o aav1/10ns_aav1ph8salt30suc10/md_whole.gro -pbc mol -center -ur compact
+
+
+-------------------------------------------------------
+Program:     gmx trjconv, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt30suc10/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -f
+    File 'aav1/10ns_aav1ph8salt30suc10/step_cluster.gro' does not exist or is
+    not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+python: can't open file '/home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc1/build_suc_pqr.py': [Errno 2] No such file or directory
+python: can't open file '/home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc1/build_pqr_parmed.py': [Errno 2] No such file or directory
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc10
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt200suc1/md.tpr -f aav1/10ns_aav1ph8salt200suc1/md.gro -o aav1/10ns_aav1ph8salt200suc1/step_cluster.gro -pbc cluster
+
+
+-------------------------------------------------------
+Program:     gmx trjconv, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt200suc1/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -f
+    File 'aav1/10ns_aav1ph8salt200suc1/md.gro' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc10
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt200suc1/md.tpr -f aav1/10ns_aav1ph8salt200suc1/step_cluster.gro -o aav1/10ns_aav1ph8salt200suc1/md_whole.gro -pbc mol -center -ur compact
+
+
+-------------------------------------------------------
+Program:     gmx trjconv, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt200suc1/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -f
+    File 'aav1/10ns_aav1ph8salt200suc1/step_cluster.gro' does not exist or is
+    not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+python: can't open file '/home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc10/build_suc_pqr.py': [Errno 2] No such file or directory
+python: can't open file '/home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt30suc10/build_pqr_parmed.py': [Errno 2] No such file or directory
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt200suc1
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt200suc10/md.tpr -f aav1/10ns_aav1ph8salt200suc10/md.gro -o aav1/10ns_aav1ph8salt200suc10/step_cluster.gro -pbc cluster
+
+
+-------------------------------------------------------
+Program:     gmx trjconv, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt200suc10/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -f
+    File 'aav1/10ns_aav1ph8salt200suc10/md.gro' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt200suc1
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph8salt200suc10/md.tpr -f aav1/10ns_aav1ph8salt200suc10/step_cluster.gro -o aav1/10ns_aav1ph8salt200suc10/md_whole.gro -pbc mol -center -ur compact
+
+
+-------------------------------------------------------
+Program:     gmx trjconv, version 2025.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'aav1/10ns_aav1ph8salt200suc10/md.tpr' does not exist or is not
+    accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -f
+    File 'aav1/10ns_aav1ph8salt200suc10/step_cluster.gro' does not exist or is
+    not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+python: can't open file '/home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt200suc1/build_suc_pqr.py': [Errno 2] No such file or directory
+python: can't open file '/home/s.maximilian.wang2/aav/pqr/10ns_aav1ph8salt200suc1/build_pqr_parmed.py': [Errno 2] No such file or directory

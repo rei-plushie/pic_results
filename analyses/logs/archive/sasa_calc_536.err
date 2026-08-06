@@ -1,0 +1,58 @@
+                       :-) GROMACS - gmx sasa, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi sasa -s aav1/10ns_aav1ph6salt30suc1/md.tpr -f aav1/10ns_aav1ph6salt30suc1/md_whole.xtc -surface 'group "Protein" or resname SUC' -output 'group "Protein"' -o sasa/10ns_aav1ph6salt30suc1/capsid_sasa.xvg -or sasa/10ns_aav1ph6salt30suc1/capsid_sasa_perres.xvg -probe 0.14 -ndots 24 -dt 100
+
+Reading file aav1/10ns_aav1ph6salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+Reading file aav1/10ns_aav1ph6salt30suc1/md.tpr, VERSION 2025.3 (single precision)
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+Frank Eisenhaber, Philip Lijnzaad, Patrick Argos, Chris Sander, Michael Scharf
+The Double Cube Lattice Method: Efficient Approaches to Numerical Integration
+of Surface Area and Volume and to Dot Surface Contouring of Molecular
+Assemblies
+J. Comp. Chem. (1995)
+DOI: 10.1002/jcc.540160303
+-------- -------- --- Thank You --- -------- --------
+
+Reading frame       0 time    0.000   
+Back Off! I just backed up sasa/10ns_aav1ph6salt30suc1/capsid_sasa.xvg to sasa/10ns_aav1ph6salt30suc1/#capsid_sasa.xvg.1#
+Skipping frame      1 time   10.000   Skipping frame      2 time   20.000   Skipping frame      3 time   30.000   Skipping frame      4 time   40.000   Skipping frame      5 time   50.000   Skipping frame      6 time   60.000   Skipping frame      7 time   70.000   Skipping frame      8 time   80.000   Skipping frame      9 time   90.000   Reading frame      10 time  100.000   Skipping frame     11 time  110.000   Skipping frame     12 time  120.000   Skipping frame     13 time  130.000   Skipping frame     14 time  140.000   Skipping frame     15 time  150.000   Skipping frame     16 time  160.000   Skipping frame     17 time  170.000   Skipping frame     18 time  180.000   Skipping frame     19 time  190.000   Reading frame      20 time  200.000   Reading frame      30 time  300.000   Reading frame      40 time  400.000   Reading frame      50 time  500.000   Reading frame      60 time  600.000   Reading frame      70 time  700.000   Reading frame      80 time  800.000   Reading frame      90 time  900.000   Reading frame     100 time 1000.000   Reading frame     110 time 1100.000   Reading frame     120 time 1200.000   Reading frame     130 time 1300.000   Reading frame     140 time 1400.000   Reading frame     150 time 1500.000   Reading frame     160 time 1600.000   Reading frame     170 time 1700.000   Reading frame     180 time 1800.000   Reading frame     190 time 1900.000   Reading frame     200 time 2000.000   Reading frame     300 time 3000.000   Reading frame     400 time 4000.000   Reading frame     500 time 5000.000   Reading frame     600 time 6000.000   Reading frame     700 time 7000.000   Reading frame     800 time 8000.000   Reading frame     900 time 9000.000   Reading frame    1000 time 10000.000   Last frame       1000 time 10000.000   
+
+Back Off! I just backed up sasa/10ns_aav1ph6salt30suc1/capsid_sasa_perres.xvg to sasa/10ns_aav1ph6salt30suc1/#capsid_sasa_perres.xvg.1#
+Analyzed 101 frames, last time 10000.000
+
+GROMACS reminds you: "If You See Me Getting High, Knock Me Down" (Red Hot Chili Peppers)
+
+                       :-) GROMACS - gmx sasa, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi sasa -s aav1/10ns_aav1ph6salt30suc10/md.tpr -f aav1/10ns_aav1ph6salt30suc10/md_whole.xtc -surface 'group "Protein" or resname SUC' -output 'group "Protein"' -o sasa/10ns_aav1ph6salt30suc10/capsid_sasa.xvg -or sasa/10ns_aav1ph6salt30suc10/capsid_sasa_perres.xvg -probe 0.14 -ndots 24 -dt 100
+
+Reading file aav1/10ns_aav1ph6salt30suc10/md.tpr, VERSION 2025.3 (single precision)
+Reading file aav1/10ns_aav1ph6salt30suc10/md.tpr, VERSION 2025.3 (single precision)
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+Frank Eisenhaber, Philip Lijnzaad, Patrick Argos, Chris Sander, Michael Scharf
+The Double Cube Lattice Method: Efficient Approaches to Numerical Integration
+of Surface Area and Volume and to Dot Surface Contouring of Molecular
+Assemblies
+J. Comp. Chem. (1995)
+DOI: 10.1002/jcc.540160303
+-------- -------- --- Thank You --- -------- --------
+
+Reading frame       0 time    0.000   
+Back Off! I just backed up sasa/10ns_aav1ph6salt30suc10/capsid_sasa.xvg to sasa/10ns_aav1ph6salt30suc10/#capsid_sasa.xvg.1#
+Skipping frame      1 time   10.000   Skipping frame      2 time   20.000   Skipping frame      3 time   30.000   Skipping frame      4 time   40.000   Skipping frame      5 time   50.000   Skipping frame      6 time   60.000   Skipping frame      7 time   70.000   Skipping frame      8 time   80.000   Skipping frame      9 time   90.000   Reading frame      10 time  100.000   Skipping frame     11 time  110.000   Skipping frame     12 time  120.000   Skipping frame     13 time  130.000   Skipping frame     14 time  140.000   Skipping frame     15 time  150.000   Skipping frame     16 time  160.000   Skipping frame     17 time  170.000   Skipping frame     18 time  180.000   Skipping frame     19 time  190.000   Reading frame      20 time  200.000   Reading frame      30 time  300.000   Reading frame      40 time  400.000   Reading frame      50 time  500.000   Reading frame      60 time  600.000   Reading frame      70 time  700.000   Reading frame      80 time  800.000   Reading frame      90 time  900.000   Reading frame     100 time 1000.000   Reading frame     110 time 1100.000   Reading frame     120 time 1200.000   Reading frame     130 time 1300.000   Reading frame     140 time 1400.000   Reading frame     150 time 1500.000   Reading frame     160 time 1600.000   Reading frame     170 time 1700.000   Reading frame     180 time 1800.000   Reading frame     190 time 1900.000   Reading frame     200 time 2000.000   Reading frame     300 time 3000.000   Reading frame     400 time 4000.000   Reading frame     500 time 5000.000   Reading frame     600 time 6000.000   Reading frame     700 time 7000.000   Reading frame     800 time 8000.000   Reading frame     900 time 9000.000   Reading frame    1000 time 10000.000   Last frame       1000 time 10000.000   
+
+Back Off! I just backed up sasa/10ns_aav1ph6salt30suc10/capsid_sasa_perres.xvg to sasa/10ns_aav1ph6salt30suc10/#capsid_sasa_perres.xvg.1#
+Analyzed 101 frames, last time 10000.000
+
+GROMACS reminds you: "I like to wait, then I feel like I do something" (Carl Caleman)
+

@@ -1,0 +1,63 @@
+==========================================================
+PIC calculation: SUC
+Job: 158   Node: gen-queue-spot-dy-m8i-32xl-1   Started: Wed Jul  1 02:24:29 PM EDT 2026
+GRO: aav1/benchmark/md.gro
+XTC: aav1/benchmark/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 12   CPUs/task: 4
+==========================================================
+14:24:40 [rank   0] INFO ======================================================================
+14:24:40 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+14:24:40 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+14:24:40 [rank   0] INFO MPI ranks: 12
+14:24:46 [rank   9] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:46 [rank   6] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:46 [rank   9] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank   6] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank   9] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank   6] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank  11] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:46 [rank  11] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank  11] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank   3] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:46 [rank   3] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank   3] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank   1] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:46 [rank   1] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:46 [rank   1] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   4] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:47 [rank   4] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   4] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   7] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:47 [rank   6] INFO assigned 167 frames (local index 1002:1169)
+14:24:47 [rank   9] INFO assigned 166 frames (local index 1503:1669)
+14:24:47 [rank   7] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   7] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank  11] INFO assigned 166 frames (local index 1835:2001)
+14:24:47 [rank   3] INFO assigned 167 frames (local index 501:668)
+14:24:47 [rank   1] INFO assigned 167 frames (local index 167:334)
+14:24:47 [rank   4] INFO assigned 167 frames (local index 668:835)
+14:24:47 [rank   7] INFO assigned 167 frames (local index 1169:1336)
+14:24:47 [rank   8] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:47 [rank   8] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   8] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank  10] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:47 [rank  10] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank  10] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   2] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:47 [rank   2] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   2] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   8] INFO assigned 167 frames (local index 1336:1503)
+14:24:47 [rank   5] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:47 [rank   5] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   5] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank  10] INFO assigned 166 frames (local index 1669:1835)
+14:24:47 [rank   2] INFO assigned 167 frames (local index 334:501)
+14:24:47 [rank   5] INFO assigned 167 frames (local index 835:1002)
+14:24:47 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+14:24:47 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+14:24:47 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+14:24:47 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+14:24:47 [rank   0] INFO assigned 167 frames (local index 0:167)
+14:47:52 [rank   0] INFO [AGGREGATE] 96/2001 frames complete cluster-wide (4.8%) | aggregate rate=0.07 fr/s | global ETA=07:40:22 | elapsed=00:23:12

@@ -1,0 +1,644 @@
+==========================================================
+PIC calculation (per-residue): SUC
+Job: 409   Node: mem-queue-multi-az-dy-r8i-24xl-1   Started: Mon Jul 13 11:29:19 AM EDT 2026
+GRO: aav1/10ns_aav1ph8salt200suc10/md.gro
+XTC: aav1/10ns_aav1ph8salt200suc10/md_whole.xtc
+Radius: 15 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 48   CPUs/task: 1
+==========================================================
+11:29:34 [rank   0] INFO ======================================================================
+11:29:34 [rank   0] INFO PIC (Gamma_23) calculation, per-residue, EXTERIOR SOLVENT ONLY
+11:29:34 [rank   0] INFO gro=aav1/10ns_aav1ph8salt200suc10/md.gro xtc=aav1/10ns_aav1ph8salt200suc10/md_whole.xtc excipient=SUC radius=15.00 A charge=0.000
+11:29:34 [rank   0] INFO shell-margin=2.0 A  density-bin-width=2.0 A  calib-frames=20
+11:29:34 [rank   0] INFO MPI ranks: 48
+11:29:34 [rank   0] INFO r* FORCED to 10.00 A for every residue and the whole-molecule curve (auto-detection disabled)
+11:29:54 [rank  17] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  17] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  17] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  41] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  41] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  41] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  29] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  14] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank   8] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  14] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  29] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  14] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  29] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank   8] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank   8] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  38] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  34] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  30] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  39] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  38] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  38] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  22] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank  34] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  34] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  30] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  30] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  39] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  39] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  22] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank  22] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank   3] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:54 [rank   3] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:54 [rank   3] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  35] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  21] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  17] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  35] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  21] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  35] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  21] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   2] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   2] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   2] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  41] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  29] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  23] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  14] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   8] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  23] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  23] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   5] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  37] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   9] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  38] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   5] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   5] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  34] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  39] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  30] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  37] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  37] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   9] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   9] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  22] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  12] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  19] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   3] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  17] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  19] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  19] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  17] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  10] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  12] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  12] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  21] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  35] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  10] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  10] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  17] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  18] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  41] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  41] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  29] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  16] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  29] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  32] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  18] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  18] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   2] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  16] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  41] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  16] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  32] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  14] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  32] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  29] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   6] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  14] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   8] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   8] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  23] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   6] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   6] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  39] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  14] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  39] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   8] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  11] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  40] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  36] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   5] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  34] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  37] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  38] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  34] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   9] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  38] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  11] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  11] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  40] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  39] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  40] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  36] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  30] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   3] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  36] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  22] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  30] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  24] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   3] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  22] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  34] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  38] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  24] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  24] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  21] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  19] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  21] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  30] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  12] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   3] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  22] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  35] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  35] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  10] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  21] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  35] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   2] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   2] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  18] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   7] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  16] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  32] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   2] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   7] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   7] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  23] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  23] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   6] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  23] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  37] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   5] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  37] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   5] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   9] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   9] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  11] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  37] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  40] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   5] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  36] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  19] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   9] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  19] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  24] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  12] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  12] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  19] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  10] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  10] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  44] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  12] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  33] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  44] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  44] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  10] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  33] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  33] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  18] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   7] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  18] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  16] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  32] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  16] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  32] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  18] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  42] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  11] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   6] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  16] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  32] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  11] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   6] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  26] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  42] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  42] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  27] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  26] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  26] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  11] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   6] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  46] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  27] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  40] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  27] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  36] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  40] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  36] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  46] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  46] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  24] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  24] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  40] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  36] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   1] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  24] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   7] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   4] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  44] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   7] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   1] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   1] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  33] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   4] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   4] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   7] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   0] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  42] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  26] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  27] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   0] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  46] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  33] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  33] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  44] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  44] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   1] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  33] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   4] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  44] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  45] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  45] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  45] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  31] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  31] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  31] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  42] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  26] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  42] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  26] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  27] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  27] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank   0] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  42] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  26] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  46] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  46] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  27] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  46] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   1] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  28] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   1] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  20] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  15] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   4] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   4] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  28] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  28] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  20] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  20] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   1] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  15] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  15] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   4] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank  45] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  31] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank   0] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank   0] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  13] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank   0] INFO [protein] chain-grouping candidate 'segindices': 1 distinct groups, member counts min=471540 max=471540 mean=471540.0 (uniform sizes are a good sign for a multi-copy assembly like a capsid)
+11:29:55 [rank   0] INFO [protein] chain-grouping candidate 'resid-reset': 60 distinct groups, member counts min=7859 max=7859 mean=7859.0 (uniform sizes are a good sign for a multi-copy assembly like a capsid)
+11:29:55 [rank   0] INFO [protein] using 'resid-reset' for chain-level PBC realignment (60 distinct chains/segments)
+11:29:55 [rank  13] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  13] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank   0] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:55 [rank   0] INFO protein atoms=471540 residues=30720  water molecules=777351 (topology total)  SUC molecules=3684 (topology total)
+11:29:55 [rank  43] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:55 [rank  43] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  43] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:55 [rank  28] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  20] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:55 [rank  45] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:55 [rank  45] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:55 [rank  15] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:56 [rank  25] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:56 [rank  45] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  31] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  25] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:56 [rank  25] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:56 [rank  31] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  31] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  47] INFO [protein] 471540 atoms, mass range 1.008-32.060 amu (OK)
+11:29:56 [rank  47] INFO [water] 2332053 atoms, mass range 1.008-15.999 amu (OK)
+11:29:56 [rank  47] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+11:29:56 [rank  13] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:56 [rank  28] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  20] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  28] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  15] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  20] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  15] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  43] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:56 [rank  28] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  20] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  15] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  25] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:56 [rank  13] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  13] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  47] INFO [protein] 471540 atoms grouped into 30720 residues/molecules
+11:29:56 [rank  13] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  43] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  43] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  43] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  25] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  25] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  25] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:29:56 [rank  47] INFO [water] 2332053 atoms grouped into 777351 residues/molecules
+11:29:56 [rank  47] INFO [excipient] 165780 atoms grouped into 3684 residues/molecules
+11:29:56 [rank  47] INFO [protein-chain] 471540 atoms grouped into 60 residues/molecules
+11:30:05 [rank  44] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  44] INFO assigned 20 frames (local index 921:941)
+11:30:05 [rank  32] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   6] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  42] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  10] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   2] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  18] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  26] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  34] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  46] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   4] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  20] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  22] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  24] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  40] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  30] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  12] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  14] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  36] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   8] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  16] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  32] INFO assigned 21 frames (local index 672:693)
+11:30:05 [rank   0] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   0] INFO [shell calibration, density-based] 20 frames sampled (of 1001 total) -- search window [88.3, 159.3] A, density minimum (outer boundary) at 103.00 A (trough=0.003419 /A^3, outer bulk=0.03154 /A^3), inner boundary at 103.00 A
+11:30:05 [rank  28] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  11] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  27] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  38] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  31] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  43] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   3] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  23] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   6] INFO assigned 21 frames (local index 126:147)
+11:30:05 [rank  37] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  29] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   5] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   2] INFO assigned 21 frames (local index 42:63)
+11:30:05 [rank  10] INFO assigned 21 frames (local index 210:231)
+11:30:05 [rank  25] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  15] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  14] INFO assigned 21 frames (local index 294:315)
+11:30:05 [rank   4] INFO assigned 21 frames (local index 84:105)
+11:30:05 [rank  18] INFO assigned 21 frames (local index 378:399)
+11:30:05 [rank   7] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  42] INFO assigned 20 frames (local index 881:901)
+11:30:05 [rank  22] INFO assigned 21 frames (local index 462:483)
+11:30:05 [rank  46] INFO assigned 20 frames (local index 961:981)
+11:30:05 [rank  40] INFO assigned 21 frames (local index 840:861)
+11:30:05 [rank  24] INFO assigned 21 frames (local index 504:525)
+11:30:05 [rank  26] INFO assigned 21 frames (local index 546:567)
+11:30:05 [rank  20] INFO assigned 21 frames (local index 420:441)
+11:30:05 [rank   8] INFO assigned 21 frames (local index 168:189)
+11:30:05 [rank  17] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  30] INFO assigned 21 frames (local index 630:651)
+11:30:05 [rank  16] INFO assigned 21 frames (local index 336:357)
+11:30:05 [rank   0] INFO Exterior classification cutoff: radial distance > 105.00 A (outer radius 103.00 + margin 2.00)
+11:30:05 [rank   0] INFO Interior classification cutoff: radial distance < 101.00 A (inner radius 103.00 - margin 2.00)
+11:30:05 [rank  36] INFO assigned 21 frames (local index 756:777)
+11:30:05 [rank  34] INFO assigned 21 frames (local index 714:735)
+11:30:05 [rank  13] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  12] INFO assigned 21 frames (local index 252:273)
+11:30:05 [rank   0] INFO Per-residue facing (median split at 108.52 A): 15360 outer-facing, 15360 inner-facing
+11:30:05 [rank  28] INFO assigned 21 frames (local index 588:609)
+11:30:05 [rank   0] INFO trajectory frames: 1001 total, 1001 selected (stride=1, max_frames=None)
+11:30:05 [rank   0] INFO assigned 21 frames (local index 0:21)
+11:30:05 [rank  38] INFO assigned 21 frames (local index 798:819)
+11:30:05 [rank  33] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank   1] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  39] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  41] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  27] INFO assigned 21 frames (local index 567:588)
+11:30:05 [rank  19] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  21] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  11] INFO assigned 21 frames (local index 231:252)
+11:30:05 [rank  45] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  47] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  31] INFO assigned 21 frames (local index 651:672)
+11:30:05 [rank   9] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  29] INFO assigned 21 frames (local index 609:630)
+11:30:05 [rank  37] INFO assigned 21 frames (local index 777:798)
+11:30:05 [rank   5] INFO assigned 21 frames (local index 105:126)
+11:30:05 [rank  43] INFO assigned 20 frames (local index 901:921)
+11:30:05 [rank   3] INFO assigned 21 frames (local index 63:84)
+11:30:05 [rank  23] INFO assigned 21 frames (local index 483:504)
+11:30:05 [rank   7] INFO assigned 21 frames (local index 147:168)
+11:30:05 [rank  25] INFO assigned 21 frames (local index 525:546)
+11:30:05 [rank  15] INFO assigned 21 frames (local index 315:336)
+11:30:05 [rank  33] INFO assigned 21 frames (local index 693:714)
+11:30:05 [rank  13] INFO assigned 21 frames (local index 273:294)
+11:30:05 [rank  17] INFO assigned 21 frames (local index 357:378)
+11:30:05 [rank  39] INFO assigned 21 frames (local index 819:840)
+11:30:05 [rank   1] INFO assigned 21 frames (local index 21:42)
+11:30:05 [rank  41] INFO assigned 20 frames (local index 861:881)
+11:30:05 [rank  47] INFO assigned 20 frames (local index 981:1001)
+11:30:05 [rank  21] INFO assigned 21 frames (local index 441:462)
+11:30:05 [rank  19] INFO assigned 21 frames (local index 399:420)
+11:30:05 [rank  45] INFO assigned 20 frames (local index 941:961)
+11:30:05 [rank   9] INFO assigned 21 frames (local index 189:210)
+11:30:05 [rank  35] WARNING [shell calibration] water density only recovers to 53% of outer bulk by 15.0 A past the candidate outer boundary (103.00 A) -- a genuine hollow shell should snap back close to bulk within about one solvation shell's width. This profile looks like a slow, gradual core-to-surface rise (typical of a solid, non-hollow structure) rather than a real shell-to-bulk transition. Check the saved density plot; the outer boundary is likely placed too far inward to be trustworthy.
+11:30:05 [rank  35] INFO assigned 21 frames (local index 735:756)
+11:30:20 [rank   0] INFO [AGGREGATE] 48/1001 frames complete cluster-wide (4.8%) | aggregate rate=1.05 fr/s | global ETA=00:15:05 | elapsed=00:00:46
+11:30:35 [rank   0] INFO [AGGREGATE] 96/1001 frames complete cluster-wide (9.6%) | aggregate rate=1.58 fr/s | global ETA=00:09:31 | elapsed=00:01:01
+11:30:50 [rank   0] INFO [AGGREGATE] 144/1001 frames complete cluster-wide (14.4%) | aggregate rate=1.89 fr/s | global ETA=00:07:33 | elapsed=00:01:16
+11:31:06 [rank   0] INFO [AGGREGATE] 192/1001 frames complete cluster-wide (19.2%) | aggregate rate=2.09 fr/s | global ETA=00:06:27 | elapsed=00:01:32
+11:31:23 [rank   0] INFO [AGGREGATE] 240/1001 frames complete cluster-wide (24.0%) | aggregate rate=2.20 fr/s | global ETA=00:05:46 | elapsed=00:01:49
+11:31:41 [rank   0] INFO [AGGREGATE] 288/1001 frames complete cluster-wide (28.8%) | aggregate rate=2.27 fr/s | global ETA=00:05:14 | elapsed=00:02:07
+11:32:01 [rank   0] INFO [AGGREGATE] 336/1001 frames complete cluster-wide (33.6%) | aggregate rate=2.30 fr/s | global ETA=00:04:50 | elapsed=00:02:26
+11:32:20 [rank   0] INFO [AGGREGATE] 384/1001 frames complete cluster-wide (38.4%) | aggregate rate=2.31 fr/s | global ETA=00:04:27 | elapsed=00:02:46
+11:32:40 [rank   0] INFO [AGGREGATE] 432/1001 frames complete cluster-wide (43.2%) | aggregate rate=2.32 fr/s | global ETA=00:04:05 | elapsed=00:03:06
+11:33:01 [rank   0] INFO [AGGREGATE] 480/1001 frames complete cluster-wide (48.0%) | aggregate rate=2.33 fr/s | global ETA=00:03:44 | elapsed=00:03:26
+11:33:40 [rank   0] INFO [AGGREGATE] 576/1001 frames complete cluster-wide (57.5%) | aggregate rate=2.34 fr/s | global ETA=00:03:01 | elapsed=00:04:06
+11:34:01 [rank   0] INFO [AGGREGATE] 624/1001 frames complete cluster-wide (62.3%) | aggregate rate=2.34 fr/s | global ETA=00:02:41 | elapsed=00:04:27
+11:34:24 [rank   0] INFO [AGGREGATE] 672/1001 frames complete cluster-wide (67.1%) | aggregate rate=2.32 fr/s | global ETA=00:02:22 | elapsed=00:04:49
+11:34:43 [rank   0] INFO [AGGREGATE] 720/1001 frames complete cluster-wide (71.9%) | aggregate rate=2.33 fr/s | global ETA=00:02:01 | elapsed=00:05:09
+11:35:04 [rank   0] INFO [AGGREGATE] 768/1001 frames complete cluster-wide (76.7%) | aggregate rate=2.33 fr/s | global ETA=00:01:40 | elapsed=00:05:29
+11:35:26 [rank   0] INFO [AGGREGATE] 816/1001 frames complete cluster-wide (81.5%) | aggregate rate=2.32 fr/s | global ETA=00:01:20 | elapsed=00:05:51
+11:35:51 [rank   0] INFO [AGGREGATE] 864/1001 frames complete cluster-wide (86.3%) | aggregate rate=2.29 fr/s | global ETA=00:01:00 | elapsed=00:06:17
+11:36:13 [rank   0] INFO [AGGREGATE] 912/1001 frames complete cluster-wide (91.1%) | aggregate rate=2.29 fr/s | global ETA=00:00:39 | elapsed=00:06:39
+11:36:22 [rank  47] INFO frame 20/20 (100.0%, global frame 1000) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683104 exc=3314
+11:36:37 [rank  42] INFO frame 20/20 (100.0%, global frame 900) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683141 exc=3314
+11:36:37 [rank  44] INFO frame 20/20 (100.0%, global frame 940) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683126 exc=3314
+11:36:38 [rank  46] INFO frame 20/20 (100.0%, global frame 980) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683133 exc=3314
+11:36:38 [rank  43] INFO frame 20/20 (100.0%, global frame 920) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683121 exc=3314
+11:36:38 [rank  41] INFO frame 20/20 (100.0%, global frame 880) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683125 exc=3314
+11:36:38 [rank  45] INFO frame 20/20 (100.0%, global frame 960) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683082 exc=3314
+11:36:38 [rank   0] INFO [AGGREGATE] 960/1001 frames complete cluster-wide (95.9%) | aggregate rate=2.26 fr/s | global ETA=00:00:18 | elapsed=00:07:04
+11:36:57 [rank  12] INFO frame 21/21 (100.0%, global frame 272) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683367 exc=3314
+11:36:57 [rank  22] INFO frame 21/21 (100.0%, global frame 482) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683320 exc=3314
+11:36:57 [rank  28] INFO frame 21/21 (100.0%, global frame 608) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683317 exc=3314
+11:36:58 [rank  26] INFO frame 21/21 (100.0%, global frame 566) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683316 exc=3314
+11:36:58 [rank  18] INFO frame 21/21 (100.0%, global frame 398) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683333 exc=3314
+11:36:58 [rank   6] INFO frame 21/21 (100.0%, global frame 146) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683433 exc=3315
+11:36:58 [rank  16] INFO frame 21/21 (100.0%, global frame 356) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683378 exc=3314
+11:36:58 [rank   4] INFO frame 21/21 (100.0%, global frame 104) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683531 exc=3315
+11:36:58 [rank   0] INFO frame 21/21 (100.0%, global frame 20) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683639 exc=3315
+11:36:58 [rank  32] INFO frame 21/21 (100.0%, global frame 692) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683256 exc=3314
+11:36:58 [rank  24] INFO frame 21/21 (100.0%, global frame 524) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683299 exc=3314
+11:36:58 [rank  30] INFO frame 21/21 (100.0%, global frame 650) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683271 exc=3314
+11:36:58 [rank   2] INFO frame 21/21 (100.0%, global frame 62) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683570 exc=3315
+11:36:58 [rank  14] INFO frame 21/21 (100.0%, global frame 314) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683369 exc=3314
+11:36:58 [rank   8] INFO frame 21/21 (100.0%, global frame 188) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683429 exc=3314
+11:36:58 [rank  20] INFO frame 21/21 (100.0%, global frame 440) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683301 exc=3314
+11:36:58 [rank   9] INFO frame 21/21 (100.0%, global frame 209) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683406 exc=3314
+11:36:58 [rank  11] INFO frame 21/21 (100.0%, global frame 251) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683318 exc=3314
+11:36:58 [rank  40] INFO frame 21/21 (100.0%, global frame 860) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683159 exc=3314
+11:36:58 [rank  34] INFO frame 21/21 (100.0%, global frame 734) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683225 exc=3314
+11:36:58 [rank  10] INFO frame 21/21 (100.0%, global frame 230) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683357 exc=3314
+11:36:58 [rank  38] INFO frame 21/21 (100.0%, global frame 818) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683164 exc=3314
+11:36:58 [rank  25] INFO frame 21/21 (100.0%, global frame 545) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683250 exc=3314
+11:36:58 [rank  39] INFO frame 21/21 (100.0%, global frame 839) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683110 exc=3314
+11:36:58 [rank  36] INFO frame 21/21 (100.0%, global frame 776) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683172 exc=3314
+11:36:58 [rank   3] INFO frame 21/21 (100.0%, global frame 83) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683523 exc=3315
+11:36:58 [rank  35] INFO frame 21/21 (100.0%, global frame 755) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683218 exc=3314
+11:36:59 [rank  29] INFO frame 21/21 (100.0%, global frame 629) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683260 exc=3314
+11:36:59 [rank   7] INFO frame 21/21 (100.0%, global frame 167) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683437 exc=3315
+11:36:59 [rank  27] INFO frame 21/21 (100.0%, global frame 587) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683249 exc=3314
+11:36:59 [rank  33] INFO frame 21/21 (100.0%, global frame 713) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683234 exc=3314
+11:36:59 [rank  31] INFO frame 21/21 (100.0%, global frame 671) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683272 exc=3314
+11:36:59 [rank   1] INFO frame 21/21 (100.0%, global frame 41) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683608 exc=3315
+11:36:59 [rank  15] INFO frame 21/21 (100.0%, global frame 335) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683345 exc=3314
+11:36:59 [rank  21] INFO frame 21/21 (100.0%, global frame 461) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683267 exc=3314
+11:36:59 [rank  13] INFO frame 21/21 (100.0%, global frame 293) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683387 exc=3314
+11:36:59 [rank  37] INFO frame 21/21 (100.0%, global frame 797) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683187 exc=3314
+11:36:59 [rank   5] INFO frame 21/21 (100.0%, global frame 125) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683520 exc=3315
+11:36:59 [rank  23] INFO frame 21/21 (100.0%, global frame 503) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683326 exc=3314
+11:36:59 [rank  19] INFO frame 21/21 (100.0%, global frame 419) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683364 exc=3314
+11:36:59 [rank  17] INFO frame 21/21 (100.0%, global frame 377) | rate=0.05 fr/s | local ETA=00:00:00 | exterior water=683330 exc=3314
+11:36:59 [rank   0] INFO [AGGREGATE] 1001/1001 frames complete cluster-wide (100.0%) | aggregate rate=2.25 fr/s | global ETA=00:00:00 | elapsed=00:07:25
+11:37:00 [rank   0] INFO aggregated per-residue Gamma_23(r,t): shape (30720, 150) over 1001 rank-frames
+11:37:00 [rank   0] INFO Mean per-frame classification: water exterior=683315 interior=92035 (of 777351 topology total) | SUC exterior=3314 interior=369 (of 3684 topology total)
+11:37:00 [rank   0] INFO FORCED whole-molecule r* = 10.00 A
+11:37:00 [rank   0] INFO Whole-molecule Gamma_23 (exterior-only, residue-sphere approximation) = -58.4955 +/- 1.9677
+11:37:00 [rank   0] INFO Per-residue Gamma_23, OUTER-facing: min=-1.5387 max=9.1890 mean=-0.2098 (n=15360)
+11:37:00 [rank   0] INFO Per-residue Gamma_23, INNER-facing (expect near-zero/degenerate -- no access to exterior solvent by construction): min=-0.7645 max=2.0655 mean=-0.1004 (n=15360)
+11:39:32 [rank   0] INFO saved raw data -> pic/pic_results_SUC_409/pic_SUC_exterior.pkl
+11:39:32 [rank   0] INFO saved per-residue table -> pic/pic_results_SUC_409/pic_SUC_exterior_per_residue.csv
+11:39:32 [rank   0] INFO saved whole-molecule r-profile -> pic/pic_results_SUC_409/pic_SUC_exterior_vs_r.csv
+11:39:43 [rank   0] INFO saved plot -> pic/pic_results_SUC_409/pic_SUC_exterior_summary.png
+11:39:44 [rank   0] INFO saved shell calibration diagnostic plot -> pic/pic_results_SUC_409/pic_SUC_shell_density.png
+11:39:44 [rank   0] INFO 471540 atoms exceeds the classic PDB 99999-atom limit -- writing hybrid-36 serial numbers (read natively by PyMOL/ChimeraX/Phenix; tools that only understand plain-decimal PDB will misparse rows beyond atom 99999, same as they would for any oversized PDB file).
+11:39:46 [rank   0] INFO saved B-factor-colored structure (frame 0) -> pic/pic_results_SUC_409/pic_SUC_exterior_bfactor.pdb
+11:39:46 [rank   0] INFO TOTAL RUNTIME: 611.6 s (1.64 frames/s aggregate)
+11:39:46 [rank   0] INFO ======================================================================
+11:39:46 [rank   0] INFO RESULT: whole-molecule Gamma_23(SUC), exterior-only = -58.4955 +/- 1.9677 (r* = 10.00 A, forced)
+11:39:46 [rank   0] INFO Per-residue breakdown (with facing diagnostic): pic/pic_results_SUC_409/pic_SUC_exterior_per_residue.csv
+11:39:46 [rank   0] INFO ======================================================================
+Parsing pic/pic_results_SUC_409/pic_SUC_exterior_bfactor.pdb ...
+========================================================================
+HIGH-PIC RESIDUE CHARACTERIZATION
+========================================================================
+Residues analyzed: 30720
+Gamma_23 range: -1.540 to 9.190
+
+-- Top 20 residues by Gamma_23 --
+  #  1 GLN457   (Q) gamma23=   9.190  class=Polar_uncharged 
+  #  2 ALA456   (A) gamma23=   7.220  class=Aliphatic       
+  #  3 SER455   (S) gamma23=   6.850  class=Polar_uncharged 
+  #  4 GLY454   (G) gamma23=   6.140  class=Special         
+  #  5 ASN451   (N) gamma23=   6.070  class=Polar_uncharged 
+  #  6 GLN452   (Q) gamma23=   6.010  class=Polar_uncharged 
+  #  7 SER453   (S) gamma23=   5.650  class=Polar_uncharged 
+  #  8 GLN450   (Q) gamma23=   5.220  class=Polar_uncharged 
+  #  9 ARG448   (R) gamma23=   5.060  class=Basic           
+  # 10 ASN458   (N) gamma23=   4.810  class=Polar_uncharged 
+  # 11 SER453   (S) gamma23=   4.640  class=Polar_uncharged 
+  # 12 GLN452   (Q) gamma23=   4.610  class=Polar_uncharged 
+  # 13 GLY454   (G) gamma23=   4.550  class=Special         
+  # 14 GLN452   (Q) gamma23=   4.510  class=Polar_uncharged 
+  # 15 GLN457   (Q) gamma23=   4.490  class=Polar_uncharged 
+  # 16 GLY454   (G) gamma23=   4.350  class=Special         
+  # 17 ASN552   (N) gamma23=   4.160  class=Polar_uncharged 
+  # 18 ARG448   (R) gamma23=   4.090  class=Basic           
+  # 19 ASN451   (N) gamma23=   4.080  class=Polar_uncharged 
+  # 20 SER453   (S) gamma23=   3.920  class=Polar_uncharged 
+
+Top-20 residue-type composition: GLN=6, SER=4, ASN=4, GLY=3, ARG=2, ALA=1
+Top-20 class composition: Polar_uncharged=14, Special=3, Basic=2, Aliphatic=1
+
+-- Gamma_23 by residue type (all residues, sorted by mean) --
+resname    n     mean      sem      std      min      max
+    SER 2760   -0.057    0.010    0.548   -1.140    6.850
+    ASN 2640   -0.093    0.011    0.580   -1.250    6.070
+    GLY 2220   -0.094    0.009    0.432   -1.240    6.140
+    GLN 1500   -0.096    0.017    0.639   -1.160    9.190
+    ALA 1800   -0.113    0.014    0.574   -1.190    7.220
+    TRP  720   -0.116    0.008    0.213   -1.000    1.990
+    THR 2460   -0.129    0.009    0.455   -1.230    3.100
+    CYS  300   -0.140    0.006    0.109   -0.340    0.630
+    PRO 2160   -0.157    0.006    0.264   -1.020    3.490
+    LEU 1980   -0.167    0.006    0.282   -1.140    2.400
+    HIS  780   -0.170    0.012    0.333   -1.050    1.850
+    VAL 1620   -0.185    0.009    0.351   -1.340    2.460
+    ILE 1140   -0.194    0.009    0.318   -0.910    2.790
+    PHE 1800   -0.196    0.008    0.350   -1.270    1.790
+    ARG 1260   -0.215    0.013    0.461   -1.160    5.060
+    ASP 1500   -0.239    0.011    0.443   -1.360    2.510
+    GLU 1140   -0.248    0.011    0.378   -1.240    2.070
+    TYR 1440   -0.254    0.009    0.349   -1.480    1.910
+    LYS  840   -0.273    0.019    0.561   -1.540    3.900
+    MET  660   -0.275    0.011    0.293   -1.010    1.360
+
+-- Gamma_23 by side-chain class (all residues, sorted by mean) --
+  residue_class    n     mean      sem      std      min      max
+Polar_uncharged 9360   -0.092    0.006    0.551   -1.250    9.190
+        Special 4380   -0.125    0.005    0.360   -1.240    6.140
+      Aliphatic 6540   -0.161    0.005    0.405   -1.340    7.220
+       Aromatic 3960   -0.202    0.005    0.332   -1.480    1.990
+          Basic 2880   -0.220    0.009    0.465   -1.540    5.060
+         Sulfur  960   -0.233    0.008    0.258   -1.010    1.360
+         Acidic 2640   -0.243    0.008    0.416   -1.360    2.510
+
+-- Spearman correlation of continuous properties vs. Gamma_23 (all residues) --
+  property     n  spearman_r  p_value
+hydropathy 30720      0.0088   0.1214
+ volume_A3 30720     -0.0617   0.0000
+     mw_Da 30720     -0.0700   0.0000
+    charge 30720      0.0088   0.1214
+
+-- Fisher's-exact enrichment in top-20 vs. rest (alpha=0.05) --
+                group  n_in_top  n_top  n_in_rest  n_rest  freq_in_top  freq_in_rest  fold_enrichment  odds_ratio  p_value  significant
+             type:GLN         6     20       1494   30700       0.3000        0.0487           6.1647      8.3781   0.0003         True
+class:Polar_uncharged        14     20       9346   30700       0.7000        0.3044           2.2994      5.3313   0.0003         True
+        flag:is_polar        16     20      14864   30700       0.8000        0.4842           1.6523      4.2616   0.0039         True
+
+Plots saved to /home/s.maximilian.wang2/aav/pic/pic_results_SUC_409/pic_residue_characterization/plots
+
+All outputs written to /home/s.maximilian.wang2/aav/pic/pic_results_SUC_409/pic_residue_characterization
+11:39:54 INFO === SUC ===
+11:39:55 INFO [pic/pic_results_SUC_409/pic_SUC_exterior.pkl] 30720 residues, 60 chains, 15360 surface-exposed (facing_outer)
+11:40:07 INFO [protein-residue] 471540 atoms grouped into 30720 residues/molecules
+11:40:07 INFO [5-fold] resolved 60 chains into 12 groups of 5 (OK)
+11:40:07 INFO [3-fold] resolved 60 chains into 20 groups of 3 (OK)
+11:40:07 INFO [SUC] surface-exposed residues assigned: 5F=2332, 3F=12351 (of 15360 surface-exposed, max-axis-angle=20.0 deg)
+11:40:08 INFO 471540 atoms exceeds the classic PDB 99999-atom limit -- writing hybrid-36 serial numbers (read natively by PyMOL/ChimeraX/Phenix; tools that only understand plain-decimal PDB will misparse rows beyond atom 99999, same as they would for any oversized PDB file).
+11:40:10 INFO wrote region-selection B-factor PDB (-1=5F, 0=neither, +1=3F) -> /home/s.maximilian.wang2/aav/pic/pic_results_SUC_409/pic_symmetry_regions/regions_bfactor.pdb
+11:40:10 INFO [SUC] wrote outputs to /home/s.maximilian.wang2/aav/pic/pic_results_SUC_409/pic_symmetry_regions
+11:40:10 INFO done.
+==========================================================
+Finished: Mon Jul 13 11:40:10 AM EDT 2026   Exit code: 0
+Results in: pic/pic_results_SUC_409/
+  pic_SUC.pkl                 -- full per-residue + whole-molecule arrays
+  pic_SUC_per_residue.csv     -- resid, resname, Gamma_23, SEM, r* per residue
+  pic_SUC_vs_r.csv            -- whole-molecule r-profile (validation)
+  pic_SUC_summary.png         -- whole-molecule r-profile + per-residue bar plot
+  pic_SUC_bfactor.pdb         -- structure with B-factor = per-residue Gamma_23
+==========================================================
+REMINDER: auto-detected r* (whole-molecule and per-residue) is a
+starting estimate only -- confirm the plateau visually in the .png
+before trusting Gamma_23.

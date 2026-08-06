@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/pic_symmetry_regions.py", line 675, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/pic_symmetry_regions.py", line 662, in main
+    run_one(label, pkl_path, gro_path, selection, args.max_axis_angle_deg, out_dir, logger)
+  File "/home/s.maximilian.wang2/aav/pic_symmetry_regions.py", line 621, in run_one
+    write_region_pdb(df, pdb_context, os.path.join(out_dir, "regions_bfactor.pdb"), logger)
+  File "/home/s.maximilian.wang2/aav/pic_symmetry_regions.py", line 537, in write_region_pdb
+    write_pdb_hybrid36(
+TypeError: write_pdb_hybrid36() got an unexpected keyword argument 'remark_lines'

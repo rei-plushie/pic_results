@@ -1,0 +1,48 @@
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top
+usage: build_pqr_parmed.py [-h] --top TOP --gro GRO [--topdir TOPDIR]
+                           [--protein-out PROTEIN_OUT] [--suc-out SUC_OUT]
+                           [--suc-resname SUC_RESNAME]
+build_pqr_parmed.py: error: the following arguments are required: --top

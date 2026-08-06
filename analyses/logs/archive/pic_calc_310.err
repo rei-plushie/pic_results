@@ -1,0 +1,4 @@
+/home/s.maximilian.wang2/aav/characterize_high_pic_residues.py:242: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r, pval = stats.spearmanr(sub[p], sub["gamma23"])
+/home/s.maximilian.wang2/aav/characterize_high_pic_residues.py:331: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r, pval = stats.spearmanr(sub["hydropathy"], sub["gamma23"])

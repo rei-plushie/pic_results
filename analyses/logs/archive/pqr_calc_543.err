@@ -1,0 +1,66 @@
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 478908 atoms, 31020 residues, 1 segments -> /tmp/ignore.pdb
+sucrose: 6525 atoms, 145 molecules (selection: byres (resname SUC and around 15.0 protein))
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph6salt30suc1/sucrose.pqr
+loading topology (this is the slow step)...
+loaded 3005425 atoms, 868759 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt30suc1/capsid_protein.pqr
+sucrose PQR: 16560 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt30suc1/suc_parmed.pqr
+[protein+sucrose] extent A: [502.4 410.2 284.6]
+[protein+sucrose] fglen -> [522.4 430.2 304.6]   cglen -> [835.9 688.4 487.3]
+cat: capsid_protein.pqr: No such file or directory
+cat: suc_parmed.pqr: No such file or directory
+itp template: 45 atoms, net charge -0.0000 e
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/build_suc_pqr.py", line 149, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/build_suc_pqr.py", line 99, in main
+    u = mda.Universe(args.gro)   # MDAnalysis loads coords in Angstrom
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 356, in __init__
+    topology = _topology_from_file_like(self.filename,
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 118, in _topology_from_file_like
+    raise sys.exc_info()[1] from err
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/core/universe.py", line 110, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/topology/GROParser.py", line 84, in parse
+    with openany(self.filename) as inf:
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 318, in openany
+    stream = anyopen(datasource, mode=mode, reset=reset)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 397, in anyopen
+    stream = _get_stream(datasource, openfunc, mode=mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 439, in _get_stream
+    raise sys.exc_info()[1] from err
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/util.py", line 433, in _get_stream
+    stream = openfunction(filename, mode=mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/picklable_file_io.py", line 478, in bz2_pickle_open
+    binary_file = BZ2Picklable(name, bz_mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/lib/picklable_file_io.py", line 266, in __init__
+    super().__init__(name, mode)
+  File "/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/bz2.py", line 85, in __init__
+    self._fp = _builtin_open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'aav1/10ns_aav1ph6salt30suc10/md_whole.gro'
+loading topology (this is the slow step)...
+slurmstepd: error: *** JOB 543 ON mem-queue-multi-az-dy-r8i-32xl-1 CANCELLED AT 2026-07-23T17:25:09 ***

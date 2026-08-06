@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/home/s.maximilian.wang2/aav/sucrose_hbond_regions.py", line 341, in <module>
+    main()
+  File "/home/s.maximilian.wang2/aav/sucrose_hbond_regions.py", line 239, in main
+    u = mda.Universe(args.top, args.xtc)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/core/universe.py", line 569, in __init__
+    topology = _topology_from_file_like(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/core/universe.py", line 239, in _topology_from_file_like
+    raise sys.exc_info()[1] from err
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/core/universe.py", line 229, in _topology_from_file_like
+    topology = p.parse(**kwargs)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/topology/GROParser.py", line 88, in parse
+    with openany(self.filename) as inf:
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/lib/util.py", line 326, in openany
+    stream = anyopen(datasource, mode=mode, reset=reset)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/lib/util.py", line 408, in anyopen
+    stream = _get_stream(datasource, openfunc, mode=mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/lib/util.py", line 468, in _get_stream
+    raise sys.exc_info()[1] from err
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/lib/util.py", line 462, in _get_stream
+    stream = openfunction(filename, mode=mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/lib/picklable_file_io.py", line 540, in bz2_pickle_open
+    binary_file = BZ2Picklable(name, bz_mode)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/site-packages/MDAnalysis/lib/picklable_file_io.py", line 309, in __init__
+    super().__init__(name, mode)
+  File "/home/s.maximilian.wang2/.conda/envs/pic_env/lib/python3.12/bz2.py", line 81, in __init__
+    self._fp = _builtin_open(filename, mode)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'hbond_input/10ns_aav1ph6salt110suc8/md_prot_suc.gro'

@@ -1,0 +1,8 @@
+==========================================================
+PIC calculation (per-residue): SUC
+Job: 242   Node: mem-queue-multi-az-dy-r8i-32xl-1   Started: Tue Jul  7 12:31:08 PM EDT 2026
+GRO: aav1/md_aav1_ph6/md.gro
+XTC: aav1/md_aav1_ph6/md_whole.xtc
+Radius: 30.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 64   CPUs/task: 1
+==========================================================

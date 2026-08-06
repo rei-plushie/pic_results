@@ -1,0 +1,16 @@
+==========================================================
+PIC calculation: SUC
+Job: 139   Node: gen-queue-spot-dy-m8i-4xl-1   Started: Wed Jul  1 09:38:07 AM EDT 2026
+GRO: /aav1/md/md.gro
+XTC: /aav1/md/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 2   CPUs/task: 8
+==========================================================
+2 channel Terms of Service accepted
+Retrieving notices: - \ | / - \ | / - done
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): | / - \ | done
+Solving environment: - \ | failed

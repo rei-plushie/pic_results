@@ -1,0 +1,328 @@
+==========================================================
+PIC calculation: SUC
+Job: 156   Node: gen-queue-spot-dy-m8i-32xl-1   Started: Wed Jul  1 01:45:19 PM EDT 2026
+GRO: aav1/benchmark/md.gro
+XTC: aav1/benchmark/md_noPBC.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 32   CPUs/task: 4
+==========================================================
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:36 [rank   0] INFO ======================================================================
+13:45:36 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:36 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:36 [rank   0] INFO MPI ranks: 1
+13:45:37 [rank   0] INFO ======================================================================
+13:45:37 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:37 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:37 [rank   0] INFO MPI ranks: 1
+13:45:37 [rank   0] INFO ======================================================================
+13:45:37 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:37 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:37 [rank   0] INFO MPI ranks: 1
+13:45:37 [rank   0] INFO ======================================================================
+13:45:37 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:37 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:37 [rank   0] INFO MPI ranks: 1
+13:45:37 [rank   0] INFO ======================================================================
+13:45:37 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:37 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:37 [rank   0] INFO MPI ranks: 1
+13:45:37 [rank   0] INFO ======================================================================
+13:45:37 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:37 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:37 [rank   0] INFO MPI ranks: 1
+13:45:37 [rank   0] INFO ======================================================================
+13:45:37 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:37 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:37 [rank   0] INFO MPI ranks: 1
+13:45:37 [rank   0] INFO ======================================================================
+13:45:37 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:37 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:37 [rank   0] INFO MPI ranks: 1
+13:45:38 [rank   0] INFO ======================================================================
+13:45:38 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:38 [rank   0] INFO ======================================================================
+13:45:38 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:38 [rank   0] INFO ======================================================================
+13:45:38 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:38 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:38 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:38 [rank   0] INFO MPI ranks: 1
+13:45:38 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:38 [rank   0] INFO MPI ranks: 1
+13:45:38 [rank   0] INFO MPI ranks: 1
+13:45:38 [rank   0] INFO ======================================================================
+13:45:38 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:38 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:38 [rank   0] INFO MPI ranks: 1
+13:45:38 [rank   0] INFO ======================================================================
+13:45:38 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:38 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:38 [rank   0] INFO MPI ranks: 1
+13:45:38 [rank   0] INFO ======================================================================
+13:45:38 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+13:45:38 [rank   0] INFO gro=aav1/benchmark/md.gro xtc=aav1/benchmark/md_noPBC.xtc excipient=SUC radius=20.00 A charge=0.000
+13:45:38 [rank   0] INFO MPI ranks: 1
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:42 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:42 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:42 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:42 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+13:45:43 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:43 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:43 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:43 [rank   0] INFO assigned 2001 frames (local index 0:2001)
+13:45:44 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+13:45:44 [rank   0] INFO trajectory frames: 2001 total, 2001 selected (stride=1, max_frames=None)
+13:45:44 [rank   0] INFO assigned 2001 frames (local index 0:2001)

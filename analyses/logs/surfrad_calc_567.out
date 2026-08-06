@@ -1,0 +1,60 @@
+==========================================================
+PIC calculation (per-residue): 
+Job: 567   Node: gen-queue-multi-az-dy-m8i-32xl-1   Started: Fri Jul 24 12:39:44 PM EDT 2026
+==========================================================
+processing: 10ns_aav1ph6salt200suc1, Fri Jul 24 12:39:44 PM EDT 2026
+protein heavy 246180 | water O 829571 | sucrose 368 molecules
+  frame 80 (5 processed)
+  frame 180 (10 processed)
+  frame 280 (15 processed)
+  frame 380 (20 processed)
+  frame 480 (25 processed)
+  frame 580 (30 processed)
+  frame 680 (35 processed)
+  frame 780 (40 processed)
+  frame 880 (45 processed)
+  frame 980 (50 processed)
+done (51 frames) -> surfrad/10ns_aav1ph6salt200suc1/surface_radial_density.csv
+done: Fri Jul 24 01:23:32 PM EDT 2026
+processing: 10ns_aav1ph8salt200suc1, Fri Jul 24 01:23:32 PM EDT 2026
+protein heavy 243480 | water O 829579 | sucrose 368 molecules
+  frame 80 (5 processed)
+  frame 180 (10 processed)
+  frame 280 (15 processed)
+  frame 380 (20 processed)
+  frame 480 (25 processed)
+  frame 580 (30 processed)
+  frame 680 (35 processed)
+  frame 780 (40 processed)
+  frame 880 (45 processed)
+  frame 980 (50 processed)
+done (51 frames) -> surfrad/10ns_aav1ph8salt200suc1/surface_radial_density.csv
+done: Fri Jul 24 02:07:14 PM EDT 2026
+processing: 10ns_aav1ph6salt200suc10, Fri Jul 24 02:07:14 PM EDT 2026
+protein heavy 246180 | water O 777174 | sucrose 3684 molecules
+  frame 80 (5 processed)
+  frame 180 (10 processed)
+  frame 280 (15 processed)
+  frame 380 (20 processed)
+  frame 480 (25 processed)
+  frame 580 (30 processed)
+  frame 680 (35 processed)
+  frame 780 (40 processed)
+  frame 880 (45 processed)
+  frame 980 (50 processed)
+done (51 frames) -> surfrad/10ns_aav1ph6salt200suc10/surface_radial_density.csv
+done: Fri Jul 24 02:49:45 PM EDT 2026
+processing: 10ns_aav1ph8salt200suc10, Fri Jul 24 02:49:45 PM EDT 2026
+protein heavy 243480 | water O 777351 | sucrose 3684 molecules
+  frame 80 (5 processed)
+  frame 180 (10 processed)
+  frame 280 (15 processed)
+  frame 380 (20 processed)
+  frame 480 (25 processed)
+  frame 580 (30 processed)
+  frame 680 (35 processed)
+  frame 780 (40 processed)
+  frame 880 (45 processed)
+  frame 980 (50 processed)
+done (51 frames) -> surfrad/10ns_aav1ph8salt200suc10/surface_radial_density.csv
+done: Fri Jul 24 03:31:54 PM EDT 2026

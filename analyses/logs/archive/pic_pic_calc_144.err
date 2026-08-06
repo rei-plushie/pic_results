@@ -1,0 +1,19 @@
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=2 set, but mpi4py was built with Intel MPI.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=2 set, but mpi4py was built with Intel MPI.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[61068,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

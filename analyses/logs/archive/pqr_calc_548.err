@@ -1,0 +1,159 @@
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph6salt30suc10/md.tpr -f aav1/10ns_aav1ph6salt30suc10/md.gro -o aav1/10ns_aav1ph6salt30suc10/step_cluster.gro -pbc cluster
+
+Will write gro: Coordinate file in Gromos-87 format
+Reading file aav1/10ns_aav1ph6salt30suc10/md.tpr, VERSION 2025.3 (single precision)
+Reading file aav1/10ns_aav1ph6salt30suc10/md.tpr, VERSION 2025.3 (single precision)
+Group     0 (         System) has 2997673 elements
+Group     1 (        Protein) has 480168 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153300 elements
+Group     8 (      SideChain) has 326868 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 480168 elements
+Group    11 (    non-Protein) has 2517505 elements
+Group    12 (          Other) has 165780 elements
+Group    13 (            SUC) has 165780 elements
+Group    14 (             NA) has   545 elements
+Group    15 (             CL) has  1073 elements
+Group    16 (          Water) has 2350107 elements
+Group    17 (            SOL) has 2350107 elements
+Group    18 (      non-Water) has 647566 elements
+Group    19 (            Ion) has  1618 elements
+Group    20 ( Water_and_ions) has 2351725 elements
+Select a group: Group     0 (         System) has 2997673 elements
+Group     1 (        Protein) has 480168 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153300 elements
+Group     8 (      SideChain) has 326868 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 480168 elements
+Group    11 (    non-Protein) has 2517505 elements
+Group    12 (          Other) has 165780 elements
+Group    13 (            SUC) has 165780 elements
+Group    14 (             NA) has   545 elements
+Group    15 (             CL) has  1073 elements
+Group    16 (          Water) has 2350107 elements
+Group    17 (            SOL) has 2350107 elements
+Group    18 (      non-Water) has 647566 elements
+Group    19 (            Ion) has  1618 elements
+Group    20 ( Water_and_ions) has 2351725 elements
+Select a group: Reading frames from gro file 'Protein in water', 2997673 atoms.
+Reading frame       0 time    0.000   
+Precision of aav1/10ns_aav1ph6salt30suc10/md.gro is 0.001 (nm)
+Last frame          0 time    0.000   
+ ->  frame      0 time    0.000      
+Last written: frame      0 time    0.000
+
+
+GROMACS reminds you: "Hmm, It *Does* Go Well With the Chicken" (Beastie Boys)
+
+                     :-) GROMACS - gmx trjconv, 2025.3 (-:
+
+Executable:   /apps/gromacs/2025.3-gpu-mpi/bin/gmx_mpi
+Data prefix:  /apps/gromacs/2025.3-gpu-mpi
+Working dir:  /home/s.maximilian.wang2/aav
+Command line:
+  gmx_mpi trjconv -s aav1/10ns_aav1ph6salt30suc10/md.tpr -f aav1/10ns_aav1ph6salt30suc10/step_cluster.gro -o aav1/10ns_aav1ph6salt30suc10/md_whole.gro -pbc mol -center -ur compact
+
+Will write gro: Coordinate file in Gromos-87 format
+Reading file aav1/10ns_aav1ph6salt30suc10/md.tpr, VERSION 2025.3 (single precision)
+Reading file aav1/10ns_aav1ph6salt30suc10/md.tpr, VERSION 2025.3 (single precision)
+Group     0 (         System) has 2997673 elements
+Group     1 (        Protein) has 480168 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153300 elements
+Group     8 (      SideChain) has 326868 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 480168 elements
+Group    11 (    non-Protein) has 2517505 elements
+Group    12 (          Other) has 165780 elements
+Group    13 (            SUC) has 165780 elements
+Group    14 (             NA) has   545 elements
+Group    15 (             CL) has  1073 elements
+Group    16 (          Water) has 2350107 elements
+Group    17 (            SOL) has 2350107 elements
+Group    18 (      non-Water) has 647566 elements
+Group    19 (            Ion) has  1618 elements
+Group    20 ( Water_and_ions) has 2351725 elements
+Select a group: Group     0 (         System) has 2997673 elements
+Group     1 (        Protein) has 480168 elements
+Group     2 (      Protein-H) has 246720 elements
+Group     3 (        C-alpha) has 31080 elements
+Group     4 (       Backbone) has 93240 elements
+Group     5 (      MainChain) has 124260 elements
+Group     6 (   MainChain+Cb) has 153120 elements
+Group     7 (    MainChain+H) has 153300 elements
+Group     8 (      SideChain) has 326868 elements
+Group     9 (    SideChain-H) has 122460 elements
+Group    10 (    Prot-Masses) has 480168 elements
+Group    11 (    non-Protein) has 2517505 elements
+Group    12 (          Other) has 165780 elements
+Group    13 (            SUC) has 165780 elements
+Group    14 (             NA) has   545 elements
+Group    15 (             CL) has  1073 elements
+Group    16 (          Water) has 2350107 elements
+Group    17 (            SOL) has 2350107 elements
+Group    18 (      non-Water) has 647566 elements
+Group    19 (            Ion) has  1618 elements
+Group    20 ( Water_and_ions) has 2351725 elements
+Select a group: Reading frames from gro file 'Protein in water', 2997673 atoms.
+Reading frame       0 time    0.000   
+Precision of aav1/10ns_aav1ph6salt30suc10/step_cluster.gro is 0.001 (nm)
+
+Back Off! I just backed up aav1/10ns_aav1ph6salt30suc10/md_whole.gro to aav1/10ns_aav1ph6salt30suc10/#md_whole.gro.1#
+Last frame          0 time    0.000   
+ ->  frame      0 time    0.000      
+Last written: frame      0 time    0.000
+
+
+GROMACS reminds you: "Being Great is Not So Good" (Red Hot Chili Peppers)
+
+itp template: 45 atoms, net charge -0.0000 e
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'chainIDs' Using default value of ''
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'elements' Using default value of ' '
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1151: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn("Found no information for attr: '{}'"
+/home/s.maximilian.wang2/.conda/envs/apbs_env/lib/python3.9/site-packages/MDAnalysis/coordinates/PDB.py:1198: UserWarning: Found missing chainIDs. Corresponding atoms will use value of 'X'
+  warnings.warn("Found missing chainIDs."
+protein: 478908 atoms, 31020 residues, 1 segments -> /tmp/ignore.pdb
+sucrose: 62100 atoms, 1380 molecules (selection: byres (resname SUC and around 15.0 protein))
+sucrose PQR net charge: -0.0000 e (expect ~0) -> pqr/10ns_aav1ph6salt30suc10/sucrose.pqr
+loading topology (this is the slow step)...
+loaded 2997673 atoms, 819751 residues
+rmin spot-check (expect OG311~1.765, CG321~2.010, HGP1~0.2245): {'CG321': 2.01, 'OG311': 1.765, 'HGP1': 0.2245}
+  -> if these are ~2x too big, atom.rmin is Rmin not Rmin/2; tell me and I'll halve it.
+protein: 29592 residues, 456024 atoms; resnames=['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
+protein PQR: 456024 atoms, net charge +408.000 e -> pqr/10ns_aav1ph6salt30suc10/capsid_protein.pqr
+sucrose PQR: 165780 atoms, net charge -0.0000 e (expect ~0; should match your itp-derived sucrose.pqr) -> pqr/10ns_aav1ph6salt30suc10/suc_parmed.pqr
+[protein+sucrose] extent A: [352.5 353.2 460.8]
+[protein+sucrose] fglen -> [372.5 373.2 480.8]   cglen -> [596.  597.1 769.3]

@@ -1,0 +1,95 @@
+==========================================================
+PIC calculation: SUC
+Job: 161   Node: mem-queue-efa-1a-dy-r8i-48xl-1   Started: Wed Jul  1 03:14:53 PM EDT 2026
+GRO: aav1/md/md.gro
+XTC: aav1/md/md.xtc
+Radius: 20.0 A   Bin width: 0.1 A   Charge: 0.0
+MPI ranks: 12   CPUs/task: 4
+==========================================================
+15:15:00 [rank   0] INFO ======================================================================
+15:15:00 [rank   0] INFO PIC (Gamma_23) calculation -- Shukla et al. 2009 method
+15:15:00 [rank   0] INFO gro=aav1/md/md.gro xtc=aav1/md/md.xtc excipient=SUC radius=20.00 A charge=0.000
+15:15:00 [rank   0] INFO MPI ranks: 12
+15:15:05 [rank  11] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:05 [rank   1] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:05 [rank  11] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:05 [rank  11] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:05 [rank   1] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:05 [rank   1] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank  11] INFO assigned 1 frames (local index 20:21)
+15:15:06 [rank   8] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   1] INFO assigned 2 frames (local index 2:4)
+15:15:06 [rank   8] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   8] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   4] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   4] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   4] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank  10] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank  10] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank  10] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   5] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   5] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   5] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   8] INFO assigned 2 frames (local index 16:18)
+15:15:06 [rank   4] INFO assigned 2 frames (local index 8:10)
+15:15:06 [rank  10] INFO assigned 1 frames (local index 19:20)
+15:15:06 [rank   2] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   0] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   2] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   2] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   0] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   0] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   5] INFO assigned 2 frames (local index 10:12)
+15:15:06 [rank   7] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   7] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   7] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   9] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   9] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   9] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   2] INFO assigned 2 frames (local index 4:6)
+15:15:06 [rank   0] INFO protein atoms=479460  water molecules=478128  SUC molecules=3684
+15:15:06 [rank   0] INFO trajectory frames: 21 total, 21 selected (stride=1, max_frames=None)
+15:15:06 [rank   0] INFO assigned 2 frames (local index 0:2)
+15:15:06 [rank   7] INFO assigned 2 frames (local index 14:16)
+15:15:06 [rank   9] INFO assigned 1 frames (local index 18:19)
+15:15:06 [rank   3] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   3] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   3] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   3] INFO assigned 2 frames (local index 6:8)
+15:15:06 [rank   6] INFO [protein] 479460 atoms, mass range 1.008-32.060 amu (OK)
+15:15:06 [rank   6] INFO [water] 1434384 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   6] INFO [excipient] 165780 atoms, mass range 1.008-15.999 amu (OK)
+15:15:06 [rank   6] INFO assigned 2 frames (local index 12:14)
+15:17:26 [rank  11] INFO frame 1/1 (100.0%, global frame 20) | rate=0.01 fr/s | local ETA=00:00:00
+15:17:26 [rank  10] INFO frame 1/1 (100.0%, global frame 19) | rate=0.01 fr/s | local ETA=00:00:00
+15:17:27 [rank   9] INFO frame 1/1 (100.0%, global frame 18) | rate=0.01 fr/s | local ETA=00:00:00
+15:17:29 [rank   0] INFO [AGGREGATE] 12/21 frames complete cluster-wide (57.1%) | aggregate rate=0.08 fr/s | global ETA=00:01:52 | elapsed=00:02:30
+15:19:48 [rank   8] INFO frame 2/2 (100.0%, global frame 17) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:52 [rank   7] INFO frame 2/2 (100.0%, global frame 15) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:52 [rank   6] INFO frame 2/2 (100.0%, global frame 13) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:52 [rank   1] INFO frame 2/2 (100.0%, global frame 3) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:52 [rank   4] INFO frame 2/2 (100.0%, global frame 9) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:52 [rank   0] INFO frame 2/2 (100.0%, global frame 1) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:52 [rank   2] INFO frame 2/2 (100.0%, global frame 5) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:53 [rank   3] INFO frame 2/2 (100.0%, global frame 7) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:53 [rank   5] INFO frame 2/2 (100.0%, global frame 11) | rate=0.01 fr/s | local ETA=00:00:00
+15:19:53 [rank   0] INFO [AGGREGATE] 21/21 frames complete cluster-wide (100.0%) | aggregate rate=0.07 fr/s | global ETA=00:00:00 | elapsed=00:04:53
+15:19:53 [rank   0] INFO gathered Gamma_23(r,t): shape (21, 200)
+15:19:53 [rank   0] INFO AUTO-DETECTED r* = 13.10 A (CONFIRM VISUALLY against the saved plot)
+15:19:53 [rank   0] INFO Gamma_23 = -463.1144 +/- 9.8214
+15:19:53 [rank   0] INFO saved raw data -> pic_results_SUC_161/pic_SUC.pkl
+15:19:53 [rank   0] INFO saved r-profile -> pic_results_SUC_161/pic_SUC_vs_r.csv
+15:19:53 [rank   0] INFO saved plot -> pic_results_SUC_161/pic_SUC_vs_r.png
+15:19:53 [rank   0] INFO TOTAL RUNTIME: 293.5 s (0.07 frames/s aggregate)
+15:19:53 [rank   0] INFO ======================================================================
+15:19:53 [rank   0] INFO RESULT: Gamma_23(SUC) = -463.1144 +/- 9.8214  (r* = 13.10 A, auto-detected)
+15:19:53 [rank   0] INFO ======================================================================
+==========================================================
+Finished: Wed Jul  1 03:19:54 PM EDT 2026   Exit code: 0
+Results in: pic_results_SUC_161/
+  pic_SUC.pkl          -- raw Gamma_23(r,t) array + metadata
+  pic_SUC_vs_r.csv     -- r, mean, SEM
+  pic_SUC_vs_r.png     -- plot with auto-detected r*
+==========================================================
+REMINDER: auto-detected r* is a starting estimate only --
+confirm the plateau visually in the .png before trusting Gamma_23.
